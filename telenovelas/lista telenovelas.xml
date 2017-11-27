@@ -41,18 +41,18 @@
 </item>
 	
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Abismo de pasión [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://image.tmdb.org/t/p/w640/eas3xbcIxLT2hqVhjS9cxR5ckYP.jpg</fanart>
+<thumbnail>https://image.tmdb.org/t/p/original/eas3xbcIxLT2hqVhjS9cxR5ckYP.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page></page>
+<page>http://diskokosmiko.mx/carmenJerezano/abismo-de-pasion-subiendo-52086/list,1,15</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -70,27 +70,28 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer></referer>
+<referer>http://diskokosmiko.mx/carmenJerezano/abismo-de-pasion-subiendo-52086/list,1,15</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://image.tmdb.org/t/p/w640/eas3xbcIxLT2hqVhjS9cxR5ckYP.jpg</fanart>
+<thumbnail>https://image.tmdb.org/t/p/original/eas3xbcIxLT2hqVhjS9cxR5ckYP.jpg</thumbnail>
 </item>
 
+
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Abrázame muy fuerte [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://pics.filmaffinity.com/abrazame_muy_fuerte_tv_series-206866733-large.jpg</fanart>
+<thumbnail>https://pics.filmaffinity.com/abrazame_muy_fuerte_tv_series-206866733-large.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page></page>
+<page>http://diskokosmiko.mx/RosalieFletcher/abrazame-muy-fuerte-capitulos-completos-67733/list,1,10</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -108,13 +109,15 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer></referer>
+<referer>http://diskokosmiko.mx/RosalieFletcher/abrazame-muy-fuerte-capitulos-completos-67733/list,1,10</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://pics.filmaffinity.com/abrazame_muy_fuerte_tv_series-206866733-large.jpg</fanart>
+<thumbnail>https://pics.filmaffinity.com/abrazame_muy_fuerte_tv_series-206866733-large.jpg</thumbnail>
 </item>
+
+
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
