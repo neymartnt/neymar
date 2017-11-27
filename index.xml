@@ -45,8 +45,8 @@
 <item> 
 <title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] ARENAVISION [/COLOR][COLOR  yellow]_**_ [/COLOR]</title>
 <link>http://Ignoreme</link>
-<thumbnail>http://i.imgur.com/eiKfGdP.jpg</thumbnail>
-<fanart>http://i.imgur.com/eiKfGdP.jpg</fanart>
+<thumbnail></thumbnail>
+<fanart></fanart>
 <externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/ARENA/arenajulen.xml</externallink>	
 </item> 
 
@@ -54,8 +54,8 @@
 <item> 
 <title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] AUTONOMICAS)NUEVO [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
 <link>http://Ignoreme</link>
-<thumbnail>http://i.imgur.com/SaBa90E.jpg</thumbnail>
-<fanart>http://i.imgur.com/SaBa90E.jpg</fanart>
+<thumbnail></thumbnail>
+<fanart></fanart>
 <externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/TDT/AUTONOMICAS</externallink>	
 </item> 		
 	
@@ -73,6 +73,24 @@
 <fanart></fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/telenovelas/lista%20telenovelas.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] VIDEOCLUB[/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+
+
+<item>
+<title>[COLOR skyblue] * [/COLOR][COLOR yellow] ZONA [/COLOR][COLOR skyblue] futuro addon cine... ** [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://i.imgur.com/lT76bTn.jpg</thumbnail> 
+<fanart>https://i.imgur.com/lT76bTn.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/ADDCINE/proyecto123.xml</externallink>	
 </item>
 
 <item>
