@@ -21,7 +21,6 @@
 <fanart>https://i.imgur.com/dwkDYdh.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/dark/indexdrk.xml</externallink>
 </item>	
-
 	
 	
 <item>
@@ -31,9 +30,6 @@
 <fanart>https://i.imgur.com/d3Aivnb.png</fanart>
 <externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/Live/index.xml</externallink>
 </item>	
-
-
-
 
 
 
@@ -54,24 +50,35 @@
 <externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/ARENA/arenajulen.xml</externallink>	
 </item> 
 
-		
-	
+			
 <item> 
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] AUTONOMICAS)NUEVO [/COLOR][COLOR  yellow]  _**_ [/COLOR] </title>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] AUTONOMICAS)NUEVO [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail>http://i.imgur.com/SaBa90E.jpg</thumbnail>
 <fanart>http://i.imgur.com/SaBa90E.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/TDT/AUTONOMICAS</externallink>	
 </item> 		
 	
-
-
-
-
- <item>
-<title>[COLOR white][/COLOR]</title>
+<item> 
+<title>[COLOR lime]_**_ [/COLOR][COLOR  orange] LISTAS IPTV [/COLOR][COLOR yellow] _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>http://i.imgur.com/ua2fWAv.jpg</thumbnail>
+<fanart>http://i.imgur.com/ua2fWAv.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/LISTASIPTV.xml</externallink>	
+</item>	
+	
+<item>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] Telenovelas [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-<externallink></externallink>
+<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/telenovelas/lista%20telenovelas.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] SAGAS [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/SAGAS.xml</externallink>
 </item>
