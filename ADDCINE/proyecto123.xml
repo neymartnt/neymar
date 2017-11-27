@@ -12,7 +12,7 @@
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[Pname:\"(.*?)\"urlid:\"(.*?)\"genero:\"(.*?)\"calidad:\"(.*?)\"year:\"(.*?)\"id:\"(.*?)\"]]></expres>
-<page>https://raw.githubusercontent.com/lokiyotnt69/DARKNIGHT66/master/adryjhg.txt</page>
+<page>https://raw.githubusercontent.com/neymartnt/neymar/master/ADDCINE/BASE1233.txt</page>
 </regex>
 
 <regex>
@@ -23,7 +23,7 @@
 <regex>
 <name>imagen2</name>
 <expres>$pyFunction:('[makelist2.param1]').replace(' ','+')</expres>
-<page>https://raw.githubusercontent.com/lokiyotnt69/DARKNIGHT66/master/adryjhg.txt</page>
+<page>https://raw.githubusercontent.com/neymartnt/neymar/master/ADDCINE/BASE1233.txt</page>
 </regex>
 
  <regex>
