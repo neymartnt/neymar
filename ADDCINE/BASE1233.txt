@@ -1,0 +1,35 @@
+Pname:"Guardianes de la Playa"urlid:"1424484"genero:"Comedia"calidad:"DVDRIP"year:"2017"id:"tt1469304"
+Pname:"El Ultimo Disparo"urlid:"1427943"genero:"Accion"calidad:"DVDRIP"year:"2017"id:"tt5884234"
+Pname:"LA Momia"urlid:"1425073"genero:"Accion"calidad:"DVDRIP"year:"2017"id:"tt2345759"
+
+Pname:"Alien convenant"urlid:"1215166"genero:"terror"calidad:"DVDRIP"year:"2017"id:"tt2316204"
+Pname:"Assassin's Creed:"urlid:"866570,"genero:"Accion"calidad:"DVDRIP"year:"2017"id:"tt7025920"
+Pname:"Cincuenta sombras mas oscuras"urlid:"974196"genero:"Terror"calidad:"DVDRIP"year:"2017"id:"tt1469304"
+Pname:"Guardianes de la Playa"urlid:"1424484"genero:"Drama"calidad:"DVDRIP"year:"2017"id:"tt1469304"
+
+Pname:"Xxx Reactived"urlid:"1530735"genero:"Accion"calidad:"DVDRIP"year:"2017"id:"tt1293847"
+Pname:"Descontroladas"urlid:"1360453"genero:"Comedia"calidad:"DVDRIP"year:"2017"id:"tt2334871"
+Pname:"El Templo"urlid:"1240103"genero:"Accion"calidad:"DVDRIP"year:"2017"id:"tt4557208"
+Pname:"Gru mi villano favorito"urlid:"1371714"genero:"Comedia"calidad:"DVDRIP"year:"2017"id:"1240103"
+
+
+Pname:"Logan"urlid:"1056001"genero:"Accion"calidad:"DVDRIP"year:"2017"id:"tt3315342"
+Pname:"Fast & Furious 8"urlid:"929838"genero:"Accion"calidad:"DVDRIP"year:"2017"id:"tt4630562"
+Pname:"Invicto 4"urlid:"1215164"genero:"Accion"calidad:"DVDRIP"year:"2017"id:"tt3344680"
+Pname:"Capitan calzoncillos"urlid:"1424484"genero:"Comedia"calidad:"DVDRIP"year:"2017"id:"tt2091256"
+
+Pname:"Guardianes de la Playa"urlid:"1539601"genero:"Infantil"calidad:"CAM"year:"2017"id:"tt1469304"
+Pname:"Guardianes de la Playa"urlid:"1424484"genero:"Aventura"calidad:"CAM"year:"2017"id:"tt1469304"
+Pname:"Guardianes de la Playa"urlid:"1424484"genero:"Terror"calidad:"CAM"year:"2017"id:"tt1469304"
+Pname:"Guardianes de la Playa"urlid:"1424484"genero:"Drama"calidad:"CAM"year:"2017"id:"tt1469304"
+
+<!-------------------------------------
+
+<item>
+<title>[COLOR skyblue] * [/COLOR][COLOR yellow] ZONA [/COLOR][COLOR skyblue] futuro addon cine... ** [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://i.imgur.com/lT76bTn.jpg</thumbnail> 
+<fanart>https://i.imgur.com/lT76bTn.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/DARKNIGHT66/master/proyectoJHGADryan.xml</externallink>	
+</item>
+
