@@ -14,22 +14,6 @@
 </item>
 
 	
-<item>
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ADDON [/COLOR][COLOR orange] DARKNIGHT [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
-<link>http://ignorame</link>
-<thumbnail>https://i.imgur.com/dwkDYdh.jpg</thumbnail>
-<fanart>https://i.imgur.com/dwkDYdh.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/dark/indexdrk.xml</externallink>
-</item>	
-	
-	
-<item>
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] LIVE [/COLOR][COLOR orange] MUSIC [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
-<link>http://ignorame</link>
-<thumbnail>https://i.imgur.com/d3Aivnb.png</thumbnail>
-<fanart>https://i.imgur.com/d3Aivnb.png</fanart>
-<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/Live/index.xml</externallink>
-</item>	
 
 
 
@@ -75,21 +59,29 @@
 <externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/telenovelas/lista%20telenovelas.xml</externallink>
 </item>
 
-<item>
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] VIDEOCLUB[/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
-<thumbnail>https://i.imgur.com/D6XQ9Qn.jpg</thumbnail>
-<fanart>https://i.imgur.com/D6XQ9Qn.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
-
-
 
 <item>
-<title>[COLOR skyblue] * [/COLOR][COLOR yellow] ZONA [/COLOR][COLOR skyblue] futuro addon cine... ** [/COLOR]</title>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ADDON [/COLOR][COLOR orange] DARKNIGHT [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/dwkDYdh.jpg</thumbnail>
+<fanart>https://i.imgur.com/dwkDYdh.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/dark/indexdrk.xml</externallink>
+</item>	
+	
+	
+<item>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] LIVE [/COLOR][COLOR orange] MUSIC [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/d3Aivnb.png</thumbnail>
+<fanart>https://i.imgur.com/d3Aivnb.png</fanart>
+<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/Live/index.xml</externallink>
+</item>	
+
+<item>
+<title>[COLOR skyblue] * [/COLOR][COLOR yellow] ZONA [/COLOR][COLOR skyblue] EN PROYECTO ** [/COLOR]</title>
 <link>http://Ignoreme</link>
-<thumbnail>https://i.imgur.com/lT76bTn.jpg</thumbnail> 
-<fanart>https://i.imgur.com/lT76bTn.jpg</fanart>
+<thumbnail>https://i.imgur.com/fNK5QI6.jpg</thumbnail> 
+<fanart>https://i.imgur.com/fNK5QI6.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/ADDCINE/proyecto123.xml</externallink>	
 </item>
 
@@ -103,9 +95,17 @@
 
 
 
+<item>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] VIDEOCLUB[/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
+<thumbnail>https://i.imgur.com/D6XQ9Qn.jpg</thumbnail>
+<fanart>https://i.imgur.com/D6XQ9Qn.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
  
 <item>
-<title>[COLOR white] fast tu furios prueba numero 1 [/COLOR]</title>
+<title>[COLOR white] REPARACIONES [/COLOR]</title>
 <link>$doregex[makelist]</link>
  
 <regex>
