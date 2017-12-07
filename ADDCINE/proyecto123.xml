@@ -1,6 +1,5 @@
-
 <item>
-<title> ESTRENOS </title>
+<title> ESTRENOS ALL </title>
 <link>$doregex[makelist2]</link>
 
 
@@ -9,7 +8,7 @@
  <listrepeat><![CDATA[
 <title>[B][makelist2.param1] [/B] [COLOR aquamarine] Genero:[makelist2.param3]  Calidad:[makelist2.param4]  Año:[makelist2.param5]  [/COLOR]</title>
 <link>$doregex[getUrl]</link>
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<thumbnail>https://image.tmdb.org/t/p/original$doregex[imagen]</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[Pname:\"(.*?)\"urlid:\"(.*?)\"genero:\"(.*?)\"calidad:\"(.*?)\"year:\"(.*?)\"id:\"(.*?)\"]]></expres>
 <page>https://raw.githubusercontent.com/neymartnt/neymar/master/ADDCINE/BASE1233.txt</page>
@@ -17,13 +16,8 @@
 
 <regex>
 <name>imagen</name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
-<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[imagen2]</page>
-</regex>
-<regex>
-<name>imagen2</name>
-<expres>$pyFunction:('[makelist2.param1]').replace(' ','+')</expres>
-<page>https://raw.githubusercontent.com/neymartnt/neymar/master/ADDCINE/BASE1233.txt</page>
+<expres><![CDATA[poster_path":"(.*?)"]]></expres>
+<page>https://api.themoviedb.org/3/find/[makelist2.param6]?external_source=imdb_id&amp;language=es_ES&amp;api_key=3d8a2c67653e2f8fd7dd09959e835f02</page>
 </regex>
 
  <regex>
@@ -46,7 +40,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://i.imgur.com/WOU3Mn3.jpg</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
@@ -79,20 +73,15 @@
  <listrepeat><![CDATA[
 <title>[B][makelist2.param1] [/B] [COLOR aquamarine] Calidad:[makelist2.param3]  Año:[makelist2.param4]  [/COLOR]</title>
 <link>$doregex[getUrl]</link>
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<thumbnail>https://image.tmdb.org/t/p/original$doregex[imagen]</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[Pname:\"(.*?)\"urlid:\"(.*?)\"genero:\"$doregex[select]\"calidad:\"(.*?)\"year:\"(.*?)\"id:\"(.*?)\"]]></expres>
-<page>https://raw.githubusercontent.com/lokiyotnt69/DARKNIGHT66/master/adryjhg.txt</page>
+<page>https://raw.githubusercontent.com/neymartnt/neymar/master/ADDCINE/BASE1233.txt</page>
 </regex>
 <regex>
 <name>imagen</name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
-<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[imagen2]</page>
-</regex>
-<regex>
-<name>imagen2</name>
-<expres>$pyFunction:('[makelist2.param1]').replace(' ','+')</expres>
-<page></page>
+<expres><![CDATA[poster_path":"(.*?)"]]></expres>
+<page>https://api.themoviedb.org/3/find/[makelist2.param5]?external_source=imdb_id&amp;language=es_ES&amp;api_key=3d8a2c67653e2f8fd7dd09959e835f02</page>
 </regex>
 
 <regex>
@@ -101,75 +90,8 @@
 def GetLSProData(page_data,Cookie_Jar,m):
    import xbmcgui
    dialog = xbmcgui.Dialog()
-   ret = dialog.select('Elige tu Audio preferido ', ['Accion', 'Comedia','Infantil', 'Terror', 'Drama',  'Western', 'Aventura'])
-   lists = ['Accion', 'Comedia','Infantil', 'Terror', 'Drama',  'Western', 'Aventura']
-   return lists[ret]
-]]></expres>
-<page></page>
-</regex>
-
- <regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist2.param2]</page>
-<rawpost>fileId=[makelist2.param2]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/</page>
-<referer>http://diskokosmiko.mx/</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://i.imgur.com/BUVXoZa.jpg</thumbnail>
-</item>
-
-
-
-
-
-
-<item>
-<title> POR CALIDAD </title>
-<link>$doregex[makelist2]</link>
-
-
-<regex>
- <name>makelist2</name>
- <listrepeat><![CDATA[
-<title>[B][makelist2.param1] [/B] [COLOR aquamarine] Genero:[makelist2.param3] Año:[makelist2.param4]  [/COLOR]</title>
-<link>$doregex[getUrl]</link>
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[Pname:\"(.*?)\"urlid:\"(.*?)\"genero:\"(.*?)\"calidad:\"$doregex[select]\"year:\"(.*?)\"id:\"(.*?)\"]]></expres>
-<page>https://raw.githubusercontent.com/lokiyotnt69/DARKNIGHT66/master/adryjhg.txt</page>
-</regex>
-<regex>
-<name>imagen</name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
-<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[imagen2]</page>
-</regex>
-<regex>
-<name>imagen2</name>
-<expres>$pyFunction:('[makelist2.param1]').replace(' ','+')</expres>
-<page></page>
-</regex>
-
-<regex>
-<name>select</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-   import xbmcgui
-   dialog = xbmcgui.Dialog()
-   ret = dialog.select('Elige tu Audio preferido ', ['HD', 'DVDRIP','CAM','SD'])
-   lists = ['HD', 'DVDRIP','CAM','SD']
+   ret = dialog.select('Elige tu Audio preferido ', ['Accion', 'Comedia','Infantil', 'Terror', 'Drama', 'Aventura'])
+   lists = ['Accion', 'Comedia','Infantil', 'Terror', 'Drama', 'Aventura']
    return lists[ret]
 ]]></expres>
 <page></page>
@@ -204,6 +126,68 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
+<title> POR CALIDAD </title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+ <name>makelist2</name>
+ <listrepeat><![CDATA[
+<title>[B][makelist2.param1] [/B] [COLOR aquamarine] Genero:[makelist2.param3] Año:[makelist2.param4]  [/COLOR]</title>
+<link>$doregex[getUrl]</link>
+<thumbnail>https://image.tmdb.org/t/p/original$doregex[imagen]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[Pname:\"(.*?)\"urlid:\"(.*?)\"genero:\"(.*?)\"calidad:\"$doregex[select]\"year:\"(.*?)\"id:\"(.*?)\"]]></expres>
+<page>https://raw.githubusercontent.com/neymartnt/neymar/master/ADDCINE/BASE1233.txt</page>
+</regex>
+<regex>
+<name>imagen</name>
+<expres><![CDATA[poster_path":"(.*?)"]]></expres>
+<page>https://api.themoviedb.org/3/find/[makelist2.param5]?external_source=imdb_id&amp;language=es_ES&amp;api_key=3d8a2c67653e2f8fd7dd09959e835f02</page>
+</regex>
+
+<regex>
+<name>select</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import xbmcgui
+   dialog = xbmcgui.Dialog()
+   ret = dialog.select('Elige tu Audio preferido ', ['HD', 'DVDRIP','CAM'])
+   lists = ['HD', 'DVDRIP','CAM']
+   return lists[ret]
+]]></expres>
+<page></page>
+</regex>
+
+ <regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist2.param2]</page>
+<rawpost>fileId=[makelist2.param2]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/</page>
+<referer>http://diskokosmiko.mx/</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
+
+
+
+<item>
 <title> POR AÑO </title>
 <link>$doregex[makelist2]</link>
 
@@ -213,20 +197,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <listrepeat><![CDATA[
 <title>[B][makelist2.param1] [/B] [COLOR aquamarine] Genero:[makelist2.param3] Calidad:[makelist2.param4]  [/COLOR]</title>
 <link>$doregex[getUrl]</link>
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<thumbnail>https://image.tmdb.org/t/p/original$doregex[imagen]</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[Pname:\"(.*?)\"urlid:\"(.*?)\"genero:\"(.*?)\"calidad:\"(.*?)\"year:\"$doregex[select]\"id:\"(.*?)\"]]></expres>
-<page>https://raw.githubusercontent.com/lokiyotnt69/DARKNIGHT66/master/adryjhg.txt</page>
+<page>https://raw.githubusercontent.com/neymartnt/neymar/master/ADDCINE/BASE1233.txt</page>
 </regex>
 <regex>
 <name>imagen</name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
-<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[imagen2]</page>
-</regex>
-<regex>
-<name>imagen2</name>
-<expres>$pyFunction:('[makelist2.param1]').replace(' ','+')</expres>
-<page></page>
+<expres><![CDATA[poster_path":"(.*?)"]]></expres>
+<page>https://api.themoviedb.org/3/find/[makelist2.param5]?external_source=imdb_id&amp;language=es_ES&amp;api_key=3d8a2c67653e2f8fd7dd09959e835f02</page>
 </regex>
 
 <regex>
@@ -262,75 +241,5 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://i.imgur.com/sdbpcu1.jpg</thumbnail>
-</item>
-
-
-
-
-<item>
-<title>Prueba Latino </title>
-<link>$doregex[makelist2]</link>
-
-
-<regex>
- <name>makelist2</name>
- <listrepeat><![CDATA[
-<title>[B][makelist2.param1] [/B] [COLOR aquamarine] Genero:[makelist2.param3] Calidad:[makelist2.param4]  [/COLOR]</title>
-<link>$doregex[getUrl]</link>
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[Pname:\"(.*?)\"urlid:\"(.*?)\"genero:\"(.*?)\"calidad:\"(.*?)\"year:\"$doregex[select]\"id:\"(.*?)\"]]></expres>
-<page>https://raw.githubusercontent.com/lokiyotnt69/DARKNIGHT66/master/adryjhg.txt</page>
-</regex>
-<regex>
-<name>imagen</name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
-<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[imagen2]</page>
-</regex>
-<regex>
-<name>imagen2</name>
-<expres>$pyFunction:('[makelist2.param1]').replace(' ','+')</expres>
-<page></page>
-</regex>
-
-<regex>
-<name>select</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-   import xbmcgui
-   dialog = xbmcgui.Dialog()
-   ret = dialog.select('Elige tu Audio preferido ', ['Latino'])
-   lists = ['Latino']
-   return lists[ret]
-]]></expres>
-<page></page>
-</regex>
-
- <regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist2.param2]</page>
-<rawpost>fileId=[makelist2.param2]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/</page>
-<referer>http://diskokosmiko.mx/</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
 <thumbnail></thumbnail>
 </item>
-
-
-
-
-
