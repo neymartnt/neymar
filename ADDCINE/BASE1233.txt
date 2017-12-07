@@ -21,15 +21,15 @@ Pname:"Capitan calzoncillos"urlid:"1424484"genero:"Comedia"calidad:"DVDRIP"year:
 Pname:"Guardianes de la Playa"urlid:"1539601"genero:"Infantil"calidad:"CAM"year:"2017"id:"tt1469304"
 Pname:"Guardianes de la Playa"urlid:"1424484"genero:"Aventura"calidad:"CAM"year:"2017"id:"tt1469304"
 Pname:"Guardianes de la Playa"urlid:"1424484"genero:"Terror"calidad:"CAM"year:"2017"id:"tt1469304"
-Pname:"Guardianes de la Playa"urlid:"1424484"genero:"Drama"calidad:"CAM"year:"2017"id:"tt1469304"
+
+Pname:"Templario"urlid:"1724714"genero:"Accion"calidad:"DVDRIP"year:"2011"id:"tt1233301"
+Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
+Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
+Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
+Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
+
+
 
 <!-------------------------------------
 
-<item>
-<title>[COLOR skyblue] * [/COLOR][COLOR yellow] ZONA [/COLOR][COLOR skyblue] futuro addon cine... ** [/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>https://i.imgur.com/lT76bTn.jpg</thumbnail> 
-<fanart>https://i.imgur.com/lT76bTn.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/DARKNIGHT66/master/proyectoJHGADryan.xml</externallink>	
-</item>
 
