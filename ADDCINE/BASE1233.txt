@@ -24,11 +24,9 @@ Pname:"Guardianes de la Playa"urlid:"1424484"genero:"Terror"calidad:"CAM"year:"2
 
 Pname:"Templario"urlid:"1724714"genero:"Accion"calidad:"DVDRIP"year:"2011"id:"tt1233301"
 Pname:"Alien: Covenant"urlid:"1120510"genero:"Terror"calidad:"DVDRIP"year:"2017"id:"tt2316204"
+Pname:"Cars 3"urlid:"1119412"genero:"Aventura"calidad:"DVDRIP"year:"2017"id:"tt3606752"
 Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
 Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
-Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
-
-
 
 <!-------------------------------------
 
