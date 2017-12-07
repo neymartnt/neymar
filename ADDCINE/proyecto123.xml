@@ -214,8 +214,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 def GetLSProData(page_data,Cookie_Jar,m):
    import xbmcgui
    dialog = xbmcgui.Dialog()
-   ret = dialog.select('Elige tu Audio preferido ', ['2017', '2016','2015'])
-   lists = ['2017', '2016','2015']
+   ret = dialog.select('Elige tu Audio preferido ', ['2017', '2016','2015','2014','2013','2012','2011','2010'])
+   lists = ['2017', '2016','2015','2014','2013','2012','2011','2010']
    return lists[ret]
 ]]></expres>
 <page></page>
