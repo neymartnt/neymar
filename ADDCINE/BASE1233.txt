@@ -22,12 +22,20 @@ Pname:"Guardianes de la Playa"urlid:"1539601"genero:"Infantil"calidad:"CAM"year:
 Pname:"Guardianes de la Playa"urlid:"1424484"genero:"Aventura"calidad:"CAM"year:"2017"id:"tt1469304"
 Pname:"Guardianes de la Playa"urlid:"1424484"genero:"Terror"calidad:"CAM"year:"2017"id:"tt1469304"
 
-Pname:"Templario"urlid:"1724714"genero:"Accion"calidad:"DVDRIP"year:"2011"id:"tt1233301"
-Pname:"Alien: Covenant"urlid:"1120510"genero:"Terror"calidad:"DVDRIP"year:"2017"id:"tt2316204"
-Pname:"Cars 3"urlid:"1119412"genero:"Aventura"calidad:"DVDRIP"year:"2017"id:"tt3606752"
+
+
+Pname:"Asesinos de élite"urlid:"283272"genero:"Accion"calidad:"DVDRIP"year:"2011"id:"tt1448755"
+Pname:"Asalto al poder"urlid:"283311"genero:"Accion"calidad:"DVDRIP"year:"2013"id:"tt2334879"
+Pname:"Blancanieves y la leyenda del cazador"urlid:"283299"genero:"Accion"calidad:"SD"year:"2012"id:"tt1735898"
+Pname:""urlid:"1424484"genero:"Accion"calidad:""year:"2010"id:""
 Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
 Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
+Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
+
+
+
 
 <!-------------------------------------
 
-
+http://diskokosmiko.mx/trivianita/peliculas-de-accion-castellanoel-rockero-31004/blancanieves-la-leyenda-del-cazador-hd-kristen-stewart-chris-hemsworth-hdr,283299,list,1,1.mp4
+http://diskokosmiko.mx/trivianita/peliculas-de-accion-castellanoel-rockero-31004/asaltoalpoder2013hdrip-channing-tatum,283311,list,1,1.mp4
