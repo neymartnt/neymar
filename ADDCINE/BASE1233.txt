@@ -18,24 +18,29 @@ Pname:"Fast & Furious 8"urlid:"929838"genero:"Accion"calidad:"DVDRIP"year:"2017"
 Pname:"Invicto 4"urlid:"1215164"genero:"Accion"calidad:"DVDRIP"year:"2017"id:"tt3344680"
 Pname:"Capitan calzoncillos"urlid:"1424484"genero:"Comedia"calidad:"DVDRIP"year:"2017"id:"tt2091256"
 
-Pname:"Guardianes de la Playa"urlid:"1539601"genero:"Infantil"calidad:"CAM"year:"2017"id:"tt1469304"
-Pname:"Guardianes de la Playa"urlid:"1424484"genero:"Aventura"calidad:"CAM"year:"2017"id:"tt1469304"
-Pname:"Guardianes de la Playa"urlid:"1424484"genero:"Terror"calidad:"CAM"year:"2017"id:"tt1469304"
+
+Pname:"Carrera de la Muerte 2"urlid:"285721"genero:"Accion"calidad:"SD"year:"2010"id:"tt1500491"
 
 
 
 Pname:"Asesinos de élite"urlid:"283272"genero:"Accion"calidad:"DVDRIP"year:"2011"id:"tt1448755"
-Pname:"White House Down"urlid:"283311"genero:"Accion"calidad:"DVDRIP"year:"2013"id:"tt2334879"
-Pname:"Snow White and the Huntsman"urlid:"283299"genero:"Accion"calidad:"SD"year:"2012"id:"tt1735898"
-Pname:""urlid:"1424484"genero:"Accion"calidad:""year:"2010"id:""
+
+
+
+Pname:"Blancanieves y la leyenda del cazador"urlid:"283299"genero:"Accion"calidad:"SD"year:"2012"id:"tt1735898"
+
+
+
+Pname:"Asalto al poder"urlid:"283311"genero:"Accion"calidad:"DVDRIP"year:"2013"id:"tt2334879"
+Pname:"La carrera de la muerte: Inferno"urlid:"285659"genero:"Accion"calidad:""year:"2013"id:"tt1988591"
+
+
 Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
 Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
 Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
+Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
+Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
 
-
-
-
+http://diskokosmiko.mx/trivianita/peliculas-de-accion-castellanoel-rockero-31004/death-race-3-carrera-de-la-muerte-hd-ving-rhames-2013,285659,list,1,2.mp4
 <!-------------------------------------
 
-http://diskokosmiko.mx/trivianita/peliculas-de-accion-castellanoel-rockero-31004/blancanieves-la-leyenda-del-cazador-hd-kristen-stewart-chris-hemsworth-hdr,283299,list,1,1.mp4
-http://diskokosmiko.mx/trivianita/peliculas-de-accion-castellanoel-rockero-31004/asaltoalpoder2013hdrip-channing-tatum,283311,list,1,1.mp4
