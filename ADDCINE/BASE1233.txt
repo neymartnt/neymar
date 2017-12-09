@@ -25,8 +25,8 @@ Pname:"Guardianes de la Playa"urlid:"1424484"genero:"Terror"calidad:"CAM"year:"2
 
 
 Pname:"Asesinos de élite"urlid:"283272"genero:"Accion"calidad:"DVDRIP"year:"2011"id:"tt1448755"
-Pname:"Asalto al poder"urlid:"283311"genero:"Accion"calidad:"DVDRIP"year:"2013"id:"tt2334879"
-Pname:"Blancanieves y la leyenda del cazador"urlid:"283299"genero:"Accion"calidad:"SD"year:"2012"id:"tt1735898"
+Pname:"White House Down"urlid:"283311"genero:"Accion"calidad:"DVDRIP"year:"2013"id:"tt2334879"
+Pname:"Snow White and the Huntsman"urlid:"283299"genero:"Accion"calidad:"SD"year:"2012"id:"tt1735898"
 Pname:""urlid:"1424484"genero:"Accion"calidad:""year:"2010"id:""
 Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
 Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
