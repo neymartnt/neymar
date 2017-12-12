@@ -2,13 +2,20 @@
 
 
 
+<item>
+<title> [COLOR red] * [/COLOR] [COLOR lime] ESTRENOS [/COLOR][COLOR red] * [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/Vi/estrenos.xml</externallink>	
+</item>
 
 <item>
 <title> [COLOR red] * [/COLOR] [COLOR lime] 2017 [/COLOR][COLOR red] * [/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/Vi/estrenos.xml</externallink>	
+<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/Vi/2017.xml</externallink>	
 </item>
 
 
