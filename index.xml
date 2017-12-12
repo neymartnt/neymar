@@ -205,9 +205,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] NO TOCAR [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
-<thumbnail>https://i.imgur.com/YNXTiKA.jpg</thumbnail>
-<fanart>https://i.imgur.com/YNXTiKA.jpg</fanart>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] JHG [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/TDT/1.xml</externallink>
 </item>
@@ -218,8 +218,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] JHG[/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
-<thumbnail>https://i.imgur.com/D6XQ9Qn.jpg</thumbnail>
-<fanart>https://i.imgur.com/D6XQ9Qn.jpg</fanart>
+<thumbnail>https://i.imgur.com/g24UqUU.jpg</thumbnail>
+<fanart>https://i.imgur.com/g24UqUU.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/Vi/base.xml</externallink>
 </item>
