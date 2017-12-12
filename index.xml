@@ -162,7 +162,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] PELICULAS  TERROR*[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] PELICULAS  *[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -173,7 +173,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/CDpr7Ky.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/juan-hinojosa-garcia/peliculas-terror-95026/list,1,10</page>
+<page>http://diskokosmiko.mx/rockytnt/peliculas-2016-97335</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -192,7 +192,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/juan-hinojosa-garcia/peliculas-terror-95026/list,1,10</referer>
+<referer>http://diskokosmiko.mx/rockytnt/peliculas-2016-97335</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
