@@ -157,6 +157,7 @@
 				<item>
             <title>[COLOR yellow][COLOR blue]**JHG** [/COLOR][COLOR red]  Caza y pesca [/COLOR]</title>
       	   <sportsdevil>http://verdirectotv.tv/ver-caza-y-pesca-en-directo-y-online-gratis-por-internet/</sportsdevil>
+		   	   <sportsdevil>http://verdirectotv.com/ver-caza-y-pesca-en-directo-y-online-gratis-por-internet</sportsdevil>
            <referer>http://verdirectotv.tv/</referer>
             <thumbnail>http://verdirectotv.tv/logos/cazapesca.png</thumbnail>
             </item> 
@@ -184,9 +185,9 @@
 			
 				
 				<item>
-            <title>[COLOR yellow][COLOR blue]**JHG** [/COLOR][COLOR red] [/COLOR]</title>
-            <sportsdevil>http://cinestrenostv.tv</sportsdevil>
-			   <sportsdevil></sportsdevil>
+            <title>[COLOR yellow][COLOR blue]**JHG** [/COLOR][COLOR red] f1 [/COLOR]</title>
+            <sportsdevil></sportsdevil>
+			   <sportsdevil>http://cinestrenostv.tv/canales/envivo/formula1.html</sportsdevil>
            <referer>http://cinestrenostv.tv/</referer>
             <thumbnail></thumbnail>
             </item> 
@@ -194,10 +195,9 @@
 				
 				
 				<item>
-            <title>[COLOR yellow][COLOR blue]**JHG** [/COLOR][COLOR red] [/COLOR]</title>
-            <sportsdevil>http://cinestrenostv.tv</sportsdevil>
-			   <sportsdevil></sportsdevil>
-           <referer>http://cinestrenostv.tv/</referer>
+            <title>[COLOR yellow][COLOR blue]**JHG** [/COLOR][COLOR red]f2 [/COLOR]</title>
+        			   <sportsdevil>http://telefivegb.com/deporte/ver-canal-movistar-f1-online-gratis-y-en-vivo-por-internet/</sportsdevil>
+           <referer>http://telefivegb.com/</referer>
             <thumbnail></thumbnail>
             </item> 
 			
