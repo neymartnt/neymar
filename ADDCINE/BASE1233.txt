@@ -35,12 +35,12 @@ Pname:"Asalto al poder"urlid:"283311"genero:"Accion"calidad:"DVDRIP"year:"2013"i
 Pname:"La carrera de la muerte: Inferno"urlid:"285659"genero:"Accion"calidad:""year:"2013"id:"tt1988591"
 
 
-Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
-Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
+Pname:"Barry Seal: El traficante"urlid:"1771109,"genero:"Accion"calidad:"Dvrip"year:"2017"id:"tt3532216"
+Pname:"Cult of Chucky"urlid:"1771115"genero:"Terror"calidad:"Dvdrip"year:"2017"id:"tt3280262"
 Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
 Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
 Pname:""urlid:"1424484"genero:"Drama"calidad:""year:"2010"id:""
 
-http://diskokosmiko.mx/trivianita/peliculas-de-accion-castellanoel-rockero-31004/death-race-3-carrera-de-la-muerte-hd-ving-rhames-2013,285659,list,1,2.mp4
+
 <!-------------------------------------
 
