@@ -853,35 +853,152 @@ En su afán por seguir con vida, Glass, que no tiene miedo a la muerte, porque e
 </item>
 
 
+<item>
+<title>[COLOR lime] Bad sante 2 [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/i410wc96n4ab/Bad.Santa.2.m1080p.cast.mkv.html</urlsolve>
+<thumbnail>http://images.mymovies.net/images/film/cin/350x522/fid16760.jpg<thumbnail>
+<info>Impulsado por el whisky barato, la codicia y el odio, Willie Soke (Billy Bob Thornton) se une a su pequeño compañero enojado, Marcus, para derrotar a una organización benéfica de Chicago en la víspera de Navidad. Para el paseo es regordete y alegre Merman de Thurman, un rayo de 250 libras de sol, que saca tajada de la humanidad de Willie. surgen problemas de mamá, cuando la pareja se unen por la historia de Willie horror de una madre, Sunny Soke, que eleva el nivel de ambición de la banda, mientras que de alguna manera bajar los estándares de comportamiento criminal.</info> 
+</item>
+
 
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] EL CHIRINGUITO[/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
-<urlsolve>https://www.youtube.com/watch?v=Lg4h3kapWSY</urlsolve>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<title>[COLOR lime] Ballerina  [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/jkfulnlqhq36/B4ll3rin4HDR.yamil.avi.html</urlsolve>
+<thumbnail>https://kiosk-cdn.hoyts.com.au/pictures/f/Resize___Ballerina.jpg<thumbnail>
+<info>Felicia es una niña que, tras perder a sus padres, vive en un orfanato en su Bretaña natal. Su pasión es la danza y sueña con convertirse en una bailarina profesional. Para conseguirlo se escapa con la ayuda de su amigo Víctor y viaja hasta el París de 1879. Allí se hará pasar por otra persona para conseguir entrar como alumna de la Grand Opera House y así luchar por tener la vida que desea</info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] Barry [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/qaq7w973ah1m/QosYXlEMyubkkV2QF2X1g.mkv.html</urlsolve>
+<thumbnail>http://fr.web.img6.acsta.net/f_png/c_215_290/o_logo-netflix-n.png_5_se/pictures/17/05/15/17/48/163152.jpg<thumbnail>
+<info>Biopic de Barack Obama, centrado en su época como estudiante universitario en Nueva York, en los años 80.</info> 
 </item>
 
 
 
- <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] CHIRINGUITO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                          <title>[COLOR lime] JHG [/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=Lg4h3kapWSY</page>
-             <cookieJar></cookieJar>
-</regex>
- 
- <thumbnail></thumbnail>
-    <fanart></fanart>
+<item>
+<title>[COLOR lime] Be Somebody [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/3r1qxf4zskhc/B3S0mebod1HDR.avi.html</urlsolve>
+<thumbnail>http://is5.mzstatic.com/image/thumb/Video20/v4/65/a9/7b/65a97b1a-0232-bbba-69fd-2bf03dc230e4/source/227x227bb.jpg<thumbnail>
+<info>Superestrella del pop Jordan Jaye tiene un gran sueño - que sólo quiere vivir como una adolescente normal. Cuando es perseguido por algunos fans emocionados, se encuentra un escondite perfecto y un nuevo amigo reacios a partir de un estudiante de arte pequeña ciudad, de alta escuela, Emily Lowe. A pesar de ser de mundos diferentes, pronto descubren que tienen mucho más en común de lo que nunca imaginaron. A lo largo de varios días, los dos se embarcan en un viaje inesperado de la amistad, el primer amor y auto-descubrimiento - prueba de que tal vez los opuestos realmente se atraen.</info> 
 </item>
+
+
+<item>
+<title>[COLOR lime] Belleza oculta [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/5bdy0dn3c5qx</urlsolve>
+<thumbnail>http://www.cinema.com.hk/cmsimg/cinweb/movie/movie_1481526982.jpg<thumbnail>
+<info>Retirándose de la vida después de una tragedia, un hombre cuestiona el universo por escrito al amor, el tiempo y la muerte. Recibir respuestas inesperadas, él comienza a ver cómo estas cosas se entrelazan y cómo incluso la pérdida puede revelar momentos de significado y la belleza.</info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] Ben-Hur [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/3v3yt4a9l4cx</urlsolve>
+<thumbnail>https://cdn.waterstones.com/bookjackets/large/9781/7826/9781782642244.jpg<thumbnail>
+<info>La película retoma la esencia de la épica novela de Lew Wallace sobre la naturaleza de la fe. La historia gira en torno a un noble que, acusado falsamente sobrevive a largos años de esclavitud para vengarse de su mejor amigo que le traicionó. Ambos tendrán que elegir entre el castigo y el perdón.</info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] Benidorm Mon Amour [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/ck5wm27b2by2</urlsolve>
+<thumbnail>http://www.alicanteactualidad.com/wp-content/uploads/2016/06/20160612_Cultura_Benidorm_Mon_Amour.jpg<thumbnail>
+<info>Verano de 1962, Tonet aprovecha un permiso de la mili para ir en coche con sus amigos Sento, Jaume y Tomy a Benidorm. Sueñan con disfrutar unos días del sol, las playas y, sobre todo, de las suecas y sus biquinis. Pero se verán envueltos en una trama de falsificadores y policías que los persiguen.</info> 
+</item>
+
+
+
+
+<item>
+<title>[COLOR lime] Beyond the Call to Duty [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/86r3g7jtw1xh/08_Beyond_the_Call_to_Duty__2017_.avi.html</urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+<item>
+<title>[COLOR lime] Beyond the gates[/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] Bienvenidos a Alemania [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+
+<item>
+<title>[COLOR lime] Bienvenidos a Monster high[/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] Billy Lynn [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] Blanco Humano 2 [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] Blood father [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] Blowtorch [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] Blue Jay [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+<item>
+<title>[COLOR lime] Boost [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] Bar bahar: entre dos mundos [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
 
 <item>
 <title>[COLOR lime] [/COLOR]</title>
@@ -914,6 +1031,100 @@ En su afán por seguir con vida, Glass, que no tiene miedo a la muerte, porque e
 <info></info> 
 </item>
 
+
+<item>
+<title>[COLOR lime] [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+<item>
+<title>[COLOR lime] [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+
+<item>
+<title>[COLOR lime] [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+<item>
+<title>[COLOR lime] [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
 
 <item>
 <title>[COLOR lime] [/COLOR]</title>
