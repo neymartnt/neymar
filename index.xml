@@ -5,6 +5,36 @@
 
 
 
+
+<item>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] JHG[/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
+<thumbnail>https://i.imgur.com/g24UqUU.jpg</thumbnail>
+<fanart>https://i.imgur.com/g24UqUU.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/Vi/base.xml</externallink>
+</item>
+
+
+
+
+<item>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ADDON [/COLOR][COLOR orange] DARKNIGHT [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/dwkDYdh.jpg</thumbnail>
+<fanart>https://i.imgur.com/dwkDYdh.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/dark/indexdrk.xml</externallink>
+</item>	
+	
+	
+<item>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] LIVE [/COLOR][COLOR orange] MUSIC [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/d3Aivnb.png</thumbnail>
+<fanart>https://i.imgur.com/d3Aivnb.png</fanart>
+<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/Live/index.xml</externallink>
+</item>	
+
+
 <item>
 <title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] MAGELLAN [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
 <link>http://ignorame</link>
@@ -14,8 +44,6 @@
 </item>
 
 	
-
-
 
 <item>
 <title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] SPORT365 [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
@@ -53,22 +81,8 @@
 
 
 
-<item>
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ADDON [/COLOR][COLOR orange] DARKNIGHT [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
-<link>http://ignorame</link>
-<thumbnail>https://i.imgur.com/dwkDYdh.jpg</thumbnail>
-<fanart>https://i.imgur.com/dwkDYdh.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/dark/indexdrk.xml</externallink>
-</item>	
-	
-	
-<item>
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] LIVE [/COLOR][COLOR orange] MUSIC [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
-<link>http://ignorame</link>
-<thumbnail>https://i.imgur.com/d3Aivnb.png</thumbnail>
-<fanart>https://i.imgur.com/d3Aivnb.png</fanart>
-<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/Live/index.xml</externallink>
-</item>	
+
+<!---
 
 <item>
 <title>[COLOR skyblue] * [/COLOR][COLOR yellow] ZONA [/COLOR][COLOR skyblue] EN PROYECTO ** [/COLOR]</title>
@@ -79,79 +93,12 @@
 </item>
 
 <item>
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] SAGAS [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
-<thumbnail>https://i.imgur.com/YNXTiKA.jpg</thumbnail>
-<fanart>https://i.imgur.com/YNXTiKA.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/SAGAS.xml</externallink>
-</item>
-
-
-
-<item>
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] VIDEOCLUB[/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
-<thumbnail>https://i.imgur.com/D6XQ9Qn.jpg</thumbnail>
-<fanart>https://i.imgur.com/D6XQ9Qn.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/ADDCINE/proyecto123.xml</externallink>
-</item>
-
- 
-<item>
-<title>[COLOR white] REPARACIONES [/COLOR]</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[COLOR white]+- [/COLOR][COLOR yellow][makelist.param2][/COLOR]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>http://conceptodefinicion.de/wp-content/uploads/2016/04/Documental.jpg</thumbnail>
-        <fanart>http://3.bp.blogspot.com/_BWI_wagDL30/TQhwbWRuicI/AAAAAAAAA_Q/IHGezY-6hyk/s640/media-33641-121837.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>http://kbagi.com/familiajhg/fast-tu-furius-607248</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex><name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page>http://kbagi.com/familiajhg/fast-tu-furius-607248</page>
-<cookieJar></cookieJar>
-</regex>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] 23 [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/TDT/1.xml</externallink>
 </item>
-
-
 
 
 <item>
@@ -194,28 +141,23 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-
-
-
 <item>
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] 23 [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] SAGAS [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
+<thumbnail>https://i.imgur.com/YNXTiKA.jpg</thumbnail>
+<fanart>https://i.imgur.com/YNXTiKA.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/TDT/1.xml</externallink>
+<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/SAGAS.xml</externallink>
 </item>
 
 
 
-
 <item>
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] JHG[/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
-<thumbnail>https://i.imgur.com/g24UqUU.jpg</thumbnail>
-<fanart>https://i.imgur.com/g24UqUU.jpg</fanart>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] VIDEOCLUB[/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
+<thumbnail>https://i.imgur.com/D6XQ9Qn.jpg</thumbnail>
+<fanart>https://i.imgur.com/D6XQ9Qn.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/Vi/base.xml</externallink>
+<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/ADDCINE/proyecto123.xml</externallink>
 </item>
-
 
 
 
