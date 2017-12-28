@@ -1484,21 +1484,22 @@ Adaptación mexicana de “3 Idiots”, película dirigida por Rajkumar Hirani y
 
 <item>
 <title>[COLOR lime] Tótem [/COLOR]</title>
-<urlsolve>http://streamcloud.eu/3h6hba0xd17g</urlsolve>
+<urlsolve>http://streamcloud.eu/3h6hba0xd17g
+</urlsolve>
 <thumbnail><thumbnail>
 <info></info> 
 </item>
 
 <item>
 <title>[COLOR lime] Traidora [/COLOR]</title>
-<urlsolve></urlsolve>
+<urlsolve>http://streamcloud.eu/h9djnvsz0fbs</urlsolve>
 <thumbnail><thumbnail>
 <info></info> 
 </item>
 
 <item>
 <title>[COLOR lime] Transformers: El último Caballero [/COLOR]</title>
-<urlsolve></urlsolve>
+<urlsolve>http://streamcloud.eu/ndi6945q3qyp</urlsolve>
 <thumbnail><thumbnail>
 <info></info> 
 </item>
@@ -1506,21 +1507,21 @@ Adaptación mexicana de “3 Idiots”, película dirigida por Rajkumar Hirani y
 
 <item>
 <title>[COLOR lime] Un don excepcional [/COLOR]</title>
-<urlsolve></urlsolve>
+<urlsolve>http://streamcloud.eu/e0lcer10p1sy/D0nExpHDR.Pk.avi.html</urlsolve>
 <thumbnail><thumbnail>
 <info></info> 
 </item>
 
 <item>
 <title>[COLOR lime] Un espacio entre nosotros [/COLOR]</title>
-<urlsolve></urlsolve>
+<urlsolve>http://streamcloud.eu/4qfrajuk9vej</urlsolve>
 <thumbnail><thumbnail>
 <info></info> 
 </item>
 
 <item>
 <title>[COLOR lime] Un golpe de estilo [/COLOR]</title>
-<urlsolve></urlsolve>
+<urlsolve>http://streamcloud.eu/4hdkja8j9ila/Un.golpe.con.estilo.m1080p.cast.mkv.html</urlsolve>
 <thumbnail><thumbnail>
 <info></info> 
 </item>
@@ -1528,29 +1529,52 @@ Adaptación mexicana de “3 Idiots”, película dirigida por Rajkumar Hirani y
 
 <item>
 <title>[COLOR lime] Un príncipe de Navidad [/COLOR]</title>
-<urlsolve></urlsolve>
+<urlsolve>http://streamcloud.eu/5isk2r9es2ib</urlsolve>
 <thumbnail><thumbnail>
 <info></info> 
 </item>
 
 <item>
 <title>[COLOR lime] Una cita en el parque [/COLOR]</title>
-<urlsolve></urlsolve>
+<urlsolve>http://streamcloud.eu/lmtqad8ec2ir</urlsolve>
 <thumbnail><thumbnail>
 <info></info> 
 </item>
 
+
 <item>
-<title>[COLOR lime] Una Historia de venganza [/COLOR]</title>
-<urlsolve></urlsolve>
-<thumbnail><thumbnail>
-<info></info> 
-</item>
+ <title>[COLOR lime] Una historia de venganza [/COLOR]</title>
+ <thumbnail></thumbnail>
+ <fanart></fanart>
+ <genre>Acción, Aventuras</genre>
+    <link>$doregex[info]</link>
+    <regex>
+    <name>info</name>
+    <listrepeat><![CDATA[
+    <title>Transformers: El último caballero [info.param2]</title>
+    <link>$doregex[enlace]</link>
+    <thumbnail>https://s20.postimg.org/bgsyg804d/icono_tranformer_caballero.png</thumbnail>
+    <fanart>https://s20.postimg.org/wdp6krvjh/fondo_transforme.jpg</fanart>
+    ]]></listrepeat>
+    <expres>a href="(.*?=(.*?))"\.*.*\n.*div style="w</expres>
+    <page>https://www.rapidvideo.com/e/FJMJYBBWYT</page>
+    </regex>
+    <regex>
+    <name>enlace</name>
+    <expres>source.*?"(.*?)"</expres>
+    <page>[info.param1]</page>
+    <date>2017</date>
+    <info></info>
+    </regex>
+</item>  
+
+
+
 
 
 <item>
 <title>[COLOR lime] Una noche con mi exsuegro [/COLOR]</title>
-<urlsolve></urlsolve>
+<urlsolve>http://streamcloud.eu/ojpcli1j7yun</urlsolve>
 <thumbnail><thumbnail>
 <info></info> 
 </item>
@@ -1634,6 +1658,32 @@ Adaptación mexicana de “3 Idiots”, película dirigida por Rajkumar Hirani y
 <thumbnail><thumbnail>
 <info></info> 
 </item>
+
+<item>
+ <title>[COLOR lime] [/COLOR]</title>
+ <thumbnail></thumbnail>
+ <fanart></fanart>
+ <genre>Acción, Aventuras</genre>
+    <link>$doregex[info]</link>
+    <regex>
+    <name>info</name>
+    <listrepeat><![CDATA[
+    <title>Transformers: El último caballero [info.param2]</title>
+    <link>$doregex[enlace]</link>
+    <thumbnail>https://s20.postimg.org/bgsyg804d/icono_tranformer_caballero.png</thumbnail>
+    <fanart>https://s20.postimg.org/wdp6krvjh/fondo_transforme.jpg</fanart>
+    ]]></listrepeat>
+    <expres>a href="(.*?=(.*?))"\.*.*\n.*div style="w</expres>
+    <page>https://www.rapidvideo.com/e/FJMJYBBWYT</page>
+    </regex>
+    <regex>
+    <name>enlace</name>
+    <expres>source.*?"(.*?)"</expres>
+    <page>[info.param1]</page>
+    <date>2017</date>
+    <info></info>
+    </regex>
+</item>  
 
 
 <item>
