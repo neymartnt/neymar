@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+<item>
+<title>[COLOR lime] [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+
+
+<item>
+ <title>[COLOR lime] TADEO JONES 2 [/COLOR]</title>
+ <thumbnail>https://pics.filmaffinity.com/tadeo_jones_2_el_secreto_del_rey_midas-758956125-large.jpg</thumbnail>
+ <fanart>https://pics.filmaffinity.com/tadeo_jones_2_el_secreto_del_rey_midas-758956125-large.jpg</fanart>
+ <genre>Animación,Aventuras,Comedia</genre>
+    <link>$doregex[info]</link>
+    <regex>
+    <name>info</name>
+    <listrepeat><![CDATA[
+    <title> [info.param2]</title>
+    <link>$doregex[enlace]</link>
+    <thumbnail>https://pics.filmaffinity.com/tadeo_jones_2_el_secreto_del_rey_midas-758956125-large.jpg</thumbnail>
+    <fanart>https://pics.filmaffinity.com/tadeo_jones_2_el_secreto_del_rey_midas-758956125-large.jpg</fanart>
+    ]]></listrepeat>
+    <expres>a href="(.*?=(.*?))"\.*.*\n.*div style="w</expres>
+    <page>https://www.rapidvideo.com/embed/FMLKX00YJ9</page>
+    </regex>
+    <regex>
+    <name>enlace</name>
+    <expres>source.*?"(.*?)"</expres>
+    <page>[info.param1]</page>
+    <date>2017</date>
+    <info>Tadeo Jones 2: El secreto del rey Midas: Segunda entrega de las aventuras de este albañil con un espíritu aventurero y soñador que acaba como arqueólogo por casualidad. En esta ocasión, Tadeo Jones viajará hasta Las Vegas. Allí acude a la presentación del último descubrimiento de la arqueóloga Sara Lavroff. Se trata de un papiro que demuestra que el Collar de Midas, el Rey que convertía todo lo que tocaba en oro, existe de verdad. Pero las cosas se complicarán cuando un malvado ricachón secuestre a Sara para así hacerse con la reliquia y conseguir riquezas infinitas.</info>
+    </regex>
+</item>  
+
+
+
+<item>
+ <title>[COLOR lime] LA MONTAÑA ENTRE NOSOTROS  [/COLOR]</title>
+ <thumbnail>https://www.q-tickets.com/movie_images/THE_MOUNTAIN_BETWEEN_US_thumb.jpg</thumbnail>
+ <fanart>https://www.q-tickets.com/movie_images/THE_MOUNTAIN_BETWEEN_US_thumb.jpg</fanart>
+ <genre>Aventuras,Drama,Romance,Supervivencia,Naturaleza</genre>
+    <link>$doregex[info]</link>
+    <regex>
+    <name>info</name>
+    <listrepeat><![CDATA[
+    <title> [info.param2]</title>
+    <link>$doregex[enlace]</link>
+    <thumbnail>https://www.q-tickets.com/movie_images/THE_MOUNTAIN_BETWEEN_US_thumb.jpg</thumbnail>
+    <fanart>https://www.q-tickets.com/movie_images/THE_MOUNTAIN_BETWEEN_US_thumb.jpg</fanart>
+    ]]></listrepeat>
+    <expres>a href="(.*?=(.*?))"\.*.*\n.*div style="w</expres>
+    <page>https://www.rapidvideo.com/embed/FMLLKVPD5M</page>
+    </regex>
+    <regex>
+    <name>enlace</name>
+    <expres>source.*?"(.*?)"</expres>
+    <page>[info.param1]</page>
+    <date>2017</date>
+    <info>La montaña entre nosotros: Adaptación de la novela de Charles Martin. La historia sigue a dos personas distintas, Ashley es una escritora que debe coger un vuelo desde Salt Lake City al Este para poder llegar a su boda. Ben es un médico que vuelve de una conferencia médica. Cuando su vuelo es cancelado por problemas con el anticongelante, los pasajeros deciden coger un vuelo charter. Cuando el piloto sufre un ataque al corazón se estrellan en una desolada montaña llena de nieve. Él se rompe una costilla y ella, una pierna. Afortunadamente además de doctor, es un ávido escalador. Mientras intentan descender por la montaña ella empieza a plantearse que quizá se iba a casar con el hombre equivocado.</info>
+    </regex>
+</item>  
+
+
+
+<item>
+ <title>[COLOR lime] [/COLOR]</title>
+ <thumbnail></thumbnail>
+ <fanart></fanart>
+ <genre></genre>
+    <link>$doregex[info]</link>
+    <regex>
+    <name>info</name>
+    <listrepeat><![CDATA[
+    <title> [info.param2]</title>
+    <link>$doregex[enlace]</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+    ]]></listrepeat>
+    <expres>a href="(.*?=(.*?))"\.*.*\n.*div style="w</expres>
+    <page>https://www.rapidvideo.com/e/FJMJYBBWYT</page>
+    </regex>
+    <regex>
+    <name>enlace</name>
+    <expres>source.*?"(.*?)"</expres>
+    <page>[info.param1]</page>
+    <date>2017</date>
+    <info></info>
+    </regex>
+</item>  
+
+
+
+<item>
+ <title>[COLOR lime] [/COLOR]</title>
+ <thumbnail></thumbnail>
+ <fanart></fanart>
+ <genre></genre>
+    <link>$doregex[info]</link>
+    <regex>
+    <name>info</name>
+    <listrepeat><![CDATA[
+    <title> [info.param2]</title>
+    <link>$doregex[enlace]</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+    ]]></listrepeat>
+    <expres>a href="(.*?=(.*?))"\.*.*\n.*div style="w</expres>
+    <page>https://www.rapidvideo.com/e/FJMJYBBWYT</page>
+    </regex>
+    <regex>
+    <name>enlace</name>
+    <expres>source.*?"(.*?)"</expres>
+    <page>[info.param1]</page>
+    <date>2017</date>
+    <info></info>
+    </regex>
+</item>  
