@@ -11,6 +11,29 @@
 </item>
 
 
+<item>
+<title>[COLOR lime] [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail><thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR lime] Fiebre del tulipán [/COLOR]</title>
+<urlsolve>https://streamango.com/embed/krrpkfmmttqsmcof/</urlsolve>
+<thumbnail>https://media.baselineresearch.com/images/1652092/1652092_medium.jpg<thumbnail>
+<info>Fiebre del tulipán: Drama ambientado en el siglo XVII en Holanda, durante una época donde un solo bulbo del tulipán costaba casi 10 veces más que el sueldo medio. La película nos cuenta la historia de un hombre mayor que se enamora de una joven recién casada mientras le está pintando el retrato que le han encargado. Ambos invertirán en el negocio de los tulipanes con el propósito de ganar un dinero que les sirva para crear un futuro juntos.</info> 
+</item>
+
+<item>
+<title>[COLOR lime] Muerte Instantanea [/COLOR]</title>
+<urlsolve>https://streamango.com/embed/mtpmbncfcleabkno/3</urlsolve>
+<thumbnail>http://theplanetweekly.com/wp-content/uploads/2017/06/instant-death-poster.jpeg<thumbnail>
+<info>Muerte Instantanea: Una guerra de pandillas viciosas por el dominio de las drogas atrae a un veterano de las fuerzas especiales John Bradley. Tratando de adaptarse a la vida normal y atormentado por demonios internos de un pasado violento, la retribución del hampa en su última conexión con la humanidad, una hija y un nieto conduce a un descenso de furia y violencia que ni siquiera la brutalidad del gangland está preparada</info> 
+</item>
+
+
 
 
 <item>
@@ -70,6 +93,33 @@
 
 
 <item>
+ <title>[COLOR lime] Abracadabra [/COLOR]</title>
+ <thumbnail></thumbnail>
+ <fanart></fanart>
+ <genre></genre>
+    <link>$doregex[info]</link>
+    <regex>
+    <name>info</name>
+    <listrepeat><![CDATA[
+    <title> [info.param2]</title>
+    <link>$doregex[enlace]</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+    ]]></listrepeat>
+    <expres>a href="(.*?=(.*?))"\.*.*\n.*div style="w</expres>
+    <page>https://www.rapidvideo.com/embed/FM9R4NCFN1</page>
+    </regex>
+    <regex>
+    <name>enlace</name>
+    <expres>source.*?"(.*?)"</expres>
+    <page>[info.param1]</page>
+    <date>2017</date>
+    <info></info>
+    </regex>
+</item>  
+
+
+<item>
  <title>[COLOR lime] [/COLOR]</title>
  <thumbnail></thumbnail>
  <fanart></fanart>
@@ -96,6 +146,32 @@
 </item>  
 
 
+
+<item>
+ <title>[COLOR lime] [/COLOR]</title>
+ <thumbnail></thumbnail>
+ <fanart></fanart>
+ <genre></genre>
+    <link>$doregex[info]</link>
+    <regex>
+    <name>info</name>
+    <listrepeat><![CDATA[
+    <title> [info.param2]</title>
+    <link>$doregex[enlace]</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+    ]]></listrepeat>
+    <expres>a href="(.*?=(.*?))"\.*.*\n.*div style="w</expres>
+    <page>https://www.rapidvideo.com/e/FJMJYBBWYT</page>
+    </regex>
+    <regex>
+    <name>enlace</name>
+    <expres>source.*?"(.*?)"</expres>
+    <page>[info.param1]</page>
+    <date>2017</date>
+    <info></info>
+    </regex>
+</item>  
 
 <item>
  <title>[COLOR lime] [/COLOR]</title>
