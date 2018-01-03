@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
-
+<item>
+            <title>[COLOR red]BEIN LA LIGA Y PARTIDAZO[/COLOR][COLOR red] todos los partidos del día[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau1</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/8</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>             
+            <thumbnail>http://statics.laliga.es/img/campo-logo-v4.jpg</thumbnail>
+            </item>
+ 
+  
+            <item>
+            <title>[COLOR white]BEIN LA LIGA Y PARTIDAZO[/COLOR][COLOR red] todos los partidos del día[/COLOR]</title>
+            <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Picapau2</link>
+            <regex>
+            <name>hash</name>
+            <expres>this.loadPlayer\("(.*?)"</expres>
+            <page>http://arenavision2017.tk/node/10</page>
+            <referer>http://www.arenavision.ru</referer>
+            <setcookie>beget=begetok</setcookie>
+            </regex>
+            <thumbnail>http://statics.laliga.es/img/campo-logo-v4.jpg</thumbnail>
+            </item>
 
 <item>
-<title>[COLOR chocolate]SPORT365[/COLOR]</title>
+<title>[COLOR yellow]SPORT365[/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.deportesalacarta/?ewogICAgImFjdGlvbiI6ICJtYWlubGlzdCIsIAogICAgImNhdGVnb3J5IjogImRlcG9ydCIsIAogICAgImNoYW5uZWwiOiAic3BvcnQzNjUiLCAKICAgICJmYW5hcnQiOiAiIiwgCiAgICAiaW5mb0xhYmVscyI6IHt9LCAKICAgICJsYW5ndWFnZSI6ICJlcyIsIAogICAgInRodW1ibmFpbCI6ICJodHRwOi8vaS5pbWd1ci5jb20vaEoydmhpcC5wbmciLCAKICAgICJ0aXRsZSI6ICJTcG9ydDM2NSIsIAogICAgInRvdGFsSXRlbXMiOiAwLCAKICAgICJ2aWV3bW9kZSI6ICJsaXN0Igp9</jsonrpc>
 <thumbnail>http://s1.medianetworkinternational.com/images/icons/apple-touch-icon-114x114.png</thumbnail>
