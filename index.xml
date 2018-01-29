@@ -5,7 +5,7 @@
 
  
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] CREADO POR JHG MASTER [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] CREADO POR JHG MASTER(EN RUMANO PARA LOS QUE LO COMPARTEN EN SU REPOSITORIO CHE ROFTI CHEAR-- JAJAJA, CORTO ME QUEDE........ !)  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail></thumbnail>
 <fanart><fanart>
@@ -79,7 +79,7 @@
 
 
 <item>
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] JHG[/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] PELICULAS (AÑOS) [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
 <thumbnail>https://i.imgur.com/g24UqUU.jpg</thumbnail>
 <fanart>https://i.imgur.com/g24UqUU.jpg</fanart>
 <link>http://ignoreme</link>
@@ -89,13 +89,6 @@
 
 
 
-<item>
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ADDON [/COLOR][COLOR orange] DARKNIGHT [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
-<link>http://ignorame</link>
-<thumbnail>https://i.imgur.com/dwkDYdh.jpg</thumbnail>
-<fanart>https://i.imgur.com/dwkDYdh.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/dark/indexdrk.xml</externallink>
-</item>	
 	
 	
 <item>
@@ -107,32 +100,9 @@
 </item>	
 
 
-<item> 
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] RADIOS ESPAÑA [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>https://i.imgur.com/V4GfdHT.jpg</thumbnail>
-<fanart>https://i.imgur.com/V4GfdHT.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/radiosespa%C3%B1a.xml</externallink>	
-</item> 
 
 
 
-<item>
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] SPORT365 [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.deportesalacarta/?ewogICAgImFjdGlvbiI6ICJtYWlubGlzdCIsIAogICAgImNhdGVnb3J5IjogImRlcG9ydCIsIAogICAgImNoYW5uZWwiOiAic3BvcnQzNjUiLCAKICAgICJmYW5hcnQiOiAiIiwgCiAgICAiaW5mb0xhYmVscyI6IHt9LCAKICAgICJsYW5ndWFnZSI6ICJlcyIsIAogICAgInRodW1ibmFpbCI6ICJodHRwOi8vaS5pbWd1ci5jb20vaEoydmhpcC5wbmciLCAKICAgICJ0aXRsZSI6ICJTcG9ydDM2NSIsIAogICAgInRvdGFsSXRlbXMiOiAwLCAKICAgICJ2aWV3bW9kZSI6ICJsaXN0Igp9</jsonrpc>
-<thumbnail>https://i.imgur.com/BDQB4lX.jpg</thumbnail>
-<fanart>https://i.imgur.com/BDQB4lX.jpg</fanart>
-</item>
-	
-	
-<item> 
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] ARENAVISION [/COLOR][COLOR  yellow]_**_ [/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>https://i.imgur.com/YLO8giq.jpg</thumbnail>
-<fanart>https://i.imgur.com/YLO8giq.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/ARENA/arenajulen.xml</externallink>	
-</item> 
 
 			
 <item> 
@@ -151,13 +121,7 @@
 <externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/LISTASIPTV.xml</externallink>	
 </item>	
 
-<item>
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] DEPORTES [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/TDT/deportes1.xml</externallink>
-</item>
+
 
 <item> 
 <title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] DOCUMENTALES [/COLOR][COLOR  yellow]_**_ [/COLOR]</title>
@@ -167,15 +131,7 @@
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/ELDIABLO3.0/master/documentales.xml</externallink>	
 </item> 
 
-		
-<item>
-<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] CANALES DEPORTES [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<externallink>https://raw.githubusercontent.com/neymartnt/Jhg5/master/Zsports/new21.xml</externallink>	
-</item>
-		
+
 
 <item>
 <title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] MAGELLAN [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
