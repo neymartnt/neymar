@@ -1317,13 +1317,27 @@ http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/index_0700_av-p.m3u8?sd=1
 
  <item>
 <title>[COLOR yellow]*[COLOR skyblue] •MOVISTAR DCINE [/COLOR]</title>
-<sportsdevil>
- http://vergol.com/live/dcine.php</sportsdevil>
+<sportsdevil> http://vergol.com/live/dcine.php</sportsdevil>
 <referer>http://www.vertelevisor.com/</referer>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
  
  
+<item>
+<title>[COLOR white][COLOR skyblue] •  [/COLOR]S 11[/COLOR]</title>
+<link>http://livesports.pw/embedna.php?file=movestr&width=650&height=397</link>
+<thumbnail>http://www.adnervion.es/wp-content/uploads/2017/11/SFC.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+ <item>
+<title>[COLOR yellow]*[COLOR skyblue] •MOVISTAR DCINE [/COLOR]</title>
+<sportsdevil>http://vercanalestv.com/tv/nacionales/canal-plus-dcine.html</sportsdevil>
+<referer>http://vercanalestv.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
  
- http://vergol.com/live/dcine.php
+ 
+http://vercanalestv.com/tv/nacionales/canal-plus-dcine.html
