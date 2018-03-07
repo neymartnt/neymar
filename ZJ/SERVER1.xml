@@ -18,6 +18,21 @@
 <fanart></fanart>
 </item>
 
+
+<item>
+<title>[COLOR white][COLOR red] •  [/COLOR] AXN WHITE [/COLOR] </title>
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex><name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=axnwahit&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>  
+</item>
+
+
+
 <item>
 <title>[COLOR yellow]*[COLOR skyblue] AMC [/COLOR]</title>
 <sportsdevil>http://vergol.com/live/amc.php</sportsdevil>
@@ -27,27 +42,27 @@
 </item>
 
 <item>
-<title>[COLOR yellow]*[COLOR skyblue]  [/COLOR]</title>
-<sportsdevil></sportsdevil>
+<title>[COLOR yellow]*[COLOR skyblue] FOX [/COLOR]</title>
+<sportsdevil>http://www.vertelevisor.com/ver-fox-gratis-online-en-directo-por-internet/</sportsdevil>
 <referer>http://www.vertelevisor.com/</referer>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>http://vertelevisor.com/logos/fox.png</thumbnail>
+<fanart>http://vertelevisor.com/logos/fox.png</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] TNT España [/COLOR]</title>
+<sportsdevil>http://www.vertelevisor.com/ver-tnt-gratis-en-directo-online-por-internet/</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail>http://vertelevisor.com/logos/tnt.png</thumbnail>
+<fanart>http://vertelevisor.com/logos/tnt.png</fanart>
 </item>
 
 <item>
 <title>[COLOR yellow]*[COLOR skyblue]  [/COLOR]</title>
-<sportsdevil></sportsdevil>
+<sportsdevil>http://www.vertelevisor.com/ver-calle-13-gratis-por-internet/</sportsdevil>
 <referer>http://www.vertelevisor.com/</referer>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
-<title>[COLOR yellow]*[COLOR skyblue]  [/COLOR]</title>
-<sportsdevil></sportsdevil>
-<referer>http://www.vertelevisor.com/</referer>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>http://vertelevisor.com/logos/calle-13.jpg</thumbnail>
+<fanart>http://vertelevisor.com/logos/calle-13.jpg</fanart>
 </item>
 
 <item>
