@@ -90,8 +90,16 @@
 </item>
 
 <item>
-<title>[COLOR yellow]*[COLOR skyblue]  [/COLOR]</title>
-<sportsdevil></sportsdevil>
+<title>[COLOR yellow]*[COLOR skyblue] FOX LIVE1 [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/foxlife.php</sportsdevil>
+<referer>http://lacalleochotv.org/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] FOX LIVE [/COLOR]</title>
+<sportsdevil>http://verdirectotv.com/tv/nacionales/foxlife.html</sportsdevil>
 <referer>http://lacalleochotv.org/</referer>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -122,7 +130,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow]*[COLOR skyblue] MOVISAR COMEDIA [/COLOR]</title>
+<title>[COLOR yellow]*[COLOR skyblue] MOVISTAR COMEDIA [/COLOR]</title>
 <sportsdevil>http://vergol.com/live/comedia.php</sportsdevil>
 <referer>http://www.vertelevisor.com/</referer>
 <thumbnail></thumbnail>
