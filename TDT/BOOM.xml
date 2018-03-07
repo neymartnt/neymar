@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AUTONOMICAS [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart><fanart>
+<externallink></externallink> 
+</item>
 
  
 <item>
@@ -11,16 +19,6 @@
 <externallink></externallink> 
 </item>
 
-
-
- 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AUTONOMICAS [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail></thumbnail>
-<fanart><fanart>
-<externallink></externallink> 
-</item>
 
 
 
@@ -36,12 +34,22 @@
 
  
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] TDT [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] DOCUMENTALES [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail></thumbnail>
 <fanart><fanart>
 <externallink></externallink> 
 </item>
+
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] PEQUES [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart><fanart>
+<externallink></externallink> 
+</item>
+
 
 
  <item>
@@ -1316,9 +1324,10 @@ http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/index_0700_av-p.m3u8?sd=1
 <fanart></fanart>
 </item>
 
+
  <item>
 <title>[COLOR yellow]*[COLOR skyblue] •MOVISTAR DCINE [/COLOR]</title>
-<sportsdevil> http://vergol.com/live/dcine.php</sportsdevil>
+<sportsdevil>http://vergol.com/live/dcine.php</sportsdevil>
 <referer>http://www.vertelevisor.com/</referer>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -1342,7 +1351,9 @@ http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/index_0700_av-p.m3u8?sd=1
  
  
 <item>
-<title>[COLOR white][COLOR skyblue] •  [/COLOR]*5**[/COLOR]</title>
+<title>[COLOR white][COLOR skyblue] •  [/COLOR]*5
+
+**[/COLOR]</title>
  <link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
