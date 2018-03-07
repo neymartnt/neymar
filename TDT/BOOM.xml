@@ -1298,9 +1298,8 @@ http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/index_0700_av-p.m3u8?sd=1
 
 
 
-
 <item>
-<title>[COLOR yellow][COLOR skyblue] •MOVISTAR ACCION  [/COLOR]</title>
+<title>[COLOR yellow]*[COLOR skyblue] •MOVISTAR ACCION  [/COLOR]</title>
 <sportsdevil>http://vergol.com/live/plusaccion.php</sportsdevil>
 <referer>http://www.vertelevisor.com/</referer>
 <thumbnail></thumbnail>
@@ -1308,5 +1307,12 @@ http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/index_0700_av-p.m3u8?sd=1
 </item>
 
 
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] •MOVISTAR ESTRENOS [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/plusestrenos.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
 
  
