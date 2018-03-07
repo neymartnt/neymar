@@ -2,6 +2,47 @@
 
 
 
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] TDT [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart><fanart>
+<externallink></externallink> 
+</item>
+
+
+
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AUTONOMICAS [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart><fanart>
+<externallink></externallink> 
+</item>
+
+
+
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MOVISTAR [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart><fanart>
+<externallink></externallink> 
+</item>
+
+
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] TDT [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart><fanart>
+<externallink></externallink> 
+</item>
+
 
  <item>
 <title>[COLOR red] _**_ [/COLOR][COLOR  skyblue]GRAN HERMANO  24H[/COLOR][COLOR red] _**_ [/COLOR]</title>
@@ -10,7 +51,7 @@
 <fanart></fanart>
 </item>
 
-OPERACION TRIUNFO 24H
+
 
  <item>
 <title>[COLOR red] _**_ [/COLOR][COLOR  skyblue] OPERACION TRIUNFO 24H[/COLOR][COLOR red] _**_ [/COLOR]</title>
@@ -417,63 +458,6 @@ OPERACION TRIUNFO 24H
 </item>
 
 
-<item>
-<title>[COLOR white][COLOR red] •  [/COLOR] CLAN HD 1080   [COLOR lime] f4mTester[/COLOR] </title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/709.ts;name=CLAN HD</link>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/9/94/Logo_clan.png</thumbnail>
-<fanart></fanart>  
-</item>
-
- <item>
-<title>[COLOR white][COLOR red] •  [/COLOR] SYFY HD 1080   [COLOR lime] f4mTester[/COLOR] </title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/2152.ts;name=SYFY HD</link>
-<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxI4mcEB0EE0Olfuoex0sCDqvKBfHU1nX9X6gHnuGWnA44tQO0</thumbnail>
-<fanart></fanart>  
-</item>
- 
- <item>
-<title>[COLOR white][COLOR red] •  [/COLOR] FOX   [COLOR lime]f4mTester[/COLOR] </title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/329.ts;name=FOX HD</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/FOX_wordmark.svg/1200px-FOX_wordmark.svg.png</thumbnail>
-<fanart></fanart>  
-</item>
- 
- <item>
-<title>[COLOR white][COLOR red] •  [/COLOR] AXN   [COLOR lime]f4mTester [/COLOR] </title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/379.ts;name=AXN HD</link>
-<thumbnail>https://i1.wp.com/www.zapping-tv.com/wp-content/uploads/2015/05/AXN.jpg?fit=956%2C596</thumbnail>  
-<fanart></fanart>  
-</item>
-
- <item>
-<title>[COLOR white][COLOR red] •  [/COLOR] AXN WHITE  [COLOR lime]f4mTester   [/COLOR] </title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/2154.ts;name=AXN WHITE HD</link>
-<thumbnail></thumbnail>  
-<fanart></fanart>  
-</item>
-
-<item>
-<title>[COLOR white][COLOR red] •  [/COLOR] TNT HD 1080  [COLOR lime]f4mTester  [/COLOR] </title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/303.ts;name=TNT HD</link>
-<thumbnail>http://verestv.com/logos/TNT_Logo.png</thumbnail>
-<fanart></fanart>  
-</item>
- 
- <item>
-<title>[COLOR white][COLOR red] •  [/COLOR] ACCION    [COLOR lime]f4mTester [/COLOR] </title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/1072.ts;name=ACCION </link>
-<thumbnail>http://zonadjjavi.webcindario.com/Kodi/logos/accion.jpg</thumbnail>
-<fanart></fanart>
-</item>
- 
- 
- <item>
-<title>[COLOR white][COLOR red] •  [/COLOR] ESTRENOS HD 1080   [COLOR lime]f4mTester [/COLOR] </title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/364.ts;name=ESTRENOS HD</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Movistar_Estrenos.svg/1783px-Movistar_Estrenos.svg.png</thumbnail>
-<fanart></fanart> 
-</item>
-
 
 
 
@@ -841,7 +825,7 @@ OPERACION TRIUNFO 24H
 </regex>
 <thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/6/62/NICKELODEON_Logo.png/revision/latest?cb\x3d20111106061132</thumbnail>
 <fanart></fanart>  
-</item>
+</item> 
 
 <item>
 <title>[COLOR white][COLOR red] •  [/COLOR] BOING[/COLOR] </title>
@@ -1304,7 +1288,7 @@ http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/index_0700_av-p.m3u8?sd=1
 <fanart></fanart>
 </item>
 
-item>
+<item>
 <title>[COLOR white][COLOR skyblue] •  [/COLOR]BARÇA TV[/COLOR]</title>
 <sportsdevil>http://cinestrenostv.tv/canales/deportes/barcatv.php</sportsdevil>
 <referer>http://cinestrenostv.tv</referer>
@@ -1314,6 +1298,14 @@ item>
 
 
 
+
+<item>
+<title>[COLOR yellow][COLOR skyblue] •MOVISTAR ACCION  [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/plusaccion.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
 
 
 
