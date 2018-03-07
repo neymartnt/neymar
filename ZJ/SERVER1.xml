@@ -3,12 +3,23 @@
 
 
 
-
-
+<item>
+<title>[COLOR red] _**_ [/COLOR][COLOR  skyblue] OFF [/COLOR][COLOR red] _**_ [/COLOR]</title>
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedna.php?file=movistarseriesxtra&width=650&height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<referer>http://lacalleochotv.org/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
 
 <item>
 <title>MEGA HD</title>
-<link>plugin://plugin.video.f4mTester/?url=http://petu12.pedromo.me/live/mega/17089.ts&amp;streamtype=TSDOWNLOADER&amp;name=MEGA HD</link>
+<link>plugin://plugin.video.f4mTester/?url=http://copo5.mitopo.me/live/fox/index.m3u8?token=_whKEQ_9jPcyJe5AsUVaDg&expires=1520520957&amp;streamtype=TSDOWNLOADER&amp;name=MEGA HD</link>
 </item>
 
 <item>
@@ -20,25 +31,13 @@
 </item>
 
 <item>
-<title>[COLOR yellow]*[COLOR skyblue] AXN WHITE [/COLOR]</title>
+<title>[COLOR yellow]*[COLOR skyblue] AXN WHITE(OFF) [/COLOR]</title>
 <sportsdevil></sportsdevil>
 <referer>http://www.vertelevisor.com/</referer>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
 
-
-<item>
-<title>[COLOR white][COLOR red] •  [/COLOR] AXN WHITE [/COLOR] </title>
-<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
-<regex><name>GetPageUrl</name>
-<expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed2.php?file=axnwahit&amp;width=650&amp;height=397</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail></thumbnail>
-<fanart></fanart>  
-</item>
 
 
 
@@ -52,7 +51,7 @@
 
 <item>
 <title>[COLOR yellow]*[COLOR skyblue] FOX [/COLOR]</title>
-<sportsdevil>http://www.vertelevisor.com/ver-fox-gratis-online-en-directo-por-internet/</sportsdevil>
+<sportsdevil>http://vergol.com/live/fox.php</sportsdevil>
 <referer>http://www.vertelevisor.com/</referer>
 <thumbnail>http://vertelevisor.com/logos/fox.png</thumbnail>
 <fanart>http://vertelevisor.com/logos/fox.png</fanart>
@@ -60,15 +59,15 @@
 
 <item>
 <title>[COLOR yellow]*[COLOR skyblue] TNT España [/COLOR]</title>
-<sportsdevil>http://www.vertelevisor.com/ver-tnt-gratis-en-directo-online-por-internet/</sportsdevil>
+<sportsdevil>http://vergol.com/live/tnt.php</sportsdevil>
 <referer>http://www.vertelevisor.com/</referer>
 <thumbnail>http://vertelevisor.com/logos/tnt.png</thumbnail>
 <fanart>http://vertelevisor.com/logos/tnt.png</fanart>
 </item>
 
 <item>
-<title>[COLOR yellow]*[COLOR skyblue] CALLE 13 [/COLOR]</title>
-<sportsdevil>http://www.vertelevisor.com/ver-calle-13-gratis-por-internet/</sportsdevil>
+<title>[COLOR yellow]*[COLOR skyblue] CALLE 13 (off) [/COLOR]</title>
+<sportsdevil></sportsdevil>
 <referer>http://www.vertelevisor.com/</referer>
 <thumbnail>http://vertelevisor.com/logos/calle-13.jpg</thumbnail>
 <fanart>http://vertelevisor.com/logos/calle-13.jpg</fanart>
@@ -76,7 +75,7 @@
 
 <item>
 <title>[COLOR yellow]*[COLOR skyblue] SYFY [/COLOR]</title>
-<sportsdevil>http://www.vertelevisor.com/syfy-en-directo-gratis-por-internet/</sportsdevil>
+<sportsdevil>http://vergol.com/live/syfy.php</sportsdevil>
 <referer>http://www.vertelevisor.com/</referer>
 <thumbnail>http://vertelevisor.com/logos/syfy.png</thumbnail>
 <fanart>http://vertelevisor.com/logos/syfy.png</fanart>
@@ -93,7 +92,7 @@
 <item>
 <title>[COLOR yellow]*[COLOR skyblue]  [/COLOR]</title>
 <sportsdevil></sportsdevil>
-<referer>http://www.vertelevisor.com/</referer>
+<referer>http://lacalleochotv.org/</referer>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
@@ -106,6 +105,29 @@
 <fanart></fanart>
 </item>
 
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] MOVISTAR SERIES XTRA [/COLOR]</title>
+<sportsdevil></sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] MOVISTAR SERIES [/COLOR]</title>
+<sportsdevil>http://vergol.com/live1/plusseries.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] MOVISAR COMEDIA [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/comedia.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
 
 
 
