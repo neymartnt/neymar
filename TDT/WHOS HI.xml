@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+
+
+
+
+
+ <item>
+<title>[COLOR red] _**_ [/COLOR][COLOR  skyblue] TKX[/COLOR][COLOR red] _**_ [/COLOR]</title>
+<link>https://raw.githubusercontent.com/elchocolate/tvchocotv/master/zonatv/zona%20de%20tv.xml
+</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
 <item>
-<title>#0</title>
-<!-- <sportsdevil>http://livesports.pw/embed2.php?file=pluscero&width=650&height=400&autostart=true</sportsdevil> -->
-<sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus1.php</sportsdevil>
-<referer>http://konectas.es/</referer>
-<thumbnail>https://s1.postimg.org/3uw6p5ssnz/logo-cero-desk.png</thumbnail>
+<title>MOVISTAR ACCION</title>
+<!-- <sportsdevil>http://livesports.pw/embed2.php?file=accion&width=650&height=400&autostart=true</sportsdevil> -->
+<sportsdevil>http://vergol.com/live/plusaccion.php</sportsdevil>
+<referer>http://www.vercanalestv.com/ver-canal-plus-accion-online-y-en-directo-gratis-las-24h-por-internet/</referer>
+<thumbnail>https://s1.postimg.org/1ig3ywqqb3/CPACCI.png</thumbnail>
 <fanart>https://image.ibb.co/b22edG/fondo_lista.jpg</fanart>
 </item>
+
+
+
+
+
+https://raw.githubusercontent.com/elchocolate/tvchocotv/master/zonatv/zona%20de%20tv.xml
 
 <item>
 <title>MOVISTAR ACCION</title>
