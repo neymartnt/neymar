@@ -1384,3 +1384,225 @@ return u
 <link>https://hls.ssh101.com/live/SD360/index.m3u8|User-Agent=iPad</link>
 <thumbnail></thumbnail><thumbnail></thumbnail>   
 </item>
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Caza y Pesca[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=cazaypesca&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Partidazo[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=partidazo&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]La Liga TV[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=barliga&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Bein LaLiga[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=beinlaliga&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Bein Sport[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=beinsport&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Teledeporte[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=teledeporteesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]GolTV[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/goltv.php</page>
+<referer>http://verdirectotv.com/tv/digitales/plus-series.html</referer>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Eurosports 2 es[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=eurosportsdosesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Eurosports 1 es[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=eurosportsesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]M Golf[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=golfesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Moto GP[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=motogpm&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Formula 1[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=funoesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]M Deportes 1[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=deporteone&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]M Deportes 1[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/canal-plus-deportes.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/plusdeportes1.php</page>
+<referer>http://vercanalestv.com/tv/deportes/canal-plus-deportes.html</referer>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]M Deportes 2[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/canal-plus-deportes.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/plusdeportes2.php</page>
+<referer>http://vercanalestv.com/tv/deportes/canal-plus-deportes.html</referer>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>   </item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]M Deportes 2[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=deportedosm&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
+
+
+<item>
+<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Movistar Futbol[/COLOR][/UPPERCASE][/B]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=futbolespm&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://fotos.subefotos.com/e17d00d2c352cfc51dde0d28a1d4cc0eo.png</thumbnail>
+</item>
