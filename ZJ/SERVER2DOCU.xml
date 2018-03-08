@@ -56,6 +56,38 @@
 
  
  <item>
+<title>[COLOR yellow] [COLOR skyblue] NAT GEOGRAPHIC [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/nationalgeo.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+ <item>
+<title>[COLOR yellow] [COLOR skyblue] NAT GEOWILD [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/nationalwild.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ <item>
+<title>[COLOR yellow] [COLOR skyblue] HISTORIA [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/historia.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+ <item>
+<title>[COLOR yellow] [COLOR skyblue]  [/COLOR]</title>
+<sportsdevil></sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ <item>
 <title>[COLOR yellow] [COLOR skyblue]  [/COLOR]</title>
 <sportsdevil></sportsdevil>
 <referer>http://www.vertelevisor.com/</referer>
@@ -63,6 +95,13 @@
 <fanart></fanart>
 </item>
 
+ <item>
+<title>[COLOR yellow] [COLOR skyblue]  [/COLOR]</title>
+<sportsdevil></sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
  
  <item>
 <title>[COLOR yellow] [COLOR skyblue]  [/COLOR]</title>
