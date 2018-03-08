@@ -162,9 +162,23 @@
  
  
  <item>
-<title>[COLOR yellow] [COLOR skyblue]  [/COLOR]</title>
+<title>[COLOR yellow] [COLOR skyblue] #0 [/COLOR]</title>
+<sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus1.php</sportsdevil>
+<referer>http://cinestrenostv.tv/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue]  [/COLOR]</title>
 <sportsdevil></sportsdevil>
 <referer>http://www.vertelevisor.com/</referer>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
+
+
+
+
+
+http://cinestrenostv.tv/canales/nacionales/plus1.php
