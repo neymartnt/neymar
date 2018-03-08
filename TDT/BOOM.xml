@@ -3,15 +3,16 @@
 
  
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AUTONOMICAS [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AUTONOMICAS OFF [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail></thumbnail>
 <fanart><fanart>
 <externallink>
 </item>
+
  
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] OFF [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail></thumbnail>
 <fanart><fanart>
@@ -42,11 +43,11 @@
 
  
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] PEQUES [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] PEQUES  OFF [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail></thumbnail>
 <fanart><fanart>
-<externallink></externallink> 
+<externallink>https://raw.githubusercontent.com/marques1212/ver/master/alfabeticas/a.xml</externallink> 
 </item>
 
 
@@ -1381,5 +1382,10 @@ http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/index_0700_av-p.m3u8?sd=1
  <fanart></fanart>
 </item> 
  
- 
-http://vercanalestv.com/tv/nacionales/canal-plus-dcine.html
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] z [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart><fanart>
+<externallink>
+</item>
