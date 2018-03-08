@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>GH REVOLUTION T18</title>
-<link>http://mediasetooyala-lh.akamaihd.net/i/reality_model4_geo_delivery@458346/index_2500_av-b.m3u8</link>
-<referer>http://konectas.es/</referer>
-<thumbnail>https://s1.postimg.org/zltrtbcpb/GH18_REV.png</thumbnail>
-<fanart>https://image.ibb.co/b22edG/fondo_lista.jpg</fanart>
-</item>
-
-<item>
-<title>OT 24H</title>
-<link>plugin://plugin.video.youtube/play/?video_id=KyiWTLfKd2M</link>
-<referer>http://konectas.es/</referer>
-<thumbnail>https://s1.postimg.org/3fvaskfl7z/OT24_H.jpg</thumbnail>
-<fanart>https://image.ibb.co/b22edG/fondo_lista.jpg</fanart>
-</item>
-
-<item>
 <title>#0</title>
 <!-- <sportsdevil>http://livesports.pw/embed2.php?file=pluscero&width=650&height=400&autostart=true</sportsdevil> -->
 <sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus1.php</sportsdevil>
