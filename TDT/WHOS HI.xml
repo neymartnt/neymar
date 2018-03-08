@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
- 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]CORTO ME QUEDE........ !)  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail></thumbnail>
-<fanart><fanart>
-<externallink>http://manorojakodi.blogspot.com.es/p/sub-listas-espana.html</externallink> 
-<item>
 
 
 
@@ -2778,3 +2770,12 @@ item>
 <item><title>[COLOR lime]-->[COLOR=cyan][B][I]Barça Tv [/I][/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=barca&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>http://www.creativesatellite.co.uk/contents/media/barca_tv.jpg</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
 
 <item><title>[COLOR lime]-->[COLOR=cyan][B][I]Gol Tv [/I][/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=golesp&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>http://static.goltelevision.com/uploads/gol/web/img/og-image.jpg</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]****  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart><fanart>
+<externallink>http://manorojakodi.blogspot.com.es/p/sub-listas-espana.html</externallink> 
+<item>
