@@ -1569,6 +1569,7 @@ return u
 </item>
 
 
+
 <item>
 <title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]M Deportes 2[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/canal-plus-deportes.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
