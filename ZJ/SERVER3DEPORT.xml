@@ -107,8 +107,58 @@
 
 
  <item>
-<title>[COLOR yellow] [COLOR skyblue]  [/COLOR]</title>
-<sportsdevil></sportsdevil>
+<title>[COLOR yellow] [COLOR skyblue] PARTIDAZO [/COLOR]</title>
+<sportsdevil>http://vergol.com/live3/canal1.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ <item>
+<title>[COLOR yellow] [COLOR skyblue] FOX SPORTS [/COLOR]</title>
+<sportsdevil>http://embed.latino-webtv.com/channels/foxsports.html</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+ <item>
+<title>[COLOR yellow] [COLOR skyblue] FOX SPORTS 2 [/COLOR]</title>
+<sportsdevil>http://embed.latino-webtv.com/channels/foxsports2.html</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ <item>
+<title>[COLOR yellow] [COLOR skyblue] ESPN [/COLOR]</title>
+<sportsdevil>http://embed.latino-webtv.com/channels/espn.html</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+ <item>
+<title>[COLOR yellow] [COLOR skyblue] ESPN2 [/COLOR]</title>
+<sportsdevil>http://embed.latino-webtv.com/channels/espn2.html</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ <item>
+<title>[COLOR yellow] [COLOR skyblue] DIRECTV SPORTS [/COLOR]</title>
+<sportsdevil>http://vergol.com/live3/canal1.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+ <item>
+<title>[COLOR yellow] [COLOR skyblue] TYC SPORT [/COLOR]</title>
+<sportsdevil>http://vergol.com/live1/tycsports.php</sportsdevil>
 <referer>http://www.vertelevisor.com/</referer>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -121,26 +171,6 @@
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
-
- <item>
-<title>[COLOR yellow] [COLOR skyblue]  [/COLOR]</title>
-<sportsdevil></sportsdevil>
-<referer>http://www.vertelevisor.com/</referer>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
- 
- <item>
-<title>[COLOR yellow] [COLOR skyblue]  [/COLOR]</title>
-<sportsdevil></sportsdevil>
-<referer>http://www.vertelevisor.com/</referer>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
-
-
-
 
  <item>
 <title>[COLOR yellow] [COLOR skyblue]  [/COLOR]</title>
