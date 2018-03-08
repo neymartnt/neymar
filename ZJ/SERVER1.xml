@@ -17,10 +17,6 @@
 <fanart></fanart>
 </item>
 
-<item>
-<title>MEGA HD</title>
-<link>plugin://plugin.video.f4mTester/?url=http://copo5.mitopo.me/live/fox/index.m3u8?token=_whKEQ_9jPcyJe5AsUVaDg&expires=1520520957&amp;streamtype=TSDOWNLOADER&amp;name=MEGA HD</link>
-</item>
 
 <item>
 <title>[COLOR yellow]*[COLOR skyblue] AXN [/COLOR]</title>
@@ -37,7 +33,6 @@
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
-
 
 
 
@@ -99,13 +94,7 @@
 <fanart></fanart>
 </item>
 
-<item>
-<title>[COLOR yellow]*[COLOR skyblue]  [/COLOR]</title>
-<sportsdevil></sportsdevil>
-<referer>http://www.vertelevisor.com/</referer>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
+
 
 <item>
 <title>[COLOR yellow]*[COLOR skyblue] MOVISTAR SERIES XTRA [/COLOR]</title>
@@ -170,9 +159,44 @@
 </item>
 
 <item>
+<title>[COLOR yellow]*[COLOR skyblue] COMEDY CENTRAL [/COLOR]</title>
+<sportsdevil>http://telefivegb.com/canales/pelis/paramountcomady</sportsdevil>
+<referer>http://telefivegb.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
 <title>[COLOR yellow]*[COLOR skyblue]  [/COLOR]</title>
 <sportsdevil></sportsdevil>
-<referer>http://www.vertelevisor.com/</referer>
+<referer>http://telefivegb.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue]  [/COLOR]</title>
+<sportsdevil></sportsdevil>
+<referer>http://telefivegb.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue]  [/COLOR]</title>
+<sportsdevil></sportsdevil>
+<referer>http://telefivegb.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue]  [/COLOR]</title>
+<sportsdevil></sportsdevil>
+<referer>http://telefivegb.com/</referer>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
@@ -180,5 +204,3 @@
 
 
 
-
-http://cinestrenostv.tv/canales/nacionales/plus1.php
