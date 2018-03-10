@@ -5,6 +5,45 @@
 
 
 
+<item>
+<title>    [B]VERTELEVISOR[/B] [I]SportsDevil Addon Requerido[/I]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2] </title>
+<sportsdevil>http://www.vertelevisor.com/[makelist.param1]</sportsdevil>
+<thumbnail>http://www.vertelevisor.com/[makelist.param1]</thumbnail>
+<referer>http://www.vertelevisor.com/</referer>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)" title="(.*?)" target="tv"><img src="(.*?)"]]></expres>
+<page>http://www.vertelevisor.com/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
+
+<item>
+<title>    [B]CINESTRENOS[/B] [I]SportsDevil Addon Requerido[/I]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2] </title>
+<sportsdevil>http://cinestrenostv.tv/[makelist.param1]</sportsdevil>
+<thumbnail>http://cinestrenostv.tv/[makelist.param1]</thumbnail>
+<referer>http://cinestrenostv.tv/</referer>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)" title="(.*?)" target="tv"><img src="(.*?)"]]></expres>
+<page>http://cinestrenostv.tv/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
  <item>
 <title>[COLOR red] _**_ [/COLOR][COLOR  skyblue] TK**X[/COLOR][COLOR red] _**_ [/COLOR]</title>
 <link>hhttp://manorojakodi.blogspot.com.es/p/sub-listas-espana.htmll</link>
@@ -2778,4 +2817,36 @@ item>
 <thumbnail></thumbnail>
 <fanart><fanart>
 <externallink>http://manorojakodi.blogspot.com.es/p/sub-listas-espana.html</externallink> 
+<item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]****  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart><fanart>
+<externallink>http://manorojakodi.blogspot.com.es/p/lista-deportes-2.html</externallink> 
+<item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]****  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart><fanart>
+<externallink>http://manorojakodi.blogspot.com.es/p/lista-deportes-3.html</externallink> 
+<item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]****  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart><fanart>
+<externallink>http://manorojakodi.blogspot.com.es/p/lista-4-deportes.html</externallink> 
+<item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]****  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart><fanart>
+<externallink></externallink> 
 <item>
