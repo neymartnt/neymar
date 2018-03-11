@@ -4,7 +4,1304 @@
 
 
 
+ 
 
+<item>
+<title>[COLOR gold] LA 1 [/COLOR] </title>
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live/tve1.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/7/76/La_1_HD_TVE.png</thumbnail>
+<fanart></fanart>
+</item>
+
+
+ 
+<item>
+<title>[COLOR gold] LA 2[/COLOR]</title>
+<link>http://rtvev4-live.hss.adaptive.level3.net/egress/ahandler/rtvegl0/la2_lv3_aosv4_gl0/la2_lv3_aosv4_gl0.isml/la2_lv3_aosv4_gl0.m3u8</link>
+<thumbnail>http://cinestrenostv.tv/img/tve2.png</thumbnail>
+</item>
+ 
+<item>
+<title>[COLOR gold] ANTENA 3 [/COLOR] </title> SI
+<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_3_av-b.m3u8?sd=11&amp;rebase=on</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+
+ 
+<item>
+<title>[COLOR gold] CUATRO [/COLOR] </title> SI
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live1/cuatro.php</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/cuatro.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ 
+ 
+<item>
+<title>[COLOR gold] TELECINCO [/COLOR] </title> SI
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/telecinco.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+<item>
+<title>[COLOR gold] LA SEXTA [/COLOR] </title> SI
+<link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ TVCANARIA
+ 
+ 
+ 
+<item>
+<title>[COLOR gold] GRAN HERMANO 24H[/COLOR]</title>
+<link>https://mdslivehls-i.akamaihd.net/hls/live/571672/realities/bitrate_4.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+
+ 
+<item>
+<title>[COLOR gold] OPERACION TRIUNFO 24H[/COLOR]</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=6Lzw7oYTEMo</link>
+<thumbnail>https://pbs.twimg.com/profile_images/887964803343503360/nvitNfww_400x400.jpg</thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold] BOING [/COLOR] </title> no va
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=boing&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.simbajuguetes.com/wp-content/uploads/2017/05/logo-boing.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+<item>
+<title>[COLOR gold] FDF [/COLOR] </title> SI
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live/fdf.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+<item> 
+<title>[COLOR gold] BE MAD [/COLOR] </title> SI
+<link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/be-mad.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live/bemad.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/be-mad.html</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold] DIVINITY [/COLOR] </title> NO VA
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=divinity&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ 
+item>
+<title>[COLOR gold] ENERGY [/COLOR] </title> NO VA
+<link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=energy&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<referer>http://cinestrenostv.tv</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ 
+
+<item>
+<title>[COLOR gold] NEOX [/COLOR]</title>
+<link>http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+
+ 
+<item>
+<title>[COLOR gold] MEGA [/COLOR] </title>
+<link>http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+
+ 
+<item>
+<title>[COLOR gold] A3 SERIES [/COLOR] </title>
+<link>http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+<item>
+<title>[COLOR gold] NOVA HD [/COLOR] </title>
+<link>http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ 
+<item>
+<title>[COLOR gold] 24 HORAS [/COLOR] </title>
+<link>http://hlsackdn_gl8-lh.akamaihd.net/i/hlsdvrlive_1@81183/index_0400_av-p.m3u8?sd=10&rebase=on</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+<item>
+<title>[COLOR gold] PARAMOUNT CHANNEL [/COLOR] </title>
+<link>http://paramount.live.flumotion.com/live/chunks.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ 
+ 
+ 
+ 
+item>
+<title>[COLOR gold] DKISS [/COLOR] </title> NO Va
+<link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=dkiss&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<referer>http://cinestrenostv.tv</referer>
+<thumbnail>http://www.formulatv.com/images/noticias/55900/55970/1_4bda286a54.jpg</thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ 
+ 
+ 
+item>
+<title>[COLOR gold] TEN [/COLOR] </title> NO VA
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=ten&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<referer>http://cinestrenostv.tv</referer>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Ten.svg/1200px-Ten.svg.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold] DMAX [/COLOR] </title> No VA
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=dmax&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<referer>http://cinestrenostv.tv</referer>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/2/25/DMAX_Logo_16_05_2011.jpg</thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ 
+ 
+ 
+item>
+<title>[COLOR gold] TV MEDITERRANEO [/COLOR] </title> NO VA
+<link>http://streaming.enetres.net/489DDF7FE98241D19D8970314BC9D3EF021/smil:live.smil/chunklist_w1822766098_b850000.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item> 
+ 
+ 
+<item>
+<title>[COLOR gold] SAN ROQUE TV [/COLOR]  </title> si
+<link>http://188.165.135.22/sanroque/mystream/chunklist_w1703138822.m3u8</link>
+<thumbnail></thumbnail>  
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold] TV ALCOI [/COLOR]  </title> NO VA
+<link>http://92.222.37.18/hls/tvaxa.m3u8</link>
+<thumbnail></thumbnail>  
+<fanart></fanart>  
+</item>
+ 
+<item>
+<title>[COLOR gold] TV VALENCIA [/COLOR] </title>
+<link>http://streaming.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/live.smil/.m3u8</link>
+<thumbnail></thumbnail>  
+<fanart></fanart>  
+</item>
+ 
+<item>
+<title>[COLOR gold] TV4 LA VALL [/COLOR]  </title>
+<link>http://188.165.135.22/15o8376r/mystream/chunklist_w511176900.m3u8</link>
+<thumbnail></thumbnail>  
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold] CANAL COCINA SUR [/COLOR] </title> NO VA
+<link>http://cast.streamingconnect.com:1935/cscocina/cscocina/chunklist_w177453987.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item> 
+ 
+<item>
+<title>[COLOR gold] MIRARME TV [/COLOR] </title>
+<link>http://controlstreams.com:1935/mirametv/mirametv/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item> 
+                
+<item>
+<title>[COLOR gold] TELE ELX [/COLOR] </title>
+<link>rtmp://teledifusion.tv/teleelx/teleelxlive</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>         
+ 
+<item>
+<title>[COLOR gold] TV MURCIA [/COLOR] </title>
+<link>http://rtvmurcia_01-lh.akamaihd.net/i/rtvmurcia_1_0@507973/index_0_av-p.m3u8?sd=10&rebase=on</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item> 
+ 
+<item>
+<title>[COLOR gold] TELEMADRID [/COLOR] </title>
+<link>http://telemadridhls-live.hls.adaptive.level3.net/telemadrid/telemadrid1/bitrate_1.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+<item>
+<title>[COLOR gold] CASTILLA LA MANCHA[/COLOR]</title>
+<link>http://klive-a.akamaihd.net/dc-1/live/hls/p/2288691/e/1_c9gw17x6/sd/10000/t/o8xKPUjaWz2E6hV7vICo1Q/index-s32.m3u8</link>
+<thumbnail>http://www.brandemia.org/sites/default/files/sites/default/files/logo_cm_antes.jpg</thumbnail>
+</item>
+ 
+ 
+item>
+<title>[COLOR gold] CANAL SUR [/COLOR] </title> no va
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=9_mHRWjztNU</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+<item>
+<title>[COLOR gold] EXTREMADURA TV [/COLOR] </title>
+<link>http://hlstv.canalextremadura.es/livetv/smil:multistream.smil/chunklist_b1596000_DVR.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR gold] TV3[/COLOR]</title>
+<link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3cat_tv/playlist.m3u8</link>
+<thumbnail>https://osgarmar.files.wordpress.com/2012/03/images21.jpg</thumbnail>
+</item> 
+ 
+<item>
+<title>[COLOR gold] TVCAT [/COLOR] </title>
+<link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3cat_web/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+<item>
+<title>[COLOR gold] SUPER 3 Y C33 [/COLOR] </title>
+<link>http://ccma-tva-es-abertis-live.hls.adaptive.level3.net/es/ngrp:c33_web/chunklist_b1296000.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+<item>
+<title>[COLOR gold] 8TV [/COLOR] </title>
+<link>rtmp://91.121.143.193:1935/liverepeater/8TV/8aldia-directe</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR gold] 13TV[/COLOR]</title>
+<link>http://streaming.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/mobile/playlist.m3u8</link>
+<thumbnail>http://d2jljza7x0a5yy.cloudfront.net/media/k2/items/cache/3d9b2446cf61598e01b296c7b6b8a7ad_XL.jpg</thumbnail>
+</item>
+ 
+
+<item>
+<title>[COLOR gold] ETB[/COLOR]</title>
+<link>http://etbvnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@300391/master.m3u8</link>
+<thumbnail>https://i.blogs.es/fe1e17/etb2/original.jpg</thumbnail>
+</item>
+    
+
+ 
+<item>
+<title>[COLOR gold]3/24[/COLOR]</title>
+<link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:324_mobil/playlist.m3u8</link>
+<thumbnail>http://statics.ccma.cat/multimedia/jpg/7/9/1466521666097.jpg</thumbnail>
+</item>
+ 
+ 
+<item>
+<title>[COLOR gold]ARAGON TV[/COLOR]</title>
+<link>http://aragontv.stream.flumotion.com/aragontv/live-hls/main.m3u8</link>
+<thumbnail>https://yt3.ggpht.com/-5O9sh0HrJP4/AAAAAAAAAAI/AAAAAAAAAAA/1o4lLkhqYI0/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+</item> 
+ 
+<item>
+<title>[COLOR gold]TPA[/COLOR]</title>
+<link>http://iphone.rtpa.stream.flumotion.com/rtpa/tv-iphone/main.m3u8</link>
+<thumbnail>https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAArOAAAAJGUyMGFhMmI1LWIzYjUtNDIzZC1hYjZmLWJiNTljZWUzOTg0Zg.png</thumbnail>
+</item> 
+ 
+ 
+item>
+<title>[COLOR gold] CLAN HD 1080   [/COLOR] [COLOR lime] f4mTester[/COLOR] </title>  NO
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/709.ts;name=CLAN HD</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/9/94/Logo_clan.png</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold] SYFY HD 1080   [/COLOR] [COLOR lime] f4mTester[/COLOR] </title> NO
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/2152.ts;name=SYFY HD</link>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxI4mcEB0EE0Olfuoex0sCDqvKBfHU1nX9X6gHnuGWnA44tQO0</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold] FOX   [/COLOR] [COLOR lime]f4mTester[/COLOR] </title> NO
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/329.ts;name=FOX HD</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/FOX_wordmark.svg/1200px-FOX_wordmark.svg.png</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+<item>
+<title>[COLOR gold] AXN   [/COLOR] [COLOR lime]f4mTester [/COLOR] </title> SI
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/379.ts;name=AXN HD</link>
+<thumbnail>https://i1.wp.com/www.zapping-tv.com/wp-content/uploads/2015/05/AXN.jpg?fit=956%2C596</thumbnail>  
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold] AXN WHITE  [/COLOR] [COLOR lime]f4mTester   [/COLOR] </title> NO
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/2154.ts;name=AXN WHITE HD</link>
+<thumbnail></thumbnail>  
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold] TNT HD 1080  [/COLOR] [COLOR lime]f4mTester  [/COLOR] </title> NO
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/303.ts;name=TNT HD</link>
+<thumbnail>http://verestv.com/logos/TNT_Logo.png</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold] ACCION    [/COLOR] [COLOR lime]f4mTester [/COLOR] </title> NO
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/1072.ts;name=ACCION </link>
+<thumbnail>http://zonadjjavi.webcindario.com/Kodi/logos/accion.jpg</thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+item>
+<title>[COLOR gold] ESTRENOS HD 1080   [/COLOR] [COLOR lime]f4mTester [/COLOR] </title> NO
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://merlin.magikdata.biz:8000/live/test123/test123/364.ts;name=ESTRENOS HD</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Movistar_Estrenos.svg/1783px-Movistar_Estrenos.svg.png</thumbnail>
+<fanart></fanart> 
+</item>
+ 
+ 
+ 
+ 
+item>
+<title>[COLOR gold] SYFY[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=sysfesp</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxI4mcEB0EE0Olfuoex0sCDqvKBfHU1nX9X6gHnuGWnA44tQO0</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold]SYFY*[/COLOR]</title> NO
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=sysfesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<referer>http://cinestrenostv.tv</referer>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxI4mcEB0EE0Olfuoex0sCDqvKBfHU1nX9X6gHnuGWnA44tQO0</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+<item>
+<title>[COLOR gold] AXN [/COLOR] </title> SI
+<link>$doregex[get-id]|User-Agent=iPad</link>
+<regex>
+<name>get-id</name>
+<expres>[",\'](h.*m3u8.*?)'</expres>
+<page>http://vergol.com/live/axn.php</page>
+<referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail>https://i1.wp.com/www.zapping-tv.com/wp-content/uploads/2015/05/AXN.jpg?fit=956%2C596</thumbnail>  
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold] AXN WHITE [/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex><name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=axnwahit&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/AXN_White_logo_%282015%29.svg/1200px-AXN_White_logo_%282015%29.svg.png</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold] M DISNEY[/COLOR] </title>
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex><name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=mdisney&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.tvhifipro.com/wp-content/uploads/2017/11/Nuevo-canal-Movistar-Disney.jpg</thumbnail>  
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold] TNT[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=tntesp</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://verestv.com/logos/TNT_Logo.png</thumbnail>
+<fanart></fanart>  
+</item>
+
+item>
+<title>[COLOR gold] DARK[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=darkes</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.reasonwhy.es/sites/default/files/subasta-publicidad-dark-reasonwhy.es_.png</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+ 
+item>
+<title>[COLOR gold] FOX[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=foxespana</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimehttp://cdn1-www.craveonline.com/assets/uploads/2013/08/Fox-Logo.jpg</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold]FOX[/COLOR]</title> NO
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=foxespana&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<referer>http://cinestrenostv.tv</referer>
+<thumbnail>http://cdn1-www.craveonline.com/assets/uploads/2013/08/Fox-Logo.jpg</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+item>
+<title>[COLOR gold] M+ #0 [/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|Referer=http://telefivegb.com/tv-spain/ver-canal-plus0-hd-online-gratis-vivo/&amp;User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=pluscero&amp;width=650&amp;height=397</page>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+<referer>http://telefivegb.com/tv-spain/ver-canal-plus0-hd-online-gratis-vivo/</referer>
+</regex>
+<thumbnail>http://zonadjjavi.webcindario.com/Kodi/logos/movistar-0.jpg</thumbnail>
+<Fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold] M+ ESTRENOS[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=movestr</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Movistar_Estrenos.svg/1280px-Movistar_Estrenos.svg.png</thumbnail>
+<fanart></fanart> 
+</item>
+ 
+ 
+item>
+<title>[COLOR gold] M+ COMEDIA[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=mcomedia</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vertelevisor.com/imagenes/movistar-comedia.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold] M+ ACCION[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=accion</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Movistar_Acci%C3%B3n.svg/1575px-Movistar_Acci%C3%B3n.svg.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold] M+ DCINE[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=dicneesp</page>
+<cookieJar></cookieJar>
+</regex>
+<page>http://vergol.com/live/dcine.php</page>
+<referer>http://vertelevisor.com/tv/nacionales/dcine.html</referer>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Movistar_DCine.svg/2000px-Movistar_DCine.svg.png</thumbnail>
+<fanart></fanart>
+ </item>
+ 
+item>
+<title>[COLOR gold] M+ SERIES[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/canal-plus-estrenos.html&amp;User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=mseries&amp;width=650&amp;height=397</page>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+<fanart></fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Movistar_Series.svg/1200px-Movistar_Series.svg.png</thumbnail>
+</item>
+ 
+item>
+<title>[COLOR gold] M+ SERIES XTRA[/COLOR] </title> NO
+<link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/plusseries.php</page>
+<referer>http://verdirectotv.com/tv/digitales/plus-series.html</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</agent>
+</regex>
+<fanart></fanart>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+</item>
+ 
+item>
+<title>[COLOR gold] XTRA[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=mxtra&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://movistar.i.lithium.com/t5/image/serverpage/image-id/111648iDD3C32AD3F8360E9?v=1.0</thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ 
+<item>
+<title>[COLOR gold] CINEMAX [/COLOR] </title>
+<link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/argentina/cinemax.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/cinemax.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/canal-plus-estrenos.html</referer>
+</regex>
+<thumbnail>http://vignette4.wikia.nocookie.net/doblaje/images/6/69/Cinemax.png/revision/latest?cb=20160831015732&path-prefix=es</thumbnail>   
+</item>
+ 
+ 
+<item>
+<title>[COLOR gold] LOS 40 [/COLOR] </title>
+<link>http://ooyalahd2-f.akamaihd.net/i/globalradio01_delivery@156521/index_1500_av-p.m3u8?sd=10&rebase=on</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/c/cd/XEWA-XHEWA_Los40_logo.png</thumbnail>
+<fanart></fanart>   
+</item>
+ 
+ 
+ 
+ 
+ 
+ 
+<item>
+<title>[COLOR gold] FOX LIFE [/COLOR] </title>
+<link>$doregex[get-id]|User-Agent=iPad</link>
+<regex>
+<name>get-id</name>
+<expres>[",\'](h.*m3u8.*?)'</expres>
+<page>http://vergol.com/live/foxlife.php</page>
+<referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail>http://zonadjjavi.webcindario.com/Kodi/logos/foxlife1.jpg</thumbnail>   
+<fanart></fanart>  
+</item>
+ 
+ 
+ 
+item>
+<title>[COLOR gold] AMC[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=amcesptele</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/AMC_logo_2016.svg/1200px-AMC_logo_2016.svg.png</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+ 
+item>
+<title>[COLOR gold] TCM[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=tcmesp</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://ugc.kn3.net/i/origin/http://www.eastwebside.com/wp-content/uploads/2011/11/TCM.11.jpg</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+ 
+item>
+<title>[COLOR gold] CALLE 13[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=calltrees</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pbs.twimg.com/profile_images/841301943679123456/sgaXRdpZ.jpg</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold] COMEDY CENTRAL[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=comedycentral</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://ugc.kn3.net/i/origin/http://www.cc.com//sitewide/images/default_image.jpg</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+ 
+item>
+<title>[COLOR gold] HOLLYWOOD[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=hollywesp</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.atelevisao.com/wp-content/uploads/2017/05/.png</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+ 
+-----------------Niños--------------
+ 
+ 
+item>
+<title>[COLOR gold] NICKELODEON[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=nickelones</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/6/62/NICKELODEON_Logo.png/revision/latest?cb\x3d20111106061132</thumbnail>
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold] BOING[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=boing</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/8/87/Boing_TV.png</thumbnail>  
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold] DISNEY CHANNEL [/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=disneychannel</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/2015_Disney_Channel_logo.svg/1200px-2015_Disney_Channel_logo.svg.png</thumbnail> 
+<fanart></fanart>  
+</item>
+ 
+item>
+<title>[COLOR gold] DISNEY XD[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=disneyxd</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://vignette.wikia.nocookie.net/disney/images/7/7b/Logo_Disney_XD.svg.png/revision/latest?cb=20130730004116</thumbnail>  
+<fanart></fanart>  
+</item>
+ 
+ 
+ 
+ 
+ 
+<item>
+<title>[COLOR gold]  DISCOVERY CHANNEL [/COLOR] </title>
+<link>$doregex[get-id]|User-Agent=iPad</link>
+<regex>
+<name>get-id</name>
+<expres>[",\'](h.*m3u8.*?)'</expres>
+<page>http://vergol.com/live/discovery-channel.php</page>
+<referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/_n06ZCfJKIQI/TA69uL-ivcI/AAAAAAAAEWc/u0Uk3V5oXpw/s1600/Discovery-logo.jpg</thumbnail>   
+<fanart></fanart> 
+</item>
+ 
+ 
+item>
+<title>[COLOR gold]  ODISEA[/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=odiseatelef&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.formulatv.com/images/articulos/55000/n55629_d8fe9d8dd9-q.jpg</thumbnail>  
+<fanart></fanart> 
+</item>
+ 
+ 
+ 
+<item>
+<title>[COLOR gold] COCINA[/COLOR] </title>
+<link>$doregex[get-id]|User-Agent=iPad</link>
+<regex>
+<name>get-id</name>
+<expres>[",\'](h.*m3u8.*?)'</expres>
+<page>http://vergol.com/live/cocina.php</page>
+<referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail>https://img.blogs.es/bloglenovo/wp-content/uploads/2014/08/canal-cocina.jpg</thumbnail>   
+<fanart></fanart> 
+</item>
+ 
+<item>
+<title>[COLOR gold] HISTORIA [/COLOR] </title>
+<link>$doregex[get-id]|User-Agent=iPad</link>
+<regex>
+<name>get-id</name>
+<expres>[",\'](h.*m3u8.*?)'</expres>
+<page>http://vergol.com/live/historia.php</page>
+<referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail></thumbnail>   
+</item>
+ 
+item>
+<title>[COLOR gold] CRIMEN Y INVESTIGACION [/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed2.php?file=crimenyinvestigacion&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+item>
+<title>[COLOR gold] CAZA Y PESCA  [/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex><name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=cazaypesca&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/cazapesca.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+<item>
+<title>[COLOR gold] NATIONAL GEOGRAFIC [/COLOR]</title>
+<link>$doregex[get-id]|User-Agent=iPad</link>
+<regex>
+<name>get-id</name>
+<expres>[",\'](h.*m3u8.*?)'</expres>
+<page>http://vergol.com/live/nationalgeo.php</page>
+<referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail>http://www.mundoplus.tv/img/5bc429f1faec92059daae09b1c620bef</thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold] DISCOVERY [/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=discoverychannel&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/discovery-channel.jpg</thumbnail>
+<fanart></fanart>
+</item>
+ 
+<item>
+<title>[COLOR gold] NAT GEO WILD [/COLOR]</title>
+<link>$doregex[get-id]|User-Agent=iPad</link>
+<regex>
+<name>get-id</name>
+<expres>[",\'](h.*m3u8.*?)'</expres>
+<page>http://vergol.com/live/nationalwild.php</page>
+<referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold] A&E[/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=anadetelefive&width=650&height=400</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/1200px-A%26E_Network_logo.svg.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold] MTV [/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=mtvesp&amp;width=100%&amp;height=100%</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://static.adweek.com/adweek.com-prod/wp-content/uploads/sites/2/2015/02/mtv400.jpg</thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ 
+ 
+item>
+<title>[COLOR gold] VIAJAR [/COLOR]</title> NO
+link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=viajar&amp;width=100%&amp;height=100%</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ 
+ 
+item>
+<title>[COLOR gold] M+ PARTIDAZO[/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=partidazo&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://static.beinconnect.es/uploads/comun/img/logos/partidazo.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold] LIGA 123[/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex><name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=ligaunodostres&width=650&height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://files.laliga.es/seccion_logos/laliga-123-v-negativo-monocolor-16-9.jpg</thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold] LA LIGA TV [/COLOR] </title> NO
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=barliga&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail>http://usclubsoccer.org/wp-content/uploads/2013/11/LALIGA_LOGO_H_2015-01COLOR-BLANCO-cropped.png</thumbnail>
+</item>
+ 
+ 
+item>
+<title>[COLOR gold] BEIN SPORTS LIGA[/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=beinlaliga&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s3-static-bein.s3.amazonaws.com/uploads/comun/img/logos/bein-laliga-md.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold] BEIN SPORTS[/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=beinsport&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/BeIN_Sports.png/640px-BeIN_Sports.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold] M+ FUTBOL[/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=futbolespm&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Movistar_F%C3%BAtbol.svg/1000px-Movistar_F%C3%BAtbol.svg.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold] M+ DEPORTES[/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=deporteone&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Movistar_Deportes_1.svg/1024px-Movistar_Deportes_1.svg.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold]M+ DEPORTES 2[/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=deportedosm&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://verdirectotv.com/logos/deportes2.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold]M+ GOLF[/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=golfesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Movistar_Golf.svg/1024px-Movistar_Golf.svg.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+<item>
+<title>[COLOR gold] M+ F1[/COLOR]</title>
+<sportsdevil>http://vercanalestv.com/tv/deportes/formula-1.html</sportsdevil>
+<referer>http://www.vercanalestv.com/tv/deportes/formula-1.html</referer>
+<thumbnail>http://todotele.com/wp-content/uploads/2017/01/MOVISTAR-F1-300x300.png</thumbnail>
+</item>
+ 
+item>
+<title>[COLOR gold] M+ FORMULA 1[/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=funoesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://movistar.i.lithium.com/t5/image/serverpage/image-id/111641iA6F01CFB43B522C3?v=1.0</thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ 
+item>
+<title>[COLOR gold] EUROSPORTS 1[/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=eurosportsesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.galiotopen.com/wp-content/uploads/2015/01/a4.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+item>
+<title>[COLOR gold] EUROSPORTS 2[/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=eurosportsdosesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/3/3d/ESP_2_GGS_RVB.png/revision/latest?cb=20120329095341</thumbnail>
+<fanart></fanart>
+</item>
+ 
+<item>
+<title>[COLOR gold] SPORTS 3[/COLOR]</title>
+<sportsdevil>http://cinestrenostv.tv/canales/deportes/sport3.php</sportsdevil>
+<referer>http://cinestrenostv.tv</referer>
+<thumbnail>http://www.andaluciaesdeporte.org/sites/default/files/imagecache/Noticia_node/esport3_logo2011.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+item>
+<title>[COLOR gold] TELEDEPORTES[/COLOR]</title> NO
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=teledeporteesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Logotipo_de_Teledeporte%2C_tdp.svg/600px-Logotipo_de_Teledeporte%2C_tdp.svg.png</thumbnail>
+<fanart></fanart>
+</item>
+ 
+<item>
+<title>[COLOR gold] GOL TV[/COLOR]</title>
+<link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/goltv.php</page>
+<referer>http://verdirectotv.com/tv/digitales/plus-series.html</referer>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+<thumbnail>http://images.elconfidencialdigital.com/medios/Gol_ECDIMA20160321_0022_3.png</thumbnail>
+ <fanart></fanart>
+</item>
+ 
+<item>
+<title>[COLOR gold] TOROS TV[/COLOR] </title>
+<sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus-toros.php</sportsdevil>
+<referer>http://cinestrenostv.tv</referer>
+<thumbnail>https://www.thelogodb.com/images/media/logo/xxxuts1436895323.png</thumbnail>
+<fanart></fanart>
+</item>
+
+ <item>
+<title>[COLOR gold] BARCA TV[/COLOR]</title>
+<sportsdevil>http://vergol.com/live/barca.php</sportsdevil>
+<referer>http://www.vercanalestv.com/ver-barca-tv-en-directo-y-online/</referer>
+<thumbnail>http://cinestrenostv.tv/img/barcatv.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR gold] REAL MADRID TV[/COLOR]</title>
+<sportsdevil>http://cinestrenostv.tv/canales/deportes/realmadridtv.php</sportsdevil>
+<referer>http://cinestrenostv.tv</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR gold] SEVILLA FC[/COLOR]</title>
+<link>http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/index_0700_av-p.m3u8?sd=10&rebase=on</link>
+<thumbnail>http://www.adnervion.es/wp-content/uploads/2017/11/SFC.jpg</thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+<item>
+<title>[COLOR gold] BETIS TV[/COLOR]</title>
+<link>http://rbetis-hls.flumotion.com/rbetis/live/chunks.m3u8</link>
+<thumbnail>http://www.grupocomunica.com/wp-content/uploads/2016/05/Radio-Betis-y-Betis-TV.jpg</thumbnail>
+<fanart></fanart>
+</item>
  
  
 <item><title> [COLOR=gold][B] Tve 1  [/B][/COLOR]</title>
@@ -85,7 +1382,7 @@
  
 <item><title> [COLOR=gold][B] Hollywood [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=hollywesp&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>http://3.bp.blogspot.com/-vRwVHF4JH3c/TyGSd51yreI/AAAAAAAAA9c/kay4KP2LPSI/s600/533px-Canal_Hollywood.svg_.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
  
-<item><title> [COLOR=gold][B] Fox [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=foxespana&amp;width=100%&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/150px-FOX_wordmark-orange.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+<item><title> [COLOR=gold][B] Fox [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=foxespana&amp;width=100%&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-gold.svg/150px-FOX_wordmark-gold.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
  
 <item><title> [COLOR=gold][B] Fox Life [/B][/COLOR]</title><link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/fox-life.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://vergol.com/live/foxlife.php</page><referer>http://vercanalestv.com/tv/nacionales/fox-life.html</referer></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Fox_life_it.png/200px-Fox_life_it.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
  
@@ -1036,7 +2333,7 @@
 </item>
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]MTV[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]MTV[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -1050,7 +2347,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]syfy[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]syfy[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -1064,7 +2361,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]SYFY[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]SYFY[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1077,7 +2374,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Fox *[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Fox *[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1090,7 +2387,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]FOX[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]FOX[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -1104,7 +2401,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Disney Channel[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Disney Channel[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1117,7 +2414,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]AXN[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]AXN[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -1131,7 +2428,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]TNT[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]TNT[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
@@ -1144,7 +2441,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Calle 13[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Calle 13[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
@@ -1158,7 +2455,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Syfy[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Syfy[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
@@ -1172,7 +2469,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Paramount Comedy[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Paramount Comedy[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
@@ -1186,7 +2483,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Hollywood[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Hollywood[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
@@ -1200,7 +2497,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Discovery Channel[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Discovery Channel[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -1215,7 +2512,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Bio[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Bio[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
@@ -1228,7 +2525,7 @@
 </item>
 
 
-<item><title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Cocina[/COLOR][/UPPERCASE][/B]</title>
+<item><title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Cocina[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -1242,7 +2539,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Crime Investigacion[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Crime Investigacion[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -1256,7 +2553,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]NatGeo[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]NatGeo[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -1269,7 +2566,7 @@
 </item>
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]NatGeo Wild[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]NatGeo Wild[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -1283,7 +2580,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Historia[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Historia[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -1297,7 +2594,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]AMC *[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]AMC *[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1310,7 +2607,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]TCM[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]TCM[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1323,7 +2620,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]C and I[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]C and I[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1336,7 +2633,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Dark[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Dark[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1349,7 +2646,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]CALLE 13[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]CALLE 13[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1362,7 +2659,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Clan[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Clan[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1375,7 +2672,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Cocina[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Cocina[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1388,7 +2685,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]COMEDY CENTRAL[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]COMEDY CENTRAL[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1401,7 +2698,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]HOLLYWOOD[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]HOLLYWOOD[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1414,7 +2711,7 @@
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]HIT TV[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]HIT TV[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1432,7 +2729,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]bio[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]bio[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1445,7 +2742,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]NICK JUNIOR[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]NICK JUNIOR[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1458,7 +2755,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]NICK[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]NICK[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1471,7 +2768,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]PAKA PAKA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]PAKA PAKA[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1489,7 +2786,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]TNT[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]TNT[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1502,7 +2799,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]TRENDY[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]TRENDY[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1520,14 +2817,14 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]VIRGIN TV[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]VIRGIN TV[/COLOR][/UPPERCASE][/B]</title>
 <link>http://wow01.105.net/live/virgin1/playlist.m3u8</link>
 <thumbnail></thumbnail>   
 </item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Paramount[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Paramount[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -1541,20 +2838,20 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]PARAMOUNT CHANNEL[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]PARAMOUNT CHANNEL[/COLOR][/UPPERCASE][/B]</title>
 <link>https://cdn.playbuzz.com/content/monetization/videos/8-ways-to-foil-fraudsters-when-shopping-online.mp4</link>
 <thumbnail></thumbnail>   
 </item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]intereconomia[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]intereconomia[/COLOR][/UPPERCASE][/B]</title>
 <link>http://edge3.adnstream.com:81/hls/intereconomia.m3u8</link><thumbnail></thumbnail>   
 </item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]toros[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]toros[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -1568,7 +2865,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]TOROS[/COLOR][/UPPERCASE][/B]</title>torotv
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]TOROS[/COLOR][/UPPERCASE][/B]</title>torotv
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1581,7 +2878,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Toros[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Toros[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -1595,13 +2892,13 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR redy]Toros   [/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR redy]Toros   [/COLOR][/UPPERCASE][/B]</title>
 <link>https://hls.ssh101.com/live/SD360/index.m3u8|User-Agent=iPad</link>
 <thumbnail></thumbnail><thumbnail></thumbnail>   
 </item>
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Caza y Pesca[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]Caza y Pesca[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1614,7 +2911,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Partidazo[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]Partidazo[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1627,7 +2924,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]La Liga TV[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]La Liga TV[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1640,7 +2937,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Bein LaLiga[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]Bein LaLiga[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1653,7 +2950,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Bein Sport[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]Bein Sport[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1666,7 +2963,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Teledeporte[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]Teledeporte[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1679,7 +2976,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]GolTV[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]GolTV[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
@@ -1693,7 +2990,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Eurosports 2 es[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]Eurosports 2 es[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1706,7 +3003,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Eurosports 1 es[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]Eurosports 1 es[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1719,7 +3016,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]M Golf[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]M Golf[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1732,7 +3029,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Moto GP[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]Moto GP[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1745,7 +3042,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Formula 1[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]Formula 1[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1758,7 +3055,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]M Deportes 1[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]M Deportes 1[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1771,7 +3068,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]M Deportes 1[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]M Deportes 1[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/canal-plus-deportes.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
@@ -1786,7 +3083,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]M Deportes 2[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]M Deportes 2[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/canal-plus-deportes.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
@@ -1799,7 +3096,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]M Deportes 2[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]M Deportes 2[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1812,7 +3109,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]Movistar Futbol[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]Movistar Futbol[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1825,7 +3122,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]#0[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]#0[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1839,7 +3136,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]#0[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]#0[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus1.php</sportsdevil>
 <referer>http://cinestrenostv.tv/canales/envivo/plus1.html</referer>
 <thumbnail>https://3.bp.blogspot.com/-4Wt-_jiYlR8/V6cNwv_mqhI/AAAAAAAAATU/YZ-ULgcXaXodXW0wdLTG7gV2CdNzrH8iACLcB/s1600/movistar-0.png</thumbnail>
@@ -1847,7 +3144,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR ESTRENOS[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR ESTRENOS[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1860,7 +3157,7 @@ return u
 </item>
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR COMEDIA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR COMEDIA[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vergol.com/live/comedia.php</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-canal-plus-comedia-online-y-en-directo-gratis-las-24h-por-internet/</referer>
 <thumbnail>http://vercanalestv.com/logos/movistar-comedia.png</thumbnail>
@@ -1868,7 +3165,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR COMEDIA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR COMEDIA[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1883,7 +3180,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR SERIES[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR SERIES[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=mseries&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://telefivegb.com/canales/series/m_series</referer>
 <thumbnail>http://cinestrenostv.tv/img/series.png</thumbnail>
@@ -1891,7 +3188,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR SERIES XTRA[/UPPERCASE][/COLOR][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR SERIES XTRA[/UPPERCASE][/COLOR][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1904,7 +3201,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR SERIES XTRA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR SERIES XTRA[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=seriesxtra&width=650&height=397</sportsdevil>
 <referer>http://telefivegb.com/tv-spain/ver-canal-movistar-series-xtra-online-gratis-vivo/</referer>
 <thumbnail>https://www.andorratelecom.ad/documents/33347/112493/movistar+series+xtra-01.png</thumbnail>
@@ -1912,7 +3209,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR EXTRA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR EXTRA[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>http://livesports.pw/embed2.php?file=mxtra&width=650&height=397
@@ -1926,7 +3223,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR EXTRA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR EXTRA[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed2.php?file=mxtra&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://verplusonline.com/ver-canal-movistar-xtra-online-gratis-vivo/</referer>
 <thumbnail>https://lh3.googleusercontent.com/-eAdvVRMTfsk/V8n3xuxRJCI/AAAAAAAAAc4/v2VLVtIfDisaLxZIfVslyQRHyi9eZHbzACEw/h120/movistar-xtra.png</thumbnail></thumbnail>
@@ -1934,7 +3231,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR ACCION[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR ACCION[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1948,7 +3245,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR ACCION[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR ACCION[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=accion&width=650&height=397</sportsdevil>
 <referer>http://telefivegb.com/canales/pelis/maccion</referer>
 <thumbnail>https://4.bp.blogspot.com/-fChv3dY38_w/V6b5Q2-yRWI/AAAAAAAAASU/IUWHNJk7VBMrAB0_H-YGoeyNjXa7n__fgCLcB/s1600/movista-accion.png</thumbnail>
@@ -1956,7 +3253,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR DCINE Ñ[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR DCINE Ñ[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1970,7 +3267,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR DCINE Ñ[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR DCINE Ñ[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=dicneesp&width=100%&height=100%</sportsdevil>
 <referer>http://telefivegb.com/animacion/ver-el-canal-dcine-n-en-vivo-y-gratis-online/</referer>
 <thumbnail>http://vercanalestv.com/imagenes/movistar-dcine-espanol.jpg</thumbnail>
@@ -1978,7 +3275,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR DE CINE[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR DE CINE[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -1992,7 +3289,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR DE CINE[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR DE CINE[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vergol.com/live/dcine.php</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-canal-plus-dcine-en-vivo-y-online-por-internet-las-24h/</referer>
 <thumbnail>https://2.bp.blogspot.com/-jmf0Zi7ACYw/V6b5REmQwXI/AAAAAAAAASY/9hSaAuCW-TE2Equ1bZTrai0DLqBavWWhQCLcB/s1600/movistar-dcine.png</thumbnail>
@@ -2000,7 +3297,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]HOLLYWOOD[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]HOLLYWOOD[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=hollywesp&width=650&height=397&autoplay=true</sportsdevil>
 <referer>http://telefivegb.com/canales/pelis/hollywood</referer>
 <thumbnail>https://lh3.googleusercontent.com/-NIKUf7DhHEo/V8tSUpFiA4I/AAAAAAAAAgs/RZHwibnrFW8kUm4lTKCOKd2IpXS_9yF7QCEw/h120/hollywood.png </thumbnail>
@@ -2008,7 +3305,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]TCM[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]TCM[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=tcmesp&width=650&height=397&autoplay=true</sportsdevil>
 <referer>http://telefivegb.com/canales/pelis/tcm</referer>
 <thumbnail>http://verplusonline.com/wp-content/uploads/2015/09/tcm.png </thumbnail>
@@ -2016,7 +3313,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]TNT[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]TNT[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=tntesp&width=650&height=397&autoplay=true</sportsdevil>
 <referer>http://telefivegb.com/canales/series/tnt</referer>
 <thumbnail>https://lh3.googleusercontent.com/-P2MdC8V3lZk/V8tSVpYgdnI/AAAAAAAAAgs/M5CmdS95ZGsypwacQ6QO3TE30azw77VwgCEw/h120/tnt1.png </thumbnail>
@@ -2024,7 +3321,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]AMC[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]AMC[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -2038,14 +3335,14 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]AMC[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]AMC[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=amcesptele&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://telefivegb.com/tv-spain/ver-amc-espana-online-gratis-en-vivo-por-internet/</referer>
 <thumbnail>http://vercanalestv.com/imagenes/amc.png</thumbnail>
 </item>
 
 
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]DARK[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]DARK[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -2059,7 +3356,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]DARK[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]DARK[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=darkes&width=650&height=397</sportsdevil>
 <referer>http://cinestrenostv.tv/canales/envivo/dark.html</referer>
 <thumbnail>http://cinestrenostv.tv/img/dark.jpg</thumbnail>
@@ -2067,7 +3364,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]AXN WHITE[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]AXN WHITE[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -2081,7 +3378,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]AXN WHITE[/[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]AXN WHITE[/[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://cinestrenostv.tv/canales/nacionales/axngold.php</sportsdevil>
 <referer>http://cinestrenostv.tv/canales/envivo/axngold.html</referer>
 <thumbnail>http://latelete.tv/img/axngold.png</thumbnail>
@@ -2089,7 +3386,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]AXN[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]AXN[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vergol.com/live/axn.php</sportsdevil>
 <referer>http://vercanalestv.com/tv/nacionales/axn.html</referer>
 <thumbnail>https://lh3.googleusercontent.com/-AEZB2VXJSlo/V8tSTFmRAjI/AAAAAAAAAgs/j4S1C0YKFgIo6f0RYkk9iN_JlROq7VQ2ACEw/w138-h140-p/axn2.png </thumbnail>
@@ -2097,7 +3394,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]FOX[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]FOX[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -2111,7 +3408,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]FOX[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]FOX[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=foxespana&width=650&height=397</sportsdevil>
 <referer>http://telefivegb.com/canales/series/fox</referer>
 <thumbnail>https://lh3.googleusercontent.com/-DXbslwGv4bc/V8tSUMm--ZI/AAAAAAAAAgs/1hLUer59Uy4cq_f_0bDyCFAu9lceA7WsgCEw/w138-h140-p/fox.png</thumbnail>
@@ -2119,7 +3416,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]FOX LIFE[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]FOX LIFE[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vergol.com/live/foxlife.php</sportsdevil>
 <referer>http://verdirectotv.com/tv/nacionales/foxlife.html</referer>
 <thumbnail>https://lh3.googleusercontent.com/-wvwf6xnAeMQ/VZVn3iH6EuI/AAAAAAAABzA/EtSezee_0LY/s334/foxlive.jpg</thumbnail>
@@ -2127,7 +3424,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]CALLE 13[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]CALLE 13[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=calltrees&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://cinestrenostv.tv/canales/nacionales/calle13.php</referer>
 <thumbnail>https://lh4.googleusercontent.com/-ED3k8Zh1sNc/UZFL1fhRKrI/AAAAAAAAAZc/zyDYSVz4tQE/w408-h306-p-o/c13hd.gif </thumbnail>
@@ -2135,7 +3432,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]SYFY[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]SYFY[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=sysfesp&width=650&height=397&autoplay=true</sportsdevil>
 <referer>http://telefivegb.com/canales/series/sysf</referer>
 <thumbnail>https://lh6.googleusercontent.com/-upF4CnxYPpc/UVWqDS3DQZI/AAAAAAAAAGg/OIFCu5nsyjs/w463-h328-p-o/syfy.jpg</thumbnail>
@@ -2143,7 +3440,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]COMEDY CENTRAL[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]COMEDY CENTRAL[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=comedycentral&width=650&height=400</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-paramount-comedy-online-y-en-directo-las-24h/</referer>
 <thumbnail>http://vercanalestv.com/logos/comedycentral.png</thumbnail>
@@ -2151,7 +3448,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]A&E[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]A&E[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=anadetelefive&width=650&height=400</sportsdevil>
 <referer>http://cinestrenostv.tv/canales/envivo/ae.html</referer>
 <thumbnail>http://cinestrenostv.tv/img/ae.png</thumbnail>
@@ -2159,7 +3456,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]DISNEY CHANNEL[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]DISNEY CHANNEL[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=disneychannel&width=650&height=397</sportsdevil>
 <referer>http://telefivegb.com/canales/animacion/disneychannel</referer>
 <thumbnail>https://lh3.googleusercontent.com/-YILqKHLvgw0/V8tSUMWsI7I/AAAAAAAAAgs/ZsvrWuhhCkcWZdgoRs_ELPfC226P6NLhACEw/h120/disneychannel.png</thumbnail>
@@ -2167,7 +3464,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]NICKELODEON[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]NICKELODEON[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=nickelones&width=588&height=397</sportsdevil>
 <referer>http://telefivegb.com/animacion/ver-nick-online-y-en-directo-gratis-las-24h/</referer>
 <thumbnail>https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAyrAAAAJGRkM2UxMzk3LTRkNTgtNDRiOS05ZDZjLThkNjQxYjkyNzU2NQ.png</thumbnail>
@@ -2175,7 +3472,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]BOING[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]BOING[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=boing&width=650&height=397</sportsdevil>
 <referer>http://verplusonline.com/ver-boing-online-gratis-en-vivo-directo/</referer>
 <thumbnail>http://www.boing.es/sites/boinges/themes/boing_theme/logo-es.png</thumbnail>
@@ -2183,7 +3480,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]CRIMEN E INVESTIGACION[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]CRIMEN E INVESTIGACION[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vergol.com/live/canalcrimen.php</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-crimen-investigacion-online-en-directo-gratis/</referer>
 <thumbnail>https://lh3.googleusercontent.com/-0MWKz-BaTAI/V8tSThCc-aI/AAAAAAAAAfI/26zDV0uNacYG2-7qBhcmDY8V4lkm31SfQCLcB/h120/ci1.png</thumbnail>
@@ -2191,7 +3488,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]NAT GEO WILD[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]NAT GEO WILD[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vergol.com/live/nationalwild.php</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-nat-geo-wild-online-y-gratis-por-internet-las-24h-gratis-en-vivo/</referer>
 <thumbnail>http://vercanalestv.com/logos/natgeo.png</thumbnail>
@@ -2199,7 +3496,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]NATIONAL GEOGRAPHIC[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]NATIONAL GEOGRAPHIC[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=natgeo&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://telefivegb.com/canales/documental/natgeoembed.php</referer>
 <thumbnail>http://cinestrenostv.tv/img/national.png</thumbnail>
@@ -2207,7 +3504,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]ODISEA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]ODISEA[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=odiseatelef&width=650&height=400</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-canal-odisea-gratis-online-y-directo-por-internet/</referer>
 <thumbnail>https://lh3.googleusercontent.com/-5A4yb6WTCoE/V8tSU_Hrg5I/AAAAAAAAAgM/CyOUgwTJVvYnZIyJVtP73yecjGigM18wgCLcB/h120/odisea.png</thumbnail>
@@ -2215,7 +3512,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]DISCOVERY CHANNEL[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]DISCOVERY CHANNEL[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=discoverychannel&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://telefivegb.com/canales/documental/discoverychannel</referer>
 <thumbnail>https://lh3.googleusercontent.com/-gdKePtvAbgc/V8tST6-UYyI/AAAAAAAAAfQ/0j7T-PR_gEMZ40-QhUW71MKbhg6RtP0bwCLcB/h120/discovery1.png </thumbnail>
@@ -2223,7 +3520,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]HISTORIA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]HISTORIA[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=historiaesp&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://telefivegb.com/canales/documental/historia</referer>
 <thumbnail>https://lh3.googleusercontent.com/-yoBFNJX-Dp8/V8tSUYG9puI/AAAAAAAAAgs/p2Al7c_A3KkrMmNAWRH91NGw6Kk1oFAOwCEw/h120/historia.png </thumbnail>
@@ -2231,7 +3528,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]CANAL COCINA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]CANAL COCINA[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=cocinaesp&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://telefivegb.com/canales/documental/cocina</referer>
 <thumbnail>http://verplusonline.com/wp-content/uploads/2015/07/cocina.png </thumbnail>
@@ -2239,7 +3536,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]TOROS TV[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]TOROS TV[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=torotv&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://telefivegb.com/canales/deporte/toro</referer>
 <thumbnail>https://lh3.googleusercontent.com/-wzUUIssSnAM/V8tSVlRPm8I/AAAAAAAAAgs/3LgYBRBHGrEpBxr3XoSLglw2lzYt3i4PgCEw/h120/toro.png </thumbnail>
@@ -2247,7 +3544,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]CAZA Y PESCA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]CAZA Y PESCA[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=cazaypesca&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://telefivegb.com/canales/documental/cazaypesca</referer>
 <thumbnail>https://lh3.googleusercontent.com/-8AoEQu7cj44/V8tSTmRzHfI/AAAAAAAAAgs/_fkNhNG1kesUzqoCY846a9mbhYfEYcpVACEw/h120/caza-y-pesca.png </thumbnail>
@@ -2255,7 +3552,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]BEIN LIGA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]BEIN LIGA[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -2269,7 +3566,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]BEIN LIGA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]BEIN LIGA[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vergol.com/live3/beinliga.php</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-bein-sports-la-liga-en-directo-24h-gratis-online/</referer>
 <thumbnail>https://3.bp.blogspot.com/-_w7fnKT_BKs/V6b5Q4so3UI/AAAAAAAAASQ/EbLnk-Y4CQc87xBqklIpAWroNGJ31wWJgCLcB/s1600/bein-sport-liga.png</thumbnail>
@@ -2277,7 +3574,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]BEIN SPORT ESPAÑA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]BEIN SPORT ESPAÑA[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -2291,7 +3588,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]BEIN SPORT ESPAÑA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]BEIN SPORT ESPAÑA[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=beinsport&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://verplusonline.com/ver-bein-sport-n/</referer>
 <thumbnail>https://3.bp.blogspot.com/-ened-5Ujg54/V6cUAda4VpI/AAAAAAAAATo/IEhbK8imH2gxIQUaNPZLbRu3GMTWPNrVACLcB/s1600/beinsportesp.png</thumbnail>
@@ -2299,7 +3596,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]LA LIGA TV[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]LA LIGA TV[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -2313,7 +3610,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]LA LIGA TV[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]LA LIGA TV[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=barliga&width=650&height=397</sportsdevil>
 <referer>http://verplusonline.com/laligatv/</referer>
 <thumbnail>http://i65.tinypic.com/dgm78k.jpg</thumbnail>
@@ -2321,7 +3618,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]PARTIDAZO[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]PARTIDAZO[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vergol.com/live3/beinliga.php</sportsdevil>
 <referer>http://www.vercanalestv.com/tv/deportes/plus-partidazo.html</referer>
 <thumbnail>http://vercanalestv.com/imagenes/movistar-partidazo.png</thumbnail>
@@ -2329,7 +3626,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]M.FUTBOL[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]M.FUTBOL[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=futbolespm&width=100%&height=397</sportsdevil>
 <referer>http://telefivegb.com/deporte/ver-canal-movistar-futbol-online-gratis-vivo/</referer>
 <thumbnail>http://cinestrenostv.tv/img/futbol.png</thumbnail>
@@ -2337,7 +3634,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]BEIN SPORT Ñ[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]BEIN SPORT Ñ[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=beinsportn&width=650&height=397</sportsdevil>
 <referer>http://verplusonline.com/ver-bein-sport-espana-en-directo-gratis-y-en-vivo-por-internet-opcion-2/</referer>
 <thumbnail>http://i64.tinypic.com/20kwtcn.jpg</thumbnail>
@@ -2345,7 +3642,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR MOTOGP[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR MOTOGP[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vergol.com/live3/motogp.php</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-motogp-en-directo-y-online-24h-gratis/</referer>
 <thumbnail>https://1.bp.blogspot.com/-iBydqF__JDQ/V6b5RrXFSiI/AAAAAAAAASw/gYVCtWPv8lcPhxbtK7Qj49p4qCR9kBswQCLcB/s1600/movistar-moto-gp.png </thumbnail>
@@ -2353,7 +3650,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR F1[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR F1[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vercanalestv.com/tv/deportes/formula-1.html</sportsdevil>
 <referer>http://www.vercanalestv.com/tv/deportes/formula-1.html</referer>
 <thumbnail>https://2.bp.blogspot.com/-7MhAtKz-UAo/V6b5RSgFu0I/AAAAAAAAASo/50dgk_zG77I9KExitmRozPOmp-R7m3zrwCLcB/s1600/movistar-formula-1.png </thumbnail>
@@ -2361,7 +3658,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]EUROSPORT 1[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]EUROSPORT 1[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=eurosportsesp&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://telefivegb.com/canales/deporte/eurosport</referer>
 <thumbnail>https://lh3.googleusercontent.com/-HdHyKE8ZM7s/V8tSUPF5NkI/AAAAAAAAAgs/LElBvCbk2Ds4pLdrSM_YCw79f8XpI2k7ACEw/w138-h140-p/eurosport.png</thumbnail>
@@ -2369,7 +3666,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]EUROSPORT 2[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]EUROSPORT 2[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=eurosportsdosesp&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://telefivegb.com/canales/deporte/eurosport2</referer>
 <thumbnail>http://verplusonline.com/wp-content/uploads/2016/10/eurosport2.png </thumbnail>
@@ -2377,7 +3674,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR DEPORTES 1[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR DEPORTES 1[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vergol.com/live1/plusdeportes1.php</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-canal-plus-deportes-online-y-en-directo-las-24-en-vivo/</referer>
 <thumbnail>https://4.bp.blogspot.com/-bbMkzJkrBC0/V6b5RKFzibI/AAAAAAAAASc/REEuOxaWin4WbEsNVzk94-WVepKv7msMQCLcB/s1600/movistar-deporte-1.png </thumbnail>
@@ -2385,7 +3682,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR DEPORTES 2[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR DEPORTES 2[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vergol.com/live1/plusdeportes2.php</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-canal-plus-deportes-2-online-y-en-directo-las-24h-en-vivo/</referer>
 <thumbnail>https://2.bp.blogspot.com/-b4FUspgJ-Jg/V6b5RABxanI/AAAAAAAAASg/rBo7kURIjdQmRArXCYbd9lFJs4KOIrsJQCLcB/s1600/movistar-deporte-2.png </thumbnail>
@@ -2393,7 +3690,7 @@ return u
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR GOLF[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR GOLF[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vergol.com/live1/golf.php</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-canal-plus-golf-online-en-directo-gratis/</referer>
 <thumbnail>https://lh3.googleusercontent.com/-ta6mEz3Qcy0/V8n3xWTtHII/AAAAAAAAAc4/97Xl94chUY4_t1n8xuiVj8TWLF14ZfbfACEw/h120/movistar-golf.png</thumbnail>
@@ -2401,7 +3698,7 @@ return u
 
 
 item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]LA LIGA TV[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]LA LIGA TV[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=barliga&width=650&height=397</sportsdevil>
 <referer>http://verplusonline.com/laligatv/</referer>
 <thumbnail>http://i65.tinypic.com/dgm78k.jpg</thumbnail>
@@ -2409,7 +3706,7 @@ item>
 
 
 item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]1.2MOVISTAR GOLF[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]1.2MOVISTAR GOLF[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]Referer=http://vercanalestv.com/tv/nacionales/canal-plus-estrenos.html;amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -2422,7 +3719,7 @@ item>
 
 
 item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MOVISTAR GOLF[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MOVISTAR GOLF[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get_id]|User-Agent=iPad</link>
 <regex>
 <name>get_id</name>
@@ -2435,7 +3732,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray] LA 1[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray] LA 1[/COLOR][/UPPERCASE][/B]</title>
 <link>http://rtvev4-live.hss.adaptive.level3.net/egress/ahandler/rtvegl7/la1_lv3_aosv4_gl7/la1_lv3_aosv4_gl7.isml/la1_lv3_aosv4_gl7.m3u8</link>
 <thumbnail>http://cinestrenostv.tv/img/tve1.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2443,7 +3740,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]LA 2[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]LA 2[/COLOR][/UPPERCASE][/B]</title>
 <link>http://rtvev4-live.hss.adaptive.level3.net/egress/ahandler/rtvegl0/la2_lv3_aosv4_gl0/la2_lv3_aosv4_gl0.isml/la2_lv3_aosv4_gl0.m3u8</link>
 <thumbnail>http://cinestrenostv.tv/img/tve2.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2451,7 +3748,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]ANTENA 3[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]ANTENA 3[/COLOR][/UPPERCASE][/B]</title>
 <link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8</link>
 <thumbnail>http://cinestrenostv.tv/img/antena3.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2459,7 +3756,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray].CUATRO[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray].CUATRO[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vergol.com/live1/cuatro.php</sportsdevil>
 <referer>http://vercanalestv.com/tv/nacionales/cuatro.html</referer>
 <thumbnail>https://mdsrwdassets-a.akamaihd.net//parrillas/2017/03/30/ad652ff9bd30eadc5cea3ef2f24e12571490869627.jpg</thumbnail>
@@ -2468,7 +3765,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]TELECINCO[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]TELECINCO[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=telecinco&width=650&height=397</sportsdevil>
 <referer>http://verplusonline.com/ver-tele-5-online-y-en-directo-las-24h-en-vivo-y-gratis/</referer>
 <thumbnail>http://cinestrenostv.tv/img/telecinco.png</thumbnail>
@@ -2477,7 +3774,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]LA SEXTA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]LA SEXTA[/COLOR][/UPPERCASE][/B]</title>
 <link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8</link>
 <thumbnail>http://cinestrenostv.tv/img/sexta.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2485,7 +3782,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]DIVINITY.[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]DIVINITY.[/COLOR][/UPPERCASE][/B]</title>
 <link>http://mset-prgb-2.live-delivery.ooyala.com/out/u/3vkkbgnvsm2r5/104951/IybDNyYTE6j7PZaKerX9iKFSCuctjf5B/cn/95d3fccb2d6f4ad6b09d23e7c67d3acf_3.m3u8</link>
 <thumbnail>http://cinestrenostv.tv/img/divinity.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2493,7 +3790,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]ENERGY[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]ENERGY[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=energy&width=650&height=397</sportsdevil>
 <referer>http://verplusonline.com/energy/</referer>
 <thumbnail>http://cinestrenostv.tv/img/energy.png</thumbnail>
@@ -2502,7 +3799,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]FDF[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]FDF[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vergol.com/live/fdf.php</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-fdf-en-directo-gratis-on-line-24-horas-en-vivo/</referer>
 <thumbnail>http://cinestrenostv.tv/img/fdf.png</thumbnail>
@@ -2511,7 +3808,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]DISCOVERY MAX[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]DISCOVERY MAX[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://cinestrenostv.tv/canales/documentales/discoverymax.php</sportsdevil>
 <referer>http://cinestrenostv.tv/canales/envivo/max.html</referer>
 <thumbnail>http://cinestrenostv.tv/img/fdf.png</thumbnail>
@@ -2520,7 +3817,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]NOVA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]NOVA[/COLOR][/UPPERCASE][/B]</title>
 <link>http://a3live-lh.akamaihd.net/i/geonova_1@379404/master.m3u8</link>
 <thumbnail>http://cinestrenostv.tv/img/nova.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2528,7 +3825,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]NEOX[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]NEOX[/COLOR][/UPPERCASE][/B]</title>
 <link>http://a3live-lh.akamaihd.net/i/nxhls/geoneox_1@35261/master.m3u8</link>
 <thumbnail>http://cinestrenostv.tv/img/neox.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2536,7 +3833,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]A3SERIES[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]A3SERIES[/COLOR][/UPPERCASE][/B]</title>
 <link>http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8</link>
 <thumbnail>http://laguiatv.abc.es/Media/201511/10/atreseries-logo--644x362.jpg</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2544,7 +3841,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]DKISS-[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]DKISS-[/COLOR][/UPPERCASE][/B]</title>
 <link></link>
 <thumbnail>http://cinestrenostv.tv/img/dkiss.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2552,7 +3849,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]BE MAD-off[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]BE MAD-off[/COLOR][/UPPERCASE][/B]</title>
 <link>http://mediasethls-lh.akamaihd.net/i/mitele/bemad_g@320708/index_500_av-p.m3u8</link>
 <thumbnail>http://cinestrenostv.tv/img/bemad.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2560,7 +3857,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]MEGA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]MEGA[/COLOR][/UPPERCASE][/B]</title>
 <link>http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8</link>
 <thumbnail>http://cinestrenostv.tv/img/mega.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2568,7 +3865,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]24H[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]24H[/COLOR][/UPPERCASE][/B]</title>
 <link>http://hlsackdn_gl8-lh.akamaihd.net/i/hlsdvrlive_1@81183/index_1500_av-p.m3u8?sd=10&rebase=on</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_TVE-24h.svg/2000px-Logo_TVE-24h.svg.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2576,7 +3873,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]BOING[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]BOING[/COLOR][/UPPERCASE][/B]</title>
 <link>http://mset-prgb-2.live-delivery.ooyala.com/out/u/3vkkbgnvsm2r5/104951/ZvOXRpODE6c__EQ05epWGBX6530x-EhS/cn/ddf752ff80af43709eabdf84e1d65366_1.m3u8</link>
 <thumbnail>http://www.boing.es/sites/boinges/themes/boing_theme/logo-es.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2584,7 +3881,7 @@ item>
 
 
 item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]CLAN TVE[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]CLAN TVE[/COLOR][/UPPERCASE][/B]</title>
 <link>http://edge15.livesports.pw/live/verclan12857b2fcd59414ea6/index.m3u8</link>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
 <thumbnail></thumbnail>
@@ -2592,7 +3889,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]TELEMADRID[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]TELEMADRID[/COLOR][/UPPERCASE][/B]</title>
 <link>http://telemadridhls-live.hls.adaptive.level3.net/telemadrid/telemadrid1/bitrate_1.m3u8</link>
 <thumbnail>http://cinestrenostv.tv/img/telemadrid.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2600,7 +3897,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]LAOTRA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]LAOTRA[/COLOR][/UPPERCASE][/B]</title>
 <link>http://laotra-live.hls.adaptive.level3.net/hls-live/telemadrid-laotra/_definst_/live/stream1.m3u8?SAT_TOTAL</link>
 <thumbnail></thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2608,7 +3905,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]CASTILLA LA MANCHA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]CASTILLA LA MANCHA[/COLOR][/UPPERCASE][/B]</title>
 <link>http://klive-a.akamaihd.net/dc-1/live/hls/p/2288691/e/1_c9gw17x6/sd/10000/t/o8xKPUjaWz2E6hV7vICo1Q/index-s32.m3u8</link>
 <thumbnail>http://www.brandemia.org/sites/default/files/sites/default/files/logo_cm_antes.jpg</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2616,7 +3913,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]CASTILLA Y LEON[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]CASTILLA Y LEON[/COLOR][/UPPERCASE][/B]</title>
 <link>http://cdn.s4.eu.nice264.com:1935/niceLiveServer/_definst_/cyl_cyltvlivem_MB_698/master.m3u8</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Logo_Grupo_Castilla_y_Le%C3%B3n_Televisi%C3%B3n.svg/305px-Logo_Grupo_Castilla_y_Le%C3%B3n_Televisi%C3%B3n.svg.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2624,7 +3921,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]8 TV[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]8 TV[/COLOR][/UPPERCASE][/B]</title>
 <link>http://streaming.8tv.cat/8TV/8aldia-directe/chunklist_w1365534365.m3u8</link>
 <thumbnail>http://media.tvalacarta.info/canales/256x256/ochotv.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2632,7 +3929,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]13TV[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]13TV[/COLOR][/UPPERCASE][/B]</title>
 <link>http://streaming.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/mobile/playlist.m3u8</link>
 <thumbnail>http://d2jljza7x0a5yy.cloudfront.net/media/k2/items/cache/3d9b2446cf61598e01b296c7b6b8a7ad_XL.jpg</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2640,7 +3937,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]CANAL EXTREMADURA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]CANAL EXTREMADURA[/COLOR][/UPPERCASE][/B]</title>
 <link>http://hlstv.canalextremadura.es/livetv/smil:multistream.smil/chunklist_b264000_DVR.m3u8</link>
 <thumbnail>https://www.diariodeberrocalejo.es/index_htm_files/canalextremadura.jpg</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2648,7 +3945,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]CANAL SUR[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]CANAL SUR[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://ct.ligatus.com/css/p9403-c7677-1498642823.php</sportsdevil>
 <referer>http://www.canalsur.es/tv_directo-1193.html</referer>
 <thumbnail>http://s.libertaddigital.com/fotos/noticias/canalsur-mjg.jpg</thumbnail>
@@ -2657,7 +3954,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]CANAL SUR[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]CANAL SUR[/COLOR][/UPPERCASE][/B]</title>
 <link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=MtCY1q7mzF8</link>
 <thumbnail>http://s.libertaddigital.com/fotos/noticias/canalsur-mjg.jpg</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2665,7 +3962,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]GALICIA TV[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]GALICIA TV[/COLOR][/UPPERCASE][/B]</title>
 <link>http://media3.crtvg.es/live/_definst_/tvge_2/playlist.m3u8</link>
 <thumbnail>http://photos1.blogger.com/blogger/3125/3533/1600/Logo%20TVG.jpg</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2673,7 +3970,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]ETB[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]ETB[/COLOR][/UPPERCASE][/B]</title>
 <link>http://etbvnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@300391/master.m3u8</link>
 <thumbnail>https://i.blogs.es/fe1e17/etb2/original.jpg</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2681,7 +3978,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]TV3[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]TV3[/COLOR][/UPPERCASE][/B]</title>
 <link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3cat_tv/playlist.m3u8</link>
 <thumbnail>https://osgarmar.files.wordpress.com/2012/03/images21.jpg</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2689,7 +3986,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]3/24[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]3/24[/COLOR][/UPPERCASE][/B]</title>
 <link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:324_mobil/playlist.m3u8</link>
 <thumbnail>http://statics.ccma.cat/multimedia/jpg/7/9/1466521666097.jpg</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2697,7 +3994,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]ARAGON TV[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]ARAGON TV[/COLOR][/UPPERCASE][/B]</title>
 <link>http://aragontv.stream.flumotion.com/aragontv/live-hls/main.m3u8</link>
 <thumbnail>https://yt3.ggpht.com/-5O9sh0HrJP4/AAAAAAAAAAI/AAAAAAAAAAA/1o4lLkhqYI0/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2705,7 +4002,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]TPA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]TPA[/COLOR][/UPPERCASE][/B]</title>
 <link>http://iphone.rtpa.stream.flumotion.com/rtpa/tv-iphone/main.m3u8</link>
 <thumbnail>https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAArOAAAAJGUyMGFhMmI1LWIzYjUtNDIzZC1hYjZmLWJiNTljZWUzOTg0Zg.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2713,7 +4010,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]TV CANARIA[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]TV CANARIA[/COLOR][/UPPERCASE][/B]</title>
 <link>http://streaming2.mad.idec.net/rtvcnet/rtvcnet.drb.smil/chunklist_w1256186728_b480000_sles.m3u8</link>
 <thumbnail>http://1.bp.blogspot.com/_VvLoQXtu9Mg/SM66SU6zpRI/AAAAAAAAA5U/iXuw3YFQ6Q8/s400/tv_canaria.jpg</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2721,7 +4018,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]GOL[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]GOL[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=goltvesp&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://telefivegb.com/canales/deporte/goltv</referer>
 <thumbnail>http://cinestrenostv.tv/img/gol.png</thumbnail>
@@ -2730,7 +4027,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]TELEDEPORTE[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]TELEDEPORTE[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=teledeporteesp&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://telefivegb.com/canales/deporte/teledeporte</referer>
 <thumbnail>http://cinestrenostv.tv/img/teledeporte.png</thumbnail>
@@ -2739,7 +4036,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]R.MADRID TV[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]R.MADRID TV[/COLOR][/UPPERCASE][/B]</title>
 <link>http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/master.m3u8</link>
 <thumbnail>http://cinestrenostv.tv/img/realmadrid.png</thumbnail>
 <fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
@@ -2747,7 +4044,7 @@ item>
 
 
 <item>
-<title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]BARCA TV[/COLOR][/UPPERCASE][/B]</title>
+<title>[B][UPPERCASE][COLOR gold]•  [/COLOR][COLOR lightslategray]BARCA TV[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://vergol.com/live/barca.php</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-barca-tv-en-directo-y-online/</referer>
 <thumbnail>http://cinestrenostv.tv/img/barcatv.png</thumbnail>
@@ -2842,7 +4139,7 @@ item>
 
 <item><title>[COLOR lime]-->[COLOR=cyan][B][I]Hollywood[/I][/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=hollywesp&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>http://3.bp.blogspot.com/-vRwVHF4JH3c/TyGSd51yreI/AAAAAAAAA9c/kay4KP2LPSI/s600/533px-Canal_Hollywood.svg_.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
 
-<item><title>[COLOR lime]-->[COLOR=cyan][B][I]Fox[/I][/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=foxespana&amp;width=100%&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/150px-FOX_wordmark-orange.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+<item><title>[COLOR lime]-->[COLOR=cyan][B][I]Fox[/I][/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=foxespana&amp;width=100%&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-gold.svg/150px-FOX_wordmark-gold.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
 
 <item><title>[COLOR lime]-->[COLOR=cyan][B][I]Fox Life[/I][/B][/COLOR]</title><link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/fox-life.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://vergol.com/live/foxlife.php</page><referer>http://vercanalestv.com/tv/nacionales/fox-life.html</referer></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Fox_life_it.png/200px-Fox_life_it.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
 
