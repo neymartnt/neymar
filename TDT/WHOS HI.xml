@@ -5,51 +5,208 @@
 
 
 
+ 
+ 
+<item><title> [COLOR=gold][B] Tve 1  [/B][/COLOR]</title>
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=launotelefivegb&amp;width=100%&amp;height=100%</p<cookieJar></cookieJar></regex>
+<thumbnail>http://www.thelogodb.com/images/media/logo/rwwwxv1441657735.png/medium</thumbnail>
+<fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] La 2 [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=tvdostelefive&amp;width=650&amp;height=400</page><cookieJar></cookieJar></regex><thumbnail>https://www.thelogodb.com/images/media/logo/tpsvvr1441658102.png/medium</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Antena 3  [/B][/COLOR]</title><link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_2_av-b.m3u8?sd=10&rebase=on<link><thumbnail>https://www.thelogodb.com/images/media/logo/uvxusy1462991606.png/medium</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] A3 Séries [/B][/COLOR]</title><link>http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8<link><thumbnail>http://i65.tinypic.com/168zkvs.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Cuatro [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=lacuatro&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>http://www.thelogodb.com/images/media/logo/ysytyr1433882117.png/medium</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Tele 5 [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=telecinco&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>http://www.thelogodb.com/images/media/logo/wptuww1441658169.png/medium</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] La Sexta  [/B][/COLOR]</title><link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/index_4_av-b.m3u8<link><thumbnail>http://www.thelogodb.com/images/media/logo/wtvvpp1441660359.png/medium</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] TeleMadrid [/B][/COLOR]</title><link>http://telemadrid-live.hls.adaptive.level3.net/hls-live/telemadrid-telemadrid/_definst_/live/stream1.m3u8<link><thumbnail>http://verplusonline.com/wp-content/uploads/2015/08/telemadird1.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Fdf [/B][/COLOR]</title><link>http://mset-prod-1.live-delivery.ooyala.com/out/u/3vkkbgnvsm2r5/104951/5vMGFjYjE6FW20QNvfFor1J8AiF0JAyp/cn/73742da67a5947919a8bb82035fa9224_3.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36<link><thumbnail>http://www.thelogodb.com/images/media/logo/vxpuyy1441657918.png/medium</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Mega tv [/B][/COLOR]</title><link>http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8<link><thumbnail>http://hispanicprwire.com/wp-content/uploads/importacion/17/17649_logo_1.jpg</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Neox [/B][/COLOR]</title><link>http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8</link><thumbnail>http://www.thelogodb.com/images/media/logo/qptvyv1441658134.png/medium</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Nova [/B][/COLOR]</title><link>http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8</link><thumbnail>http://4.bp.blogspot.com/-qGNm05pg2Qg/UJhJFbMuKZI/AAAAAAAAPK8/KOSUS4F9h6k/s1600/Nova+logo.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Energy [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=energy&amp;width=100%&amp;height=100%</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Energy_2012.png/150px-Energy_2012.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Divinity [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=divinity&amp;width=588&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>http://www.thelogodb.com/images/media/logo/rywwxq1441658325.png/medium</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Be Mad [/B][/COLOR]</title><link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/be-mad.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://vergol.com/live/bemad.php</page><referer>http://vercanalestv.com/tv/nacionales/be-mad.html</referer></regex><thumbnail>http://vercanalestv.com/logos/bemad.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Cyl7 Tv [/B][/COLOR]</title><link>http://cdn.s6.eu.nice264.com:1935/niceLiveServer/_definst_/cyl_cyltvlivem_MB_698/chunklist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36<link><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Logo_CYL7.svg/500px-Logo_CYL7.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+ 
+ 
 <item>
-<title>    [B] telefige[/B] [I]SportsDevil Addon Requerido[/I]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param2] </title>
-<sportsdevil>http://telefivegb.com/[makelist.param1]</sportsdevil>
-<thumbnail>http://telefivegb.com/[makelist.param1]</thumbnail>
-<referer>http://telefivegb.com/</referer>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)" title="(.*?)" target="tv"><img src="(.*?)"]]></expres>
-<page>http://telefivegb.com/</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-
-
-<item>
-<title>    [B]CINESTRENOS[/B] [I]SportsDevil Addon Requerido[/I]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param2] </title>
-<sportsdevil>http://cinestrenostv.tv/[makelist.param1]</sportsdevil>
-<thumbnail>http://cinestrenostv.tv/[makelist.param1]</thumbnail>
-<referer>http://cinestrenostv.tv/</referer>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)" title="(.*?)" target="tv"><img src="(.*?)"]]></expres>
-<page>http://cinestrenostv.tv/</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-
- <item>
-<title>[COLOR red] _**_ [/COLOR][COLOR  skyblue] TK**X[/COLOR][COLOR red] _**_ [/COLOR]</title>
-<link>hhttp://manorojakodi.blogspot.com.es/p/sub-listas-espana.htmll</link>
+<title>[COLOR yellow]    DIGITAL [/COLOR]</title>
+<link>http://ignoreme</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
+ 
+ 
+<item><title> [COLOR=gold][B] Canal #0 [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=pluscero&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>http://www.movistarplus.es/assets/images/logo-cero-desk.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] M+ Estrenos [/B][/COLOR]</title><link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/canal-plus-estrenos.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://vergol.com/live/plusestrenos.php</page><referer>http://vercanalestv.com/tv/nacionales/canal-plus-estrenos.html</referer></regex><thumbnail>http://vercanalestv.com/logos/movistar-estrenos.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] M+ Action [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=accion&amp;width=100%&amp;height=100%</page><cookieJar></cookieJar></regex><thumbnail>http://vercanalestv.com/logos/movistar-accion.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] M+ Series [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=mseries&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Movistar_Series.svg/150px-Movistar_Series.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] M+ Series Xtra [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=mxtra&amp;width=100%&amp;height=100%</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Movistar_Xtra.svg/250px-Movistar_Xtra.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] M+ Comedia [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=mcomedia&amp;width=100%&amp;height=100%</page><cookieJar></cookieJar></regex><thumbnail>http://vercanalestv.com/logos/movistar-comedia.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] M+ DCine [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=dicneesp&amp;width=100%&amp;height=100%</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Movistar_DCine.svg/2000px-Movistar_DCine.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Cinemax [/B][/COLOR]</title><link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/argentina/cinemax.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://vergol.com/live1/cinemax.php</page><referer>http://vercanalestv.com/tv/nacionales/canal-plus-estrenos.html</referer></regex><thumbnail>http://vercanalestv.com/logos/cinemax.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Tnt [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=tntesp&amp;width=100%&amp;height=100%</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/200px-TNT_Logo_2016.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Mtv [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=mtvesp&amp;width=100%&amp;height=100%</page><cookieJar></cookieJar></regex><thumbnail>http://vercanalestv.com/logos/mtv.jpg</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Syfy [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=sysfesp&amp;width=100%&amp;height=100%</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SYFY.svg/250px-SYFY.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Amc [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=amcesptele&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt_xDw5egMDdqZEwVJvz4Hz2nTCYutDqSOYeoUfA015N8ePoSiljLK2F8</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Axn White [/B][/COLOR]</title><link></link><thumbnail>http://cdn.bloody-disgusting.com/wp-content/uploads/2013/05/Dark-Logo.jpg</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item><item><title> [COLOR=gold][B] AE [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=anadetelefive&width=650&height=400</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/1200px-A%26E_Network_logo.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Hollywood [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=hollywesp&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>http://3.bp.blogspot.com/-vRwVHF4JH3c/TyGSd51yreI/AAAAAAAAA9c/kay4KP2LPSI/s600/533px-Canal_Hollywood.svg_.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Hollywood [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=hollywesp&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>http://3.bp.blogspot.com/-vRwVHF4JH3c/TyGSd51yreI/AAAAAAAAA9c/kay4KP2LPSI/s600/533px-Canal_Hollywood.svg_.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Hollywood [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=hollywesp&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>http://3.bp.blogspot.com/-vRwVHF4JH3c/TyGSd51yreI/AAAAAAAAA9c/kay4KP2LPSI/s600/533px-Canal_Hollywood.svg_.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Fox [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=foxespana&amp;width=100%&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/150px-FOX_wordmark-orange.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Fox Life [/B][/COLOR]</title><link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/fox-life.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://vergol.com/live/foxlife.php</page><referer>http://vercanalestv.com/tv/nacionales/fox-life.html</referer></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Fox_life_it.png/200px-Fox_life_it.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Axn [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=axnues&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2016_AXN_logo.svg/200px-2016_AXN_logo.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Comedy Central [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=comedycentral&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Comedy_Central_2011_Logo.svg/150px-Comedy_Central_2011_Logo.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Xtrm [/B][/COLOR]</title><link></link><thumbnail>http://3.bp.blogspot.com/-WUXq_xikyGE/VSrpltO8uNI/AAAAAAAAE0A/XEnEu6sEc60/s1600/xtrm-julio-13.gif</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Odiseia [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=odiseatelef&amp;width=650&amp;height=400</page><cookieJar></cookieJar></regex><thumbnail>https://vignette4.wikia.nocookie.net/logopedia/images/5/5c/Odisea2011.jpg/revision/latest?cb=20110227171834</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Paramount [/B][/COLOR]</title><link></link><thumbnail>https://upload.wikimedia.org/wikipedia/it/thumb/3/3b/Paramount_Channel_logo.svg/1052px-Paramount_Channel_logo.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart>
+ 
+<item><title> [COLOR=gold][B] Canal 101 Tv [/B][/COLOR]</title><link>http://cls.todostreaming.eu/101tv/livestream2/.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36</link><thumbnail>http://directostv.teleame.com/wp-content/uploads/2016/01/101tv-en-directo-online.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Calle 13 [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=calltrees&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>http://www.thelogodb.com/images/media/logo/sxtxwu1474670639.png/medium</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Historia [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=historiaesp&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/210px-History_Logo.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Nat Geo Wild [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=geowild&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Logo_Nat_Geo_Wild.svg/200px-Logo_Nat_Geo_Wild.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Discovery [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=discoverychannel&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/pt/thumb/4/46/Discovery_Channel_International.svg/250px-Discovery_Channel_International.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Discovery Max [/B][/COLOR]</title><link></link><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/DMax_Espa%C3%B1a.svg/200px-DMax_Espa%C3%B1a.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Nat Geo [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=natgeo&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/200px-Natgeologo.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Ten [/B][/COLOR]</title><link></link><thumbnail>http://09stream.com/img/ten.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Cosmo [/B][/COLOR]</title><link></link><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cosmo_TV_logo.svg/245px-Cosmo_TV_logo.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Tcm [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=tcmesp&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/TCM_logo_2009.svg/220px-TCM_logo_2009.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Crimen+Investigación [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=crimenyinvestigacion&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Crime_and_Investigation_logo.png/160px-Crime_and_Investigation_logo.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Canal Cocina [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=cocinaesp&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>http://vercanalestv.com/logos/logo-cocina.jpg</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Toros Tv [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=torotv&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>http://vercanalestv.com/logos/torostv.jpg</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Caza e Pesca [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=cazaypesca&amp;width=650&amp;height=397</page><cookieJar></cookieJar></regex><thumbnail>http://latelete.tv/img/cazapesca.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item><item>
+ 
+<item><title> [COLOR=gold][B] Dark [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=darkes&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>http://cdn.bloody-disgusting.com/wp-content/uploads/2013/05/Dark-Logo.jpg</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+ 
+ 
+<item><title> [COLOR=gold][B] Clan [/B][/COLOR]</title><link></link><thumbnail>https://www.thelogodb.com/images/media/logo/uwwsxs1441657757.png/medium</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item><item><title> [COLOR=gold][B] Boing [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=boing&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>https://www.thelogodb.com/images/media/logo/vxqupv1441657696.png/medium</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Disney Xd [/B][/COLOR]</title><link></link><thumbnail>https://www.thelogodb.com/images/media/logo/qxptqy1433943117.png/medium</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Disney [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedn.php?file=disneychannel&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>https://lh3.googleusercontent.com/-YILqKHLvgw0/V8tSUMWsI7I/AAAAAAAAAgs/ZsvrWuhhCkcWZdgoRs_ELPfC226P6NLhACEw/h120/disneychannel.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Panda [/B][/COLOR]</title><link></link><thumbnail>https://www.thelogodb.com/images/media/logo/qwttxw1435106935.png/medium</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Nick [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=nickelones&width=588&height=397</page><cookieJar></cookieJar></regex><thumbnail>https://lh3.googleusercontent.com/-LTBfoXchaRg/V8n3xw2rylI/AAAAAAAAAc4/HN7F5Bdt0p0hl_UgRZ5XixFdZe_kyAi9wCEw/h120/nick.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Nick Jr [/B][/COLOR]</title><link></link><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/256px-Nick_Jr._logo_2009.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Baby Tv [/B][/COLOR]</title><link></link><thumbnail>http://verplusonline.com/wp-content/uploads/2016/10/BabyTV.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] 24h  [/B][/COLOR]</title><link>http://hlsackdn_gl8-lh.akamaihd.net/i/hlsdvrlive_1@81183/index_0400_av-p.m3u8?sd=10&rebase=on|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36<link><thumbnail>https://www.thelogodb.com/images/media/logo/qrtxpq1441657258.png/medium</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Dw Latino  [/B][/COLOR]</title><link>http://www.metafilegenerator.de/DWelle/tv-latinoamerica/ios/master.m3u8<link><thumbnail>https://lh5.googleusercontent.com/-9yV2Yx3iyBo/TXp9ONCy0eI/AAAAAAAAPhI/5YBXOOw-p7g/s1600/dw_tv.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item><item><title> [COLOR=gold][B] Real Madrid Tv  [/B][/COLOR]</title><link>http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1000_av-p.m3u8<link><thumbnail>https://upload.wikimedia.org/wikipedia/en/a/ae/Realmadrid-TV.jpg</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Fightime  [/B][/COLOR]</title><link><link><thumbnail>http://fight-time.com/wp-content/uploads/2017/03/Fight-Time-Logo-Transparente-1.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item><item><title> [COLOR gold][B] Bein Sports [/B][/COLOR] [COLOR yellow](Sports Devil)[/COLOR]</title><sportsdevil><sportsdevil>http://cinestrenostv.tv/canales/deportes/multibein/canal1.html</sportsdevil></sportsdevil><referer>http://cinestrenostv.tv/canales/deportes/multiliga/canal1.html</referer><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Bein_Sports.png/200px-Bein_Sports.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+ 
+ 
+ 
+<item>
+<title>[COLOR yellow]    DEPORTES [/COLOR]</title>
+<link>http://ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+<item><title> [COLOR gold][B] La Liga Tv [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=barliga&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>http://i65.tinypic.com/dgm78k.jpg</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Bein Sports [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=beinsport&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Bein_Sports.png/200px-Bein_Sports.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Partidazo [/B][/COLOR] [COLOR yellow](Sports Devil)[/COLOR]</title><sportsdevil>http://cinestrenostv.tv/canales/deportes/plus-partidazo.php</sportsdevil></sportsdevil><referer>http://cinestrenostv.tv/canales/deportes/multiliga/canal1.html</referer><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Movistar_Partidazo.svg/200px-Movistar_Partidazo.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Deportes 1 [/B][/COLOR] [COLOR yellow](Sports Devil)[/COLOR]</title><sportsdevil>http://cinestrenostv.tv/canales/deportes/multideportes/canal1.html</sportsdevil><referer>http://cinestrenostv.tv/canales/deportes/multiliga/canal1.html</referer><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Movistar_Deportes_1.svg/200px-Movistar_Deportes_1.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Deportes 1 [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=depor--ne&width=588&height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Movistar_Deportes_1.svg/200px-Movistar_Deportes_1.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Deportes 2 [/B][/COLOR] [COLOR yellow](Sports Devil)[/COLOR]</title><sportsdevil>http://cinestrenostv.tv/canales/deportes/plusdeportes2.php</sportsdevil><referer>http://cinestrenostv.tv/canales/deportes/multiliga/canal1.html</referer><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Movistar_Deportes_2.svg/200px-Movistar_Deportes_2.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item><item>
+ 
+<item><title> [COLOR gold][B] Deportes 2 [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=deportedosm&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Movistar_Deportes_2.svg/200px-Movistar_Deportes_2.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Futbol [/B][/COLOR] [COLOR yellow](Sports Devil)[/COLOR]</title><sportsdevil>http://cinestrenostv.tv/canales/deportes/multifutbol/canal1.html</sportsdevil><referer>http://cinestrenostv.tv/canales/deportes/multiliga/canal1.html</referer><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Movistar_F%C3%BAtbol.svg/200px-Movistar_F%C3%BAtbol.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Moto Gp [/B][/COLOR] [COLOR yellow](Sports Devil)[/COLOR]</title><sportsdevil>http://cinestrenostv.tv/canales/deportes/motogp.php</sportsdevil><referer>http://cinestrenostv.tv/canales/deportes/multiliga/canal1.html</referer><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Movistar_Moto_GP.svg/200px-Movistar_Moto_GP.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Moto Gp [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=motogpm&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Movistar_Moto_GP.svg/200px-Movistar_Moto_GP.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item><item><title> [COLOR gold][B] Formula 1 [/B][/COLOR] [COLOR yellow](Sports Devil)[/COLOR]</title><sportsdevil>http://cinestrenostv.tv/canales/deportes/formula1.php</sportsdevil><referer>http://cinestrenostv.tv/canales/deportes/multiliga/canal1.html</referer><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Movistar_Formula_1.svg/200px-Movistar_Formula_1.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Formula 1 [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=funoesp&width=100%&height=100%</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Movistar_Formula_1.svg/200px-Movistar_Formula_1.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Teledeporte [/B][/COLOR] [COLOR yellow](Sports Devil)[/COLOR]</title><sportsdevil>http://cinestrenostv.tv/canales/deportes/teledeporte.php</sportsdevil><referer>http://cinestrenostv.tv/canales/deportes/multiliga/canal1.html</referer><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tve_teledeporte.png/150px-Tve_teledeporte.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Teledeporte [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=teledeporteesp&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tve_teledeporte.png/150px-Tve_teledeporte.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Nba [/B][/COLOR] [COLOR yellow](Sports Devil)[/COLOR]</title><sportsdevil>http://cinestrenostv.tv/canales/deportes/nba/canal.html</sportsdevil><referer>http://cinestrenostv.tv/canales/deportes/multiliga/canal1.html</referer><thumbnail>https://upload.wikimedia.org/wikipedia/pt/b/b6/NBALogo.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Nba [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=nnba&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/pt/b/b6/NBALogo.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Eurosport 1 [/B][/COLOR] [COLOR yellow](Sports Devil)[/COLOR]</title><sportsdevil>http://cinestrenostv.tv/canales/deportes/eurosports.php</sportsdevil><referer>http://cinestrenostv.tv/canales/deportes/multiliga/canal1.html</referer><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/250px-Eurosport_1_Logo_2015.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Eurosport 1 [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=eurosportsesp&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/250px-Eurosport_1_Logo_2015.svg.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Eurosport 2 [/B][/COLOR] [COLOR yellow](Sports Devil)[/COLOR]</title><sportsdevil>http://cinestrenostv.tv/canales/deportes/eurosports2.php</sportsdevil><referer>http://cinestrenostv.tv/canales/deportes/multiliga/canal1.html</referer><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_2_Logo_2015.png/250px-Eurosport_2_Logo_2015.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR gold][B] Eurosport 2 [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=eurosportsdosesp&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_2_Logo_2015.png/250px-Eurosport_2_Logo_2015.png</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Sevilla Fc Tv [/B][/COLOR]</title><link>http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36<link><thumbnail>http://www.mundoplus.tv/img/19bae457e080236b5316b7545ad94da9</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Betis Tv [/B][/COLOR]</title><link>http://rbetis-hls.flumotion.com/rbetis/live/chunklist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36<link><thumbnail>http://oklivetv.com/wp-content/uploads/media/031a89fb932fc4501cfc67691ccb6f31.jpeg</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item><thumbnail>http://www.congreso.es/portal/pls/portal/docs/1/9708029.GIF</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Barça Tv  [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=barca&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>http://www.creativesatellite.co.uk/contents/media/barca_tv.jpg</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
+ 
+<item><title> [COLOR=gold][B] Gol Tv  [/B][/COLOR]</title><link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embed.php?file=golesp&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>http://static.goltelevision.com/uploads/gol/web/img/og-image.jpg</thumbnail><fanart>http://i.imgur.com/bcpZZ1S.png</fanart></item>
 
 
 
@@ -66,7 +223,6 @@
 
 
 
-https://raw.githubusercontent.com/elchocolate/tvchocotv/master/zonatv/zona%20de%20tv.xml
 
 <item>
 <title>MOVISTAR ACCION</title>
@@ -157,7 +313,7 @@ https://raw.githubusercontent.com/elchocolate/tvchocotv/master/zonatv/zona%20de%
 <item>
 <title>AXN WHITE*</title>
 <!-- <sportsdevil>http://livesports.pw/embed2.php?file=axnesp&width=650&height=400&autostart=true</sportsdevil> -->
-<referer>http://cinestrenostv.tv/canales/envivo/axnwhite.htm</referer>
+<referer>http://cinestrenostv.tv/canales/envivo/axngold.htm</referer>
 <thumbnail>https://s1.postimg.org/1i1pthy4n3/SET.png</thumbnail>
 <fanart>https://image.ibb.co/b22edG/fondo_lista.jpg</fanart>	
 </item>
@@ -1916,19 +2072,19 @@ return u
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://cinestrenostv.tv/canales/nacionales/axnwhite.php</page>
+<page>http://cinestrenostv.tv/canales/nacionales/axngold.php</page>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
-<referer>http://cinestrenostv.tv/canales/envivo/axnwhite.html
+<referer>http://cinestrenostv.tv/canales/envivo/axngold.html
 </regex>
-<thumbnail>http://latelete.tv/img/axnwhite.png</thumbnail>
+<thumbnail>http://latelete.tv/img/axngold.png</thumbnail>
 </item>
 
 
 <item>
 <title>[B][UPPERCASE][COLOR orange]•  [/COLOR][COLOR lightslategray]AXN WHITE[/[/COLOR][/UPPERCASE][/B]</title>
-<sportsdevil>http://cinestrenostv.tv/canales/nacionales/axnwhite.php</sportsdevil>
-<referer>http://cinestrenostv.tv/canales/envivo/axnwhite.html</referer>
-<thumbnail>http://latelete.tv/img/axnwhite.png</thumbnail>
+<sportsdevil>http://cinestrenostv.tv/canales/nacionales/axngold.php</sportsdevil>
+<referer>http://cinestrenostv.tv/canales/envivo/axngold.html</referer>
+<thumbnail>http://latelete.tv/img/axngold.png</thumbnail>
 </item>
 
 
