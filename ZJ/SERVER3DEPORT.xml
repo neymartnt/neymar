@@ -2637,7 +2637,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 
-<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
@@ -2665,7 +2665,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<page></page>
 			</regex>
 
-<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+<thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/fanart.jpg</fanart>
 
 </item>
@@ -2691,7 +2691,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
-</regex><thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+</regex><thumbnail></thumbnail>
 </item>
 
 
@@ -2729,7 +2729,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<page></page>
 			</regex>
 
-			<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+			<thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/fanart.jpg</fanart>
 
 </item>
@@ -2741,7 +2741,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <setcookie>beget=begetok</setcookie>
 </regex>
 
-<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
@@ -2800,7 +2800,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
-<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
@@ -2820,7 +2820,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR white][B] Agenda Arenavision  [COLOR white] Multi-Servers [COLOR white][/COLOR] [/COLOR][/B][/COLOR]</title>
 <link>NA</link>
 <externallink>https://raw.githubusercontent.com/blackghostaddon/gray/master/acemulti.xml</externallink>
-<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
@@ -2843,13 +2843,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <title>[B][I][COLOR white] [makelist.param3][/I] [COLOR lightblue] [makelist.param2][/COLOR]  [COLOR white] [makelist.param4][/B] [/COLOR] [COLOR white][makelist.param5][/COLOR] [/COLOR] </title>
 <link>plugin://program.plexus/?url=[makelist.param1]&amp;mode=1</link>
-<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+<thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[acestream:\/\/(.*?)"[\w\W\s]{0,32}alt="(.*?)<.*?>(.*?)<.*?>(.*?)<.*?>(.*?)[<|"]]]></expres>
 <page>http://www.acesoplisting.in/</page>
 <agent>Mozilla</agent>
 </regex>
-<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
@@ -2883,7 +2883,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>href='(.*?)\&[\w\W\s]{0,95}70%>(.*?)<[\w\W\s]{0,25}src="(.*?)"</expres>
 <page>http://freelive365.com/live_info.php?id=6</page>
 </regex>
-<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
@@ -2900,7 +2900,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
 			<title>[COLOR  skyblue] [makelist2.param2][/COLOR]</title>
 <link>$doregex[makelist]</link>
-<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+<thumbnail></thumbnail>
 ]]></listrepeat>
 <expres>acestream:"(.*?)" pais:"(.*?)";</expres>
 <page>https://raw.githubusercontent.com/blackghostaddon/gray/master/kozm.txt</page>
@@ -2930,7 +2930,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>href='(.*?)'[\w\W\s]{0,65}70%>(.*?)<[\w\W\s]{0,25}src="(.*?)"</expres>
 <page>http://freelive365.com/[makelist2.param1]</page>
 </regex>
-<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
@@ -2964,7 +2964,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
- <thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+ <thumbnail></thumbnail>
 </item>
 
 
@@ -2986,7 +2986,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<referer>http://arenavision2018.ga</referer>
 			<setcookie>beget=begetok</setcookie>
 			</regex>
- <thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+ <thumbnail></thumbnail>
 </item>
 ]]></listrepeat>
 <expres><![CDATA[arenavision2018\.gq\/(.*?)\?.*?title="">(.*?)<]]></expres>
@@ -2995,7 +2995,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <referer>http://arenavision.tk</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
- <thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+ <thumbnail></thumbnail>
 </item>
 
 
@@ -3032,7 +3032,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<referer>http://www.arenavision.in</referer>
 			<setcookie>beget=begetok</setcookie>
 			</regex>
-			<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+			<thumbnail></thumbnail>
 </item>
 ]]></listrepeat>
 <expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+).* (\[.*?\])<]]></expres>
@@ -3040,7 +3040,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <Agent>Mozilla</Agent>
 <referer>http://www.arenavision.ru</referer>
 <setcookie>beget=begetok</setcookie>
-</regex><thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+</regex><thumbnail></thumbnail>
 </item>
 
 
@@ -3067,7 +3067,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[center'>(.*?)<[\w\W\s]{0,2}>(.*?)<[\w\W\s]{0,60}alt='(.*?)'[\w\W\s]{0,55}br>(.*?)<|[\w\W\s]{0,40}acestream://(.*?)"[\w\W\s]{0,120}flags/(.*?)png|[\w\W\s]{0,30}acestream://(.*?)"[\w\W\s]{0,120}flags/(.*?)png|[\w\W\s]{0,30}acestream://(.*?)[\w\W\s]{0,120}flags/(.*?)png|[\w\W\s]{0,30}acestream://(.*?)"[\w\W\s]{0,120}flags/(.*?)png]]></expres>
 <page>https://avezy.tk/</page>
 <Agent>Mozilla</Agent>
-</regex><thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+</regex><thumbnail></thumbnail>
 </item>
 
 
@@ -3085,7 +3085,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[center'>(.*?)<[\w\W\s]{0,120}<td>(.*?)<br>(.*?)<[\w\W\s]{0,40}acestream://(.*?)"]]></expres>
 <page>https://avezy.tk/</page>
 <Agent>Mozilla</Agent>
-</regex><thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+</regex><thumbnail></thumbnail>
 </item>
 
 
@@ -3125,7 +3125,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://www.lfootball.ws/[makelist2.param1]-[makelist2.param2].html</page>
 <agent>Mozilla</agent>
 </regex>
-<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
@@ -3146,8 +3146,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <title>[COLOR coral][I][B][makelist2.param1][/B][/I][/COLOR][COLOR white][B][makelist2.param3][/B][/COLOR] [COLOR lightblue][makelist2.param2][/COLOR] [B][makelist2.param5][/B]</title>
 <link>$doregex[makelist]</link>
-<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/fanart.jpg</fanart>
+<thumbnail></thumbnail>
+<fanart></fanart>
 ]]></listrepeat>
 <expres><![CDATA[h3>(.*?)CEST|<b>(.*?)<.*?\n.*?li>(.*?)<.*?href="(\/.*?)">(.*?)<]]></expres>
 <page>http://www.livefootballol.me/live-football-streaming-2016.html</page>
@@ -3313,7 +3313,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
 	<title>[B][COLOR white][makelist.param1][/B][/COLOR]</title>
 	<link>plugin://program.plexus/?url=[makelist.param2]&amp;mode=1&amp;name=Diablo+Arenavision</link>
-<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+<thumbnail></thumbnail>
 ]]></listrepeat>
 <expres>EXTINF.*?,(.*?)\n.*?id=(.*?)\&</expres>
 <page>http://pomoyka.lib.emergate.net/trash/ttv-list/ttv.all.iproxy.m3u</page>
@@ -3335,7 +3335,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
 	<title>[B][COLOR white][makelist.param1][/B][/COLOR]</title>
 	<link>plugin://program.plexus/?url=[makelist.param2]&amp;mode=1&amp;name=Diablo+Arenavision</link>
-<thumbnail>https://raw.githubusercontent.com/blackghostaddon/gray/master/img/acestreams.png</thumbnail>
+<thumbnail></thumbnail>
 ]]></listrepeat>
 <expres>EXTINF.*?,(.*?)\n.*?acestream:\/\/(.*)</expres>
 <page>http://pomoyka.lib.emergate.net/trash/ttv-list/ttv.sport.player.m3u</page>
