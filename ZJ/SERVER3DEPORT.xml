@@ -212,60 +212,6 @@
 
 
 
-
-
- <item>
-<title>[B]EVENTO LIGA MX 2018 opciones 1 [/B]      </title>
-<link>$doregex[bro.adca.st]</link>
-
-
-<regex>
-<name>bro.adca.st</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream/$doregex[select].html'):
- import requests, re, urllib
- headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
- headers['Referer'] = 'http://vipracing.info/channel/canal-2'
- source = requests.get(url, headers=headers)
- m3u8 = re.findall('tambor = "(.+?)"', source.text)[0]
- tokenpage = re.findall('firme = "\/(.+?)"', source.text)[0]
- headers['Referer'] = url
- headers['X-Requested-With'] = 'XMLHttpRequest'
- headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
- headers['Accept-Language'] = 'en-US,en;q=0.5'
- source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
- m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
- return m3u8
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name>select</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-   import xbmcgui
-   dialog = xbmcgui.Dialog()
-   ret = dialog.select('Elige un Canal ', ['Opcion 248', 'Opcion 15129', 'Opcion 13137', 'Opcion 715', 'Opcion 13525', 'Opcion 10762', 'Opcion 7386', 'Opcion 7387'])
-   lists = ['248', '15129', '13137', '715', '13525', '10762', '7386', '7387']
-   return lists[ret]
-]]></expres>
-<page></page>
-</regex>
-
-<thumbnail></thumbnail>
-
-</item>
-
-
-http://bro.adca.st/chinchan.php
-
-
-
-
-
-
-
-
  <iem>
 <title>[B]Canales Arenavision Selecciona un Canal [/B]  por Acestreams   </title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Diablo+Acestreams</link>
@@ -431,7 +377,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<itm>
+<item>
 <title>[B]Multicanal Motorsport: Rolex 24 at Daytona[/B]         </title>
  <link>$doregex[bro.adca.st]</link>
 <regex>
@@ -3351,42 +3297,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<item>
-<title>[Musica]</title>
-<link>$doregex[makelist]</link>
-
-
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param2]  </title>
-<link>$doregex[makelist2]</link>
-<thumbnail>[makelist.param3]</thumbnail>
-]]></listrepeat>
-<expres>id": "(.*?)"[\w\W\s]{0,13}headline": "(.*?)"[\w\W\s]{0,180}"url": "(.*?)"</expres>
-<page>https://yougotrhythm.blogspot.com</page>
-<agent>Mozilla</agent>
-</regex>
-
-
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>[makelist2.param1]  </title>
-<link>plugin://program.plexus/?url=[makelist2.param1]&amp;mode=1&amp;name=Diablo</link>
-<thumbnail>[makelist.param3]</thumbnail>
-]]></listrepeat>
-<expres>torrentstream.org\/embed\/(.*?)"</expres>
-<page>[makelist.param1]</page>
-</regex>
-
-
-
-<thumbnail></thumbnail>
-</item>
-
 
 
 
@@ -3396,31 +3306,3 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR bisque] LIGA TV [/COLOR]</title>
     <link>plugin://program.plexus/?url=b6041d93d129acd512e87a603655753adf8546db&amp;mode=1&amp;name=Diablo</link></item>
 
- <item>
-<title>[COLOR bisque] BEIN [/COLOR]</title>
-    <link>plugin://program.plexus/?url=73e8ab22bd91a719d07e511624fe0fe682ee9dcc&amp;mode=1&amp;name=Diablo</link></item>
-
-
- <item>
-<title>[COLOR bisque] DEP2 [/COLOR]</title>
-    <link>plugin://program.plexus/?url=e0a4af2618d1dc9991a4ee286341a534194c8401&amp;mode=1&amp;name=Diablo</link></item>
-
-
- <item>
-<title>[COLOR bisque] CDF [/COLOR]</title>
-    <link>plugin://program.plexus/?url=7620c3b34add0772d9b7fe9011aa86bde201c0ba&amp;mode=1&amp;name=Diablo</link></item>
-
-
- <item>
-<title>[COLOR bisque] FOX Premium [/COLOR]</title>
-    <link>plugin://program.plexus/?url=a6a7ad56b4ef0c6e3847a0e823ab518b550ade11&amp;mode=1&amp;name=Diablo</link></item>
-
-
- <item>
-<title>[COLOR bisque] UNIVI DEPORT [/COLOR]</title>
-    <link>plugin://program.plexus/?url=e7968fe55b27a9b308aa2273271f73c8fe3e5593&amp;mode=1&amp;name=Diablo</link></item>
-
-
- <item>
-<title>[COLOR bisque] ANTENA 3 [/COLOR]</title>
-    <link>http://37.187.128.169:8000/live/dkkkasd4545rrrpp/akqpp33845hvnajur/5.ts|User-Agent=VLC/3.0.0-git LibVLC/3.0.0-git</link></item>
