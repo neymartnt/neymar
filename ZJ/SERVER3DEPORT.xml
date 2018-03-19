@@ -210,10 +210,8 @@
 
 
 
-
-
  <iem>
-<title>[B]Canales Arenavision Selecciona un Canal [/B]  por Acestreams   </title>
+<title>[COLOR yellow]   Canales Arenavision Selecciona un Canal [/B]  por Acestreams [/COLOR]  </title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Diablo+Acestreams</link>
 			<regex>
 			<name>hash</name>
@@ -249,27 +247,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[COLOR yellow]   [/COLOR]
 
 
 
@@ -470,7 +448,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream/17220.h
 
 
 <item>
-<title>[B]Multicanal VIP 01[/B]         </title>
+<title>[COLOR yellow]  [B]Multicanal VIP 01[/B]   [/COLOR] </title>
  <link>$doregex[bro.adca.st]</link>
 <regex>
 <name>bro.adca.st</name>
@@ -500,7 +478,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream/13137.h
 
 
 <item>
-<title>Multicanal VIP05</title>
+<title>[COLOR yellow]Multicanal VIP05 [/COLOR]</title>
 <link>http://$doregex[ip]/live/$doregex[get].m3u8?token=$doregex[token]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0&amp;Referer=http://privatehd.pw/PLAYER.php?a=844</link>
 <regex>
 <name>get</name>
@@ -523,7 +501,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream/13137.h
 
 
 <item>
-<title>Multicanal VIP07</title>
+<title>[COLOR yellow] Multicanal VIP07[/COLOR]</title>
 <link>http://$doregex[ip]/live/$doregex[get].m3u8?token=$doregex[token]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0&amp;Referer=http://privatehd.pw/PLAYER.php?a=1203</link>
 <regex>
 <name>get</name>
@@ -546,7 +524,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream/13137.h
 
 
 <item>
-<title>Multicanal VIP08</title>
+<title>  [COLOR yellow] Multicanal VIP08[/COLOR]  </title>
 <link>http://$doregex[ip]/live/$doregex[get].m3u8?token=$doregex[token]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0&amp;Referer=http://privatehd.pw/PLAYER.php?a=843</link>
 <regex>
 <name>get</name>
@@ -566,7 +544,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream/13137.h
 <thumbnail></thumbnail></item>
 
 <item>
-<title>Multicanal VIP09</title>
+<title> [COLOR yellow] Multicanal VIP09 [/COLOR]</title>
 <link>http://$doregex[ip]/live/$doregex[get].m3u8?token=$doregex[token]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0&amp;Referer=http://privatehd.pw/PLAYER.php?a=842</link>
 <regex>
 <name>get</name>
@@ -586,7 +564,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream/13137.h
 <thumbnail></thumbnail></item>
 
 
-
+ [COLOR yellow]   [/COLOR]  
 
 
 <item>
