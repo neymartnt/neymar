@@ -114,6 +114,19 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart></fanart>
 </item>
  
+
+ 
+ 
+ <item>
+<title>[COLOR yellow] [COLOR skyblue] FORMULA 1 [/COLOR]</title>
+<sportsdevil>http://verdirectotv.com/tv/deportes/formula1.html</sportsdevil>
+<referer>http://verdirectotv.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ 
  <item>
 <title>[COLOR yellow] [COLOR skyblue] F1 [/COLOR]</title>
 <sportsdevil>http://vergol.com/live3/formula1.php</sportsdevil>
