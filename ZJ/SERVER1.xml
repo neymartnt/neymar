@@ -3,20 +3,6 @@
 
 
 
-<item>
-<title>[COLOR red] _**_ [/COLOR][COLOR  skyblue] OFF [/COLOR][COLOR red] _**_ [/COLOR]</title>
- <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embedna.php?file=movistarseriesxtra&width=650&height=397</page>
-<cookieJar></cookieJar>
-</regex>
-<referer>http://lacalleochotv.org/</referer>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
 
 <item>
 <title>[COLOR yellow]*[COLOR skyblue] AXN [/COLOR]</title>
