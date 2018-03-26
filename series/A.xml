@@ -293,7 +293,7 @@
 
 
 <item> 
-<title>[COLOR yellow]_**_ [/COLOR][COLOR  skyblue] Asuntos de estado [/COLOR][COLOR yellow]_**_[/COLOR]</title>
+<title>[COLOR red]_**_ [/COLOR][COLOR  skyblue] Asuntos de estado [/COLOR][COLOR red]_**_[/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail>https://pics.filmaffinity.com/state_of_affairs_tv_series-282149973-large.jpg</thumbnail>
 <fanart>https://pics.filmaffinity.com/state_of_affairs_tv_series-282149973-large.jpg</fanart>
@@ -302,17 +302,11 @@
 
 
 
-<item> 
-<title>[COLOR yellow]_**_ [/COLOR][COLOR  skyblue] Atípico [/COLOR][COLOR yellow]_**_[/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>http://static.metacritic.com/images/products/tv/9/9b71319b36b84b0254e27248a3ba2724.jpg</thumbnail>
-<fanart>http://static.metacritic.com/images/products/tv/9/9b71319b36b84b0254e27248a3ba2724.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/DARKNIGHT66/master/SERIES/At%C3%ADpico%20.xml</externallink>	
-</item> 
+
 
 
 <item> 
-<title>[COLOR yellow]_**_ [/COLOR][COLOR  skyblue] Aventuras en el imperio [/COLOR][COLOR yellow]_**_[/COLOR]</title>
+<title>[COLOR blue]_**_ [/COLOR][COLOR  skyblue] Aventuras en el imperio (*)[/COLOR][COLOR yellow]_**_[/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail>https://i.imgur.com/P6K3NGG.jpg</thumbnail>
 <fanart>https://i.imgur.com/P6K3NGG.jpg</fanart>
@@ -320,19 +314,19 @@
 </item> 
 
 <item> 
-<title>[COLOR yellow]_**_ [/COLOR][COLOR  skyblue] Aventuras en el museo [/COLOR][COLOR yellow]_**_[/COLOR]</title>
+<title>[COLOR blue]_**_ [/COLOR][COLOR  skyblue] Aventuras en el museo(*) [/COLOR][COLOR yellow]_**_[/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail>http://www.seriesyonkis.com/img/series/170x243/unnatural-history.jpg</thumbnail>
 <fanart>http://www.seriesyonkis.com/img/series/170x243/unnatural-history.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/DARKNIGHT66/master/SERIES/Aventuras%20en%20el%20museo.xml</externallink>	
+<externallink></externallink>	
 </item> 
 
 <item> 
-<title>[COLOR yellow]_**_ [/COLOR][COLOR  skyblue] Awake [/COLOR][COLOR yellow]_**_[/COLOR]</title>
+<title>[COLOR red]_**_ [/COLOR][COLOR  skyblue] Awake [/COLOR][COLOR red]_**_[/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail>https://i.imgur.com/UMEQmk7.jpg</thumbnail>
 <fanart>https://i.imgur.com/UMEQmk7.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/DARKNIGHT66/master/SERIES/Awake.xml</externallink>	
+<externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/series/AwakeT1.xml</externallink>	
 </item> 
 
 <item> 
