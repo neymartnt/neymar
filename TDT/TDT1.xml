@@ -86,7 +86,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 
 
 <item>
-<title>[COLOR rec] *  [/COLOR][COLOR white][COLOR white]TELECINCO[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]TELECINCO[/COLOR]</title>
 <link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
 <regex>
 <name>get-id</name>
@@ -100,7 +100,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 </item>
 
 <item>
-<title>[COLOR rec] *  [/COLOR][COLOR white][COLOR white]TELECINCO*[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]TELECINCO*[/COLOR]</title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -113,7 +113,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 </item>
 
 <item>
-<title>[COLOR rec] *  [/COLOR][COLOR white][COLOR white]BOING[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]BOING[/COLOR]</title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -126,7 +126,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 </item>
 
 <item>
-<title>[COLOR rec] *  [/COLOR][COLOR white][COLOR white]FDF[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]FDF[/COLOR]</title>
 <link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
 <regex>
 <name>get-id</name>
@@ -141,7 +141,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 
 
 <item>
-<title>[COLOR rec] *  [/COLOR][COLOR white][COLOR white]BE MAD[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]BE MAD[/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/be-mad.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -154,7 +154,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 </item>
 
 <item>
-<title>[[COLOR rec] *  [/COLOR][COLOR white][COLOR white]DIVINITY[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]DIVINITY[/COLOR]</title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -167,7 +167,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 </item>
 
 <item>
-<title>[COLOR rec] *  [/COLOR][COLOR white][COLOR white]ENERGY[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]ENERGY[/COLOR]</title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -183,82 +183,82 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 
 
 <item>
-<title>[COLOR rec]*  [/COLOR][COLOR white][COLOR white]ANTENA 3 HD[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]ANTENA 3 HD[/COLOR]</title>
 <link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_3_av-b.m3u8?sd=11&amp;rebase=on</link>
 <thumbnail>http://directostv.teleame.com/wp-content/uploads/2016/01/Antena-3-en-directo-online.png</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white][COLOR white]NEOX HD[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]NEOX HD[/COLOR]</title>
 <link>http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Neox.svg/2000px-Neox.svg.png</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white][COLOR white]LA SEXTA HD[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]LA SEXTA HD[/COLOR]</title>
 <link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8</link>
 <thumbnail>https://www.foromedios.com/uploads/monthly_2016_04/la_sexta_es_hd.png.4fa7fd7dc0da4de63ddedd3bb7f1415f.png</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white]MEGA HD[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white]MEGA HD[/COLOR]</title>
 <link>http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/MEGA.svg/2000px-MEGA.svg.png</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white]A3 SERIES HD[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white]A3 SERIES HD[/COLOR]</title>
 <link>http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/AtreseriesLogo.svg/1200px-AtreseriesLogo.svg.png</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white]NOVA HD[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white]NOVA HD[/COLOR]</title>
 <link>http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Nova.svg/800px-Nova.svg.png</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white]LIFE TV[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white]LIFE TV[/COLOR]</title>
 <link>http://178.132.6.97/uzivo/lifetvesp/tracks-v1a1/index.m3u8</link>
 <thumbnail>https://static.wixstatic.com/media/27077f_21df71d53465489cbb32acc9f9dd83e0~mv2_d_2000_2000_s_2.png/v1/fill/w_201,h_146,al_c,usm_0.66_1.00_0.01/27077f_21df71d53465489cbb32acc9f9dd83e0~mv2_d_2000_2000_s_2.png</thumbnail>
 <fanart></fanart>
 </item>
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white]13 TV[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white]13 TV[/COLOR]</title>
 <link>http://streaming13tv.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/smil:live.smil/chunklist_w1664206825_b700000.m3u8</link>
 <thumbnail>http://trecetv.es//images/epg/logo-epg.png</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white]PARAMOUNT CHANNEL[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white]PARAMOUNT CHANNEL[/COLOR]</title>
 <link>http://paramount.live.flumotion.com/live/chunks.m3u8</link>
 <thumbnail>http://www.cineytele.com/wp-content/uploads/2016/06/paramount-channel.png</thumbnail>
 <fanart></fanart>
 </item>
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white]REAL MADRID[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white]REAL MADRID[/COLOR]</title>
 <link>http://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hwebes_1@300661/index_3_av-p.m3u8?sd=10&rebase=on</link>
 <thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/b/b5/Real_Madrid_TV_HD.png/revision/latest?cb=20170103061913</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white]HIT TV[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white]HIT TV[/COLOR]</title>
 <link>http://kissfm-cires21-video.secure.footprint.net/hittv/bitrate_4.m3u8</link>
 <thumbnail>http://www.hittv.es/images/logo.png</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white]DKISS[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white]DKISS[/COLOR]</title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -273,7 +273,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white]TEN[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white]TEN[/COLOR]</title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -287,7 +287,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white]DMAX[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white]DMAX[/COLOR]</title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -302,7 +302,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white]DW ESPAÑA[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white]DW ESPAÑA[/COLOR]</title>
 <link>http://dwstream3-lh.akamaihd.net/i/dwstream3_live@124409/index_1_av-p.m3u8?sd=10&rebase=on</link>
 <thumbnail>http://www.afaqs.com/all/news/images/news_story_grfx/2015/09/45674/DWTV.jpg</thumbnail>
 <fanart></fanart>
