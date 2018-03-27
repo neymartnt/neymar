@@ -5,21 +5,21 @@
 
 
  <item>
-<title> [COLOR white]*  [/COLOR][COLOR gold]GRAN HERMANO  24H[/COLOR]</title>
+<title> [COLOR red]*  [/COLOR][COLOR gold]GRAN HERMANO  24H[/COLOR]</title>
 <link>https://mdslivehls-i.akamaihd.net/hls/live/571672/realities/bitrate_4.m3u8</link>
 <thumbnail>http://www.ideal.es/noticias/201611/13/media/cortadas/gh1-kK6F-U204258338526Y7C-575x323@Ideal.jpg</thumbnail>
 <fanart></fanart>
 </item>
 
  <item>
-<title>[COLOR white] *  [/COLOR][COLOR gold][COLOR white]OPERACION TRIUNFO 24H[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR gold][COLOR white]OPERACION TRIUNFO 24H[/COLOR]</title>
 <link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=6Lzw7oYTEMo</link>
 <thumbnail>https://pbs.twimg.com/profile_images/887964803343503360/nvitNfww_400x400.jpg</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR gold][COLOR white]LA 1[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR gold][COLOR white]LA 1[/COLOR]</title>
 <link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
 <regex>
 <name>get-id</name>
@@ -34,7 +34,7 @@
 
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR gold][COLOR white]LA 1 HD[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR gold][COLOR white]LA 1 HD[/COLOR]</title>
 <link>http://hlsliveamdgl7-lh.akamaihd.net/i/hlslive_1@583041/index_1500_av-p.m3u8?sd=10&rebase=on</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/7/76/La_1_HD_TVE.png</thumbnail>
 <fanart></fanart>
@@ -49,14 +49,14 @@
 http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/stream1/streamPlaylist.m3u8
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white][COLOR white]TDP HD[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]TDP HD[/COLOR]</title>
 <link>http://hlsliveamdgl1-lh.akamaihd.net/i/hlsdvrlive_1@39732/index_1500_av-p.m3u8?sd=10&rebase=on</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Tdp_HD.png/320px-Tdp_HD.png</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white][COLOR white]CUATRO HD[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]CUATRO HD[/COLOR]</title>
 <link>http://cuatro-mediaset-esp-live.secure.footprint.net/mediaset/cuatro/stream1/streamPlaylist.m3u8</link>
 <thumbnail>http://www.diesl.com/wp-content/uploads/2017/01/Cuatro_Diesl.com_.png</thumbnail>
 <fanart></fanart>
@@ -78,7 +78,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white][COLOR white]TELECINCO HD[/COLOR]</title>
+<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]TELECINCO HD[/COLOR]</title>
 <link>http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/stream1/streamPlaylist.m3u8</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/7/75/Telecinco_2012.png</thumbnail>
 <fanart></fanart>
@@ -86,7 +86,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white][COLOR white]TELECINCO[/COLOR]</title>
+<title>[COLOR rec] *  [/COLOR][COLOR white][COLOR white]TELECINCO[/COLOR]</title>
 <link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
 <regex>
 <name>get-id</name>
@@ -100,7 +100,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white][COLOR white]TELECINCO*[/COLOR]</title>
+<title>[COLOR rec] *  [/COLOR][COLOR white][COLOR white]TELECINCO*[/COLOR]</title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -113,7 +113,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white][COLOR white]BOING[/COLOR]</title>
+<title>[COLOR rec] *  [/COLOR][COLOR white][COLOR white]BOING[/COLOR]</title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -126,7 +126,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white][COLOR white]FDF[/COLOR]</title>
+<title>[COLOR rec] *  [/COLOR][COLOR white][COLOR white]FDF[/COLOR]</title>
 <link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
 <regex>
 <name>get-id</name>
@@ -141,7 +141,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white][COLOR white]BE MAD[/COLOR]</title>
+<title>[COLOR rec] *  [/COLOR][COLOR white][COLOR white]BE MAD[/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/be-mad.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -154,7 +154,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white][COLOR white]DIVINITY[/COLOR]</title>
+<title>[[COLOR rec] *  [/COLOR][COLOR white][COLOR white]DIVINITY[/COLOR]</title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -167,7 +167,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white][COLOR white]ENERGY[/COLOR]</title>
+<title>[COLOR rec] *  [/COLOR][COLOR white][COLOR white]ENERGY[/COLOR]</title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -183,7 +183,7 @@ http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/strea
 
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white][COLOR white]ANTENA 3 HD[/COLOR]</title>
+<title>[COLOR rec]*  [/COLOR][COLOR white][COLOR white]ANTENA 3 HD[/COLOR]</title>
 <link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_3_av-b.m3u8?sd=11&amp;rebase=on</link>
 <thumbnail>http://directostv.teleame.com/wp-content/uploads/2016/01/Antena-3-en-directo-online.png</thumbnail>
 <fanart></fanart>
