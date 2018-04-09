@@ -4711,7 +4711,7 @@ return u
 </item>
 
 
-item>
+<item>
 <title>[B][UPPERCASE][COLOR gold]JHG5  [/COLOR][COLOR lightslategray]LA LIGA TV[/COLOR][/UPPERCASE][/B]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=barliga&width=650&height=397</sportsdevil>
 <referer>http://verplusonline.com/laligatv/</referer>
@@ -4719,7 +4719,7 @@ item>
 </item>
 
 
-item>
+<item>
 <title>[B][UPPERCASE][COLOR gold]JHG5  [/COLOR][COLOR lightslategray]1.2MOVISTAR GOLF[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[GetPageUrl]Referer=http://vercanalestv.com/tv/nacionales/canal-plus-estrenos.html;amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
@@ -4732,7 +4732,7 @@ item>
 </item>
 
 
-item>
+<item>
 <title>[B][UPPERCASE][COLOR gold]JHG5  [/COLOR][COLOR lightslategray]MOVISTAR GOLF[/COLOR][/UPPERCASE][/B]</title>
 <link>$doregex[get_id]|User-Agent=iPad</link>
 <regex>
