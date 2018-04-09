@@ -22,6 +22,7 @@
 
 
 
+
  <item>
 <title>[COLOR red] *_* [COLOR skyblue] EUROSPORT [/COLOR]</title>
 <sportsdevil>https://www.vercanalestv.com/ver-canal-eurosport-en-directo-y-online-gratis/</sportsdevil>
@@ -238,7 +239,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR yellow] •  [/COLOR][COLOR green] LIGA 123[/COLOR]</title>
+<title>[COLOR yellow] *  [/COLOR][COLOR green] LIGA 123[/COLOR]</title>
 <link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live3/liga123.php</link>
 <regex>
 <name>get-id</name>
@@ -252,7 +253,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR yellow] •  [/COLOR][COLOR green] LA LIGA TV [/COLOR] </title>
+<title>[COLOR yellow] *  [/COLOR][COLOR green] LA LIGA TV [/COLOR] </title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -650,9 +651,9 @@ http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/index_0700_av-p.m3u8?sd=1
 </item>
 
  <item>
-<title>[COLOR yellow] [COLOR skyblue] TYC SPORT [/COLOR]</title>
-<sportsdevil>http://vergol.com/live1/tycsports.php</sportsdevil>
-<referer>http://www.vertelevisor.com/</referer>
+<title>[COLOR red] [COLOR skyblue] CAZA Y PESCA [/COLOR]</title>
+<sportsdevil>http://verplusonline.com/ver-caza-y-pesca-online</sportsdevil>
+<referer>http://verplusonline.com/</referer>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
