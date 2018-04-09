@@ -20,6 +20,85 @@
 
 
 
+ <item>
+<title>[COLOR red] *_* [COLOR skyblue] EUROSPORT [/COLOR]</title>
+<sportsdevil>https://www.vercanalestv.com/ver-canal-eurosport-en-directo-y-online-gratis/</sportsdevil>
+<referer>http://www.vercanalestv.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+ <item>
+<title>[COLOR red] *_* [COLOR skyblue] F1 [/COLOR]</title>
+<sportsdevil>https://www.vercanalestv.com/ver-formula-1-en-directo-y-online-gratis/</sportsdevil>
+<referer>http://www.vercanalestv.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+ <item>
+<title>[COLOR red] *_* [COLOR skyblue] MOTOGP [/COLOR]</title>
+<sportsdevil>https://www.vercanalestv.com/ver-motogp-en-directo-y-online-24h-gratis/</sportsdevil>
+<referer>http://www.vercanalestv.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+ <item>
+<title>[COLOR yellow] *_* [COLOR skyblue]  [/COLOR]</title>
+<sportsdevil></sportsdevil>
+<referer>http://www.vercanalestv.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+ <item>
+<title>[COLOR yellow] [COLOR skyblue]  [/COLOR]</title>
+<sportsdevil></sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+ <item>
+<title>[COLOR yellow] [COLOR skyblue]  [/COLOR]</title>
+<sportsdevil></sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>[COLOR yellow] •  [/COLOR][COLOR green] M  MOTOSGP**   [/COLOR]</title>
+  <link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/canal-plus-deportes.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vertelevisor.com/tv/deportes/moto-gp.php</page>
+<referer>http://www.vertelevisor.com/ver-motogp-gratis-online-24h-en-directo-por-internet</referer>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Movistar_Deportes_1.svg/1024px-Movistar_Deportes_1.svg.png</thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+
+
+
 
 <item>
 <title>[COLOR gold] AGENDA+DEPORTE [/COLOR] [COLOR red](categorias) [/COLOR]</title>
@@ -120,31 +199,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-<item>
-<title>Formula 1</title>
-<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>source: '(.*?)'</expres>
-<page>http://vergol.com/live3/formula1.php</page>
-<referer>http://www.vertelevisor.com/ver-la-f1-online-en-directo-por-internet-formula-1-gratis/</referer>
-</regex>
-<thumbnail>https://s1.postimg.org/639ucfrwin/MVF1.png</thumbnail>
-<fanart>https://s18.postimg.org/kvp4paatl/fondocanalestv.jpg</fanart>
-</item>
 
-<item>
-<title>Formula 1 OP.1</title>
-<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embeddeporte.php?file=funoesp&width=650&height=397</page>
-<referer>http://verplusonline.com/ver-movistar-f1-online/</referer>
-</regex>
-<thumbnail>https://s1.postimg.org/639ucfrwin/MVF1.png</thumbnail>
-<fanart>https://s18.postimg.org/kvp4paatl/fondocanalestv.jpg</fanart>
-</item>
+
+
 
  
 
