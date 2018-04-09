@@ -20,6 +20,8 @@
 
 
 
+
+
  <item>
 <title>[COLOR red] *_* [COLOR skyblue] EUROSPORT [/COLOR]</title>
 <sportsdevil>https://www.vercanalestv.com/ver-canal-eurosport-en-directo-y-online-gratis/</sportsdevil>
@@ -40,6 +42,23 @@
  <item>
 <title>[COLOR red] *_* [COLOR skyblue] MOTOGP [/COLOR]</title>
 <sportsdevil>https://www.vercanalestv.com/ver-motogp-en-directo-y-online-24h-gratis/</sportsdevil>
+<referer>http://www.vercanalestv.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+ <item>
+<title>[COLOR yellow] *_* [COLOR skyblue]  [/COLOR]</title>
+<sportsdevil></sportsdevil>
+<referer>http://www.vercanalestv.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+ <item>
+<title>[COLOR yellow] *_* [COLOR skyblue]  [/COLOR]</title>
+<sportsdevil></sportsdevil>
 <referer>http://www.vercanalestv.com/</referer>
 <thumbnail></thumbnail>
 <fanart></fanart>
