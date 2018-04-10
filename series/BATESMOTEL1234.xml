@@ -97,7 +97,7 @@
 <thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>----------------</page>
+<page>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t3-110728</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -115,7 +115,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>-------------------</referer>
+<referer>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t3-110728</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
