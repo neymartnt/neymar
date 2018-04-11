@@ -1,82 +1,165 @@
 <?xml version="3.0" encoding="UTF-8" standalone="yes"?>
 
+
+
+
+
 <item>
-<title>[COLOR aquamarine][B]EL EQUIPO A - 1983[/B][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[COLOR cyan] [B] [makelist.param3][/B][/COLOR]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>http://i.imgur.com/gtVqCJn.jpg</thumbnail>
-  <fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2015/09/520462-equipo-renacera-television-nueva-serie.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/naredo/el-equipo-a-20392/list,1,4</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/naredo/el-equipo-a-20392/list,1,4</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://i.imgur.com/gtVqCJn.jpg</thumbnail>
-  <fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2015/09/520462-equipo-renacera-television-nueva-serie.jpg</fanart>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP 1 [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/dlmyzadjdmdu</urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
 </item>
 
 
-http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/bm210-www-newpct1-com,2175250,list,1,2.avi
-
-	
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]** Temporada 1 [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
-        <link>$doregex[getUrl]</link>
-<fanart>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg</fanart>
-<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/list,1,2</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/list,1,2</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<fanart>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg</fanart>
-<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg</thumbnail>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP 2 [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/vij1wkb4ux2q</urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
 </item>
 
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP 3 [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/i1pgkmk4shvf</urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP 4 [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/r39sxitctngc</urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP 5 [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/x3oab886leqn</urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP 6 [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/so1x81bveysl</urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP 7 [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/k7mpl2i82wkn</urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP 8 [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/1mun2wo952es</urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP 9 [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/xpv5jm9xp6h9</urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP 10 [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve>http://streamcloud.eu/u1ybmonel1br</urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP  [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP  [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP  [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP  [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP  [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP  [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP  [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP  [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP  [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 1 CAP  [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg<thumbnail>
+<info></info> 
+</item>
