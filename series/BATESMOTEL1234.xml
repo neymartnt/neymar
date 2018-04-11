@@ -2,12 +2,17 @@
 
 
 
-<item>
-<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] TEMPORADA 2 CAP  [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
-<urlsolve>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/batesmote101-www-newpct-com,2173162,list,1,1.avi</urlsolve>
-<thumbnail>http://www.formulatv.com/images/series/posters/300/388/2_m3.jpg<thumbnail>
-<info></info> 
-</item>
+
+
+
+<item> 
+<title>[COLOR yellow]_**_ [/COLOR][COLOR  skyblue] TEMPORADA 1  [/COLOR][COLOR yellow]_**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://www.sanity.com.au/media/Images/fullimage/313486/SDC_1318547_1016-09-9--00-16-10.jpg</thumbnail>
+<fanart>https://www.sanity.com.au/media/Images/fullimage/313486/SDC_1318547_1016-09-9--00-16-10.jpg</fanart>
+<externallink>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/batesmote101-www-newpct-com,2173162,list,1,1.avi</externallink>	
+</item> 
+
 
 	
 <item>
@@ -64,7 +69,7 @@ http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/bamotel106-www
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/chinchetas/companeros-todas-temporadas-34801/list,1,6</page>
+<page>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t4-110738</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -82,7 +87,7 @@ http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/bamotel106-www
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>/page>
-<referer>http://diskokosmiko.mx/chinchetas/companeros-todas-temporadas-34801/list,1,6</referer>
+<referer>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t4-110738</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
