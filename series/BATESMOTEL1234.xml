@@ -4,16 +4,6 @@
 
 
 
-
-<item> 
-<title>[COLOR yellow]_**_ [/COLOR][COLOR  skyblue] TEMPORADA 1  [/COLOR][COLOR yellow]_**_[/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>https://www.sanity.com.au/media/Images/fullimage/313486/SDC_1318547_1016-09-9--00-16-10.jpg</thumbnail>
-<fanart>https://www.sanity.com.au/media/Images/fullimage/313486/SDC_1318547_1016-09-9--00-16-10.jpg</fanart>
-<externallink>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/batesmote101-www-newpct-com,2173162,list,1,1.avi</externallink>	
-</item> 
-
-
 	
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]** Temporada 1 [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
@@ -27,7 +17,7 @@
 <thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/bamotel106-www-newpct-com,2173239,list,1,1.avi</page>
+<page>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/list,1,2</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -45,7 +35,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/bamotel106-www-newpct-com,2173239,list,1,1.avi</referer>
+<referer>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/list,1,2</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
@@ -53,12 +43,10 @@
 <thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_723serie.jpg</thumbnail>
 </item>
 
-http://diskokosmiko.mx/chinchetas/companeros-todas-temporadas-34801/8-10,353276,list,1,6.avi
 
-http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/bamotel106-www-newpct-com,2173239,list,1,1.avi
 
  <item>
-<title>[COLOR red] Todas las Temporadas [/COLOR]</title>
+<title>[COLOR red] Todas las Temporadas** [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -69,7 +57,7 @@ http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/bamotel106-www
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t4-110738</page>
+<page>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/list,1,2</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -87,7 +75,7 @@ http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/bamotel106-www
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>/page>
-<referer>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t4-110738</referer>
+<referer>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-t1-110724/list,1,2</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
