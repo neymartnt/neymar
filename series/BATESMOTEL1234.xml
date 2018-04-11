@@ -93,7 +93,7 @@
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-110724</page>
+<page>http://diskokosmiko.mx/lau158/bates-motel-t1-86757</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -111,7 +111,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/juan-hinojosa-garcia/batel-motel-110724</referer>
+<referer>http://diskokosmiko.mx/lau158/bates-motel-t1-86757</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
