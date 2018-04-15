@@ -245,12 +245,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
 
 <item>
-<title>[COLOR yellow] •  [/COLOR][COLOR green] PARTIDAZO[/COLOR]</title>
+<title>[COLOR yellow] •  [/COLOR][COLOR green] 123 99[/COLOR]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=partidazo&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embeddeporte.php?file=motogpm&width=650&height=397</page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://static.beinconnect.es/uploads/comun/img/logos/partidazo.png</thumbnail>
