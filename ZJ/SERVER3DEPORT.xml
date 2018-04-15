@@ -31,13 +31,7 @@
 </item>
 
 
-<item>
-<title>[COLOR red] *_* [COLOR skyblue]  [/COLOR]</title>
-<sportsdevil></sportsdevil>
-<referer>http://www.vertelevisor.com/</referer>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
+
 
  <item>
 <title>[COLOR red] *_* [COLOR skyblue] F1 [/COLOR]</title>
@@ -57,6 +51,22 @@
 </item>
 
 
+<item>
+<title>[COLOR red] *_* [COLOR skyblue] BEIN LIGA [/COLOR]</title>
+<sportsdevil>http://vergol.com/live3/beinliga.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+ <item>
+<title>[COLOR yellow] *_* [COLOR skyblue] LA LIGA 123 [/COLOR]</title>
+<sportsdevil>http://vergol.com/live3/liga123.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
 
 
  <item>
@@ -70,24 +80,18 @@
  <item>
 <title>[COLOR yellow] *_* [COLOR skyblue]  [/COLOR]</title>
 <sportsdevil></sportsdevil>
-<referer>http://www.vercanalestv.com/</referer>
+<referer>http://www.vertelevisor.com/</referer>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
 
 
- <item>
-<title>[COLOR yellow] *_* [COLOR skyblue]  [/COLOR]</title>
-<sportsdevil></sportsdevil>
-<referer>http://www.vercanalestv.com/</referer>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
+
 
  <item>
 <title>[COLOR yellow] *_* [COLOR skyblue]  [/COLOR]</title>
 <sportsdevil></sportsdevil>
-<referer>http://www.vercanalestv.com/</referer>
+<referer>http://www.vertelevisor.com/</referer>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
