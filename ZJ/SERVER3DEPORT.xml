@@ -78,8 +78,8 @@
 </item>
 
  <item>
-<title>[COLOR yellow] *_* [COLOR skyblue]  [/COLOR]</title>
-<sportsdevil></sportsdevil>
+<title>[COLOR yellow] *_* [COLOR skyblue] 4 [/COLOR]</title>
+<sportsdevil>http://vertelevisor.com/tv/deportes/liga123.php</sportsdevil>
 <referer>http://www.vertelevisor.com/</referer>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -118,24 +118,6 @@
 
 
 
-
-
-
-
-
-<item>
-<title>[COLOR yellow] •  [/COLOR][COLOR green] M  MOTOSGP**   [/COLOR]</title>
-  <link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/canal-plus-deportes.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
-<regex>
-<name>get-id</name>
-<expres>source: '(.*?)'</expres>
-<page>http://vertelevisor.com/tv/deportes/moto-gp.php</page>
-<referer>http://www.vertelevisor.com/ver-motogp-gratis-online-24h-en-directo-por-internet</referer>
-<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
-</regex>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Movistar_Deportes_1.svg/1024px-Movistar_Deportes_1.svg.png</thumbnail>
-<fanart></fanart>
-</item>
 
 
 
