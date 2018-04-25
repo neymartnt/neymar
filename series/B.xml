@@ -140,7 +140,7 @@
 
 
 <item> 
-<title>[COLOR yellow]_**_ [/COLOR][COLOR  skyblue] Borgen [/COLOR][COLOR yellow]_**_[/COLOR]</title>
+<title>[COLOR red]_**_ [/COLOR][COLOR  skyblue] Borgen [/COLOR][COLOR red]_**_[/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail>https://image.tmdb.org/t/p/w200_and_h300_bestv2/A8dTjcrJH0xzncbESVUuSHL1Rq5.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/w200_and_h300_bestv2/A8dTjcrJH0xzncbESVUuSHL1Rq5.jpg</fanart>
@@ -148,13 +148,7 @@
 </item> 
 
 
-<item> 
-<title>[COLOR yellow]_**_ [/COLOR][COLOR  skyblue] Borgoña [/COLOR][COLOR yellow]_**_[/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/I/51haPNT4pXL.jpg</thumbnail>
-<fanart>https://images-na.ssl-images-amazon.com/images/I/51haPNT4pXL.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/DARKNIGHT66/master/SERIES/Borgo%C3%B1a.xml</externallink>	
-</item> 
+
 
 <item> 
 <title>[COLOR yellow]_**_ [/COLOR][COLOR  skyblue] Bosch [/COLOR][COLOR yellow]_**_[/COLOR]</title>
