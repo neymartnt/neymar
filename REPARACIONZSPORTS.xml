@@ -1,6 +1,109 @@
 <?xml version="3.0" encoding="UTF-8" standalone="yes"?>
 
 
+--------------------------------------------------------------------
+
+<item> 
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] ZONA [/COLOR][COLOR orange] SPORTS365 [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://pbs.twimg.com/profile_images/589075153092550657/Q7aS9g6Y.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/589075153092550657/Q7aS9g6Y.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/TodoPlus/master/AV%20JHG.xml</externallink>	
+</item> 
+
+  	
+
+
+
+<item><title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] EL [/COLOR][COLOR orange] CHIRINGUITO [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://pbs.twimg.com/profile_images/899439317529112576/3MQ-sy9r_400x400.jpg</thumbnail>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCCj8dgFh8dz4FB14XAt_AZQ</page>
+</regex>
+<thumbnail>https://pbs.twimg.com/profile_images/899439317529112576/3MQ-sy9r_400x400.jpg</thumbnail>
+</item>
+
+
+
+		
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] ZONA [/COLOR][COLOR orange] UFC [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://www.spaceboxing.com/wp-content/uploads/2013/07/UFC-Logo-2-psd87648-300x300.jpg</thumbnail>
+<fanart>https://www.spaceboxing.com/wp-content/uploads/2013/07/UFC-Logo-2-psd87648-300x300.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/neymartnt/Jhg5/master/Zsports/ufc.xml</externallink>	
+</item>
+		
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+
+<item><title>MOTOGP 2017</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCB5KuMSSMiBqy6zutqagKNQ</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
+
+ <item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MOTOGP [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] Z Sports [/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=ky-ZyN8BGhs&amp;list=PLAwW2JS8YfRl1w3NWJD0gqhUnucrh59Jd</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
+
+
+ <item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] Z Sports [/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=Gq5FQL8E_1A&amp;list=PLJsHhoQ4W0fn_qUuELnkWQCF3bsn74JvP</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
+
 
 
 <item>
