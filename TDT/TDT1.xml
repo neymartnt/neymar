@@ -2,311 +2,365 @@
 
 
 
-
-
- <item>
-<title> [COLOR red]*  [/COLOR][COLOR gold]GRAN HERMANO  24H[/COLOR]</title>
-<link>https://mdslivehls-i.akamaihd.net/hls/live/571672/realities/bitrate_4.m3u8</link>
-<thumbnail>http://www.ideal.es/noticias/201611/13/media/cortadas/gh1-kK6F-U204258338526Y7C-575x323@Ideal.jpg</thumbnail>
-<fanart></fanart>
-</item>
-
- <item>
-<title>[COLOR red] *  [/COLOR][COLOR gold][COLOR white]OPERACION TRIUNFO 24H[/COLOR]</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=6Lzw7oYTEMo</link>
-<thumbnail>https://pbs.twimg.com/profile_images/887964803343503360/nvitNfww_400x400.jpg</thumbnail>
-<fanart></fanart>
-</item>
+[COLOR yellow]  [/COLOR]
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR gold][COLOR white]LA 1[/COLOR]</title>
-<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
+<title>[COLOR yellow] LA 1 [/COLOR]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
-<name>get-id</name>
+<name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://vergol.com/live/tve1.php</page>
-<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
-<agent>iPad</agent>
+<page>http://livesports.pw/embedna.php?file=la1&width=650&height=397</page>
+<referer>http://telefivegb.com/canales/tdt/tv1</referer>
 </regex>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/7/76/La_1_HD_TVE.png</thumbnail>
-<fanart></fanart>
-</item>
-
-
-<item>
-<title>[COLOR red] *  [/COLOR][COLOR gold][COLOR white]LA 1 HD[/COLOR]</title>
-<link>http://hlsliveamdgl7-lh.akamaihd.net/i/hlslive_1@583041/index_1500_av-p.m3u8?sd=10&rebase=on</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/7/76/La_1_HD_TVE.png</thumbnail>
-<fanart></fanart>
+<thumbnail>https://s7.postimg.cc/i12wo5jln/la1.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR white] *  [/COLOR][COLOR white][COLOR white]24H  HD[/COLOR]</title>
-<link>http://hlsliveamdgl8-lh.akamaihd.net/i/hlsdvrlive_1@583030/index_1500_av-b.m3u8?sd=10&rebase=on</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_TVE-24h.svg/1200px-Logo_TVE-24h.svg.png</thumbnail>
-<fanart></fanart>
-</item>
-http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/stream1/streamPlaylist.m3u8
-
-<item>
-<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]TDP HD[/COLOR]</title>
-<link>http://hlsliveamdgl1-lh.akamaihd.net/i/hlsdvrlive_1@39732/index_1500_av-p.m3u8?sd=10&rebase=on</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Tdp_HD.png/320px-Tdp_HD.png</thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
-<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]CUATRO HD[/COLOR]</title>
-<link>http://cuatro-mediaset-esp-live.secure.footprint.net/mediaset/cuatro/stream1/streamPlaylist.m3u8</link>
-<thumbnail>http://www.diesl.com/wp-content/uploads/2017/01/Cuatro_Diesl.com_.png</thumbnail>
-<fanart></fanart>
-</item>
-
-
-<item>
-<title>[COLOR white] *  [/COLOR][COLOR white][COLOR white]CUATRO [/COLOR]</title>
-<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live1/cuatro.php</link>
+<title>[COLOR yellow] LA 2 [/COLOR] </title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
-<name>get-id</name>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedna.php?file=la2&width=650&height=397</page>
+<referer>http://telefivegb.com/canales/tdt/tv2</referer>
+</regex>
+<thumbnail>https://s7.postimg.cc/47ejz8oh7/la2.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow] ANTENA 3 [/COLOR] </title>
+<link>https://atresplayerp-i.akamaized.net/geoantena3mpp/bitrate_4.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/fjr5h4kcb/antena3.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow] CUATRO [/COLOR] </title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live1/cuatro.php</page>
-<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
-<agent>iPad</agent>
+<referer>http://verdirectotv.com/tv/nacionales2/cuatro.html</referer>
 </regex>
-<thumbnail>http://www.diesl.com/wp-content/uploads/2017/01/Cuatro_Diesl.com_.png</thumbnail>
-<fanart></fanart>
+<thumbnail>https://s7.postimg.cc/pv3i999bf/cuatro.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]TELECINCO HD[/COLOR]</title>
-<link>http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/stream1/streamPlaylist.m3u8</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/7/75/Telecinco_2012.png</thumbnail>
-<fanart></fanart>
-</item>
-
-
-<item>
-<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]TELECINCO[/COLOR]</title>
-<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
+<title>[COLOR yellow] TELECINCO [/COLOR] </title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
-<name>get-id</name>
+<name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live1/telecinco.php</page>
-<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
-<agent>iPad</agent>
+<referer>http://vercanalestv.com/tv/multicanal/telecinco.html</referer>
 </regex>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/7/75/Telecinco_2012.png</thumbnail>
-<fanart></fanart>
+<thumbnail>https://s7.postimg.cc/a9m6pectn/telecinco.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]TELECINCO*[/COLOR]</title>
- <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<title>[COLOR yellow]  LA SEXTA [/COLOR]</title>
+<link>https://atresplayerp-i.akamaized.net/geolasextampp/bitrate_4.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/7fj1c3njv/lasexta.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]  DIVINITY [/COLOR] </title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed2.php?file=telecinco&amp;width=650&amp;height=397</page>
-<cookieJar></cookieJar>
+<page>http://vergol.com/live/divinity.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/divinity.html</referer>
 </regex>
-<thumbnail>http://zonadjjavi.webcindario.com/Kodi/logos/telecinco1.jpg</thumbnail>
-<fanart></fanart>
+<thumbnail>https://s7.postimg.cc/llys7fdvf/divinity.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]BOING[/COLOR]</title>
- <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<title>[COLOR yellow]  ENERGY [/COLOR] </title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed2.php?file=boing&amp;width=650&amp;height=397</page>
-<cookieJar></cookieJar>
+<page>http://vergol.com/live/energy.php</page>
+<referer>http://verdirectotv.com/tv/nacionales/energy.html</referer>
 </regex>
-<thumbnail>http://www.simbajuguetes.com/wp-content/uploads/2017/05/logo-boing.png</thumbnail>
-<fanart></fanart>
+<thumbnail>https://s7.postimg.cc/hplgbm8d7/energy.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]FDF[/COLOR]</title>
-<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
+<title>[COLOR yellow] FDF [/COLOR] </title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
-<name>get-id</name>
+<name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live/fdf.php</page>
-<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
-<agent>iPad</agent>
+<referer>http://vercanalestv.com/tv/nacionales/fdf.html</referer>
 </regex>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/FDF_2012_Large.svg/1200px-FDF_2012_Large.svg.png</thumbnail>
-<fanart></fanart>
+<thumbnail>https://s7.postimg.cc/vkoc7da17/fdf.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]  NEOX [/COLOR] </title>
+<link>http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/index_4_av-b.m3u8?sd=10&rebase=on</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/brc8elc23/neox.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow] NOVA [/COLOR] </title>
+<link>http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/index_4_av-b.m3u8?sd=10&rebase=on</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/s12ehu9yz/nova.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow] A3SERIES [/COLOR] </title>
+<link>http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/index_4_av-b.m3u8?sd=10&rebase=on</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/beku8j43v/a3series.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 
+
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]BE MAD[/COLOR]</title>
-<link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/be-mad.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<title>BE MAD</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live/bemad.php</page>
-<referer>http://vercanalestv.com/tv/nacionales/be-mad.html</referer>
+<referer>http://verdirectotv.com/tv/nacionales/bemad.html</referer>
 </regex>
-<thumbnail>https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2017/09/Be-Mad.png?fit=500%2C300</thumbnail>
-<fanart></fanart>
+<thumbnail>https://s7.postimg.cc/4o4czaz0b/bemad.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]DIVINITY[/COLOR]</title>
- <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<title>MEGA</title>
+<link>http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/index_4_av-b.m3u8?sd=10&rebase=on</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/oiqelmwa3/mega.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>
+
+<item>
+<title>PARAMOUNT CHANNEL</title>
+<link>http://paramount.live.flumotion.com/live/playlist.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/nuhk2efh7/paramount.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>
+
+<item>
+<title>24H</title>
+<link>http://hlsackdn_gl8-lh.akamaihd.net/i/hlsdvrlive_1@81183/index_1500_av-b.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/6tyntwa7f/24h.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>
+
+<item>
+<title>INTERECONOMIA</title>
+<link>http://streaming.enetres.net/16011939C62D44ED91350508FB25828B021/smil:live.smil/master.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/g6unjxoh7/intereconomia.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>
+
+<item>
+<title>BOING</title>
+<link>https://mdslivehlsb-i.akamaihd.net/hls/live/623616/boing/bitrate_1.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/3s7vjvk6z/boing.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>
+
+<!-- <item>
+<title>CLAN TVE</title>
+<sportsdevil>http://livesports.pw/embedna.php?file=clantv&width=650&height=400</sportsdevil>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/5ws8l0qzf/clan.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item> -->
+
+<item>
+<title>DISNEY CHANNEL</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed2.php?file=divinity&amp;width=650&amp;height=397</page>
-<cookieJar></cookieJar>
+<page>http://livesports.pw/embedna.php?file=disneychannel&width=650&height=400</page>
+<referer>http://www.vertelevisor.com/ver-disney-channel-online-gratis-en-directo/</referer>
 </regex>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/0/06/Divinity_2012.png</thumbnail>
-<fanart></fanart>
+<thumbnail>https://s7.postimg.cc/r7pspclzf/disneychannel.jpg</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
+
+
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]ENERGY[/COLOR]</title>
- <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<title>MOVISTAR DISNEY</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed2.php?file=energy&amp;width=650&amp;height=397</page>
-<cookieJar></cookieJar>
+<page>http://vergol.com/live/plusdisney.php</page>
+<referer>http://www.vertelevisor.com/ver-movistar-disney-online-gratis-24h-por-internet/</referer>
 </regex>
-<referer>http://cinestrenostv.tv</referer>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/9/93/Energy_2012.png</thumbnail>
-<fanart></fanart>
+<thumbnail>https://s18.postimg.cc/df6nt1fm1/disney.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]ANTENA 3 HD[/COLOR]</title>
-<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_3_av-b.m3u8?sd=11&amp;rebase=on</link>
-<thumbnail>http://directostv.teleame.com/wp-content/uploads/2016/01/Antena-3-en-directo-online.png</thumbnail>
-<fanart></fanart>
+<title>TELEMADRID</title>
+<link>http://telemadridhls-live.hls.adaptive.level3.net/telemadrid/telemadrid1/bitrate_1.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/xzg7rrfzf/telemadrid.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]NEOX HD[/COLOR]</title>
-<link>http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Neox.svg/2000px-Neox.svg.png</thumbnail>
-<fanart></fanart>
+<title>LAOTRA</title>
+<link>http://laotrahls-live.hls.adaptive.level3.net/telemadrid/laotra1/bitrate_1.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/966nr6pa3/laotra.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>	
+	
+<item>
+<title>CASTILLA LA MANCHA</title>
+<link>http://klive-a.akamaihd.net/dc-0/live/hls/p/2288691/e/1_c9gw17x6/sd/10000/t/_8qpezTWS_dE9-Jbl4-o-A/index-s32.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/rlr4ooqkr/cmm.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white][COLOR white]LA SEXTA HD[/COLOR]</title>
-<link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8</link>
-<thumbnail>https://www.foromedios.com/uploads/monthly_2016_04/la_sexta_es_hd.png.4fa7fd7dc0da4de63ddedd3bb7f1415f.png</thumbnail>
-<fanart></fanart>
+<title>CASTILLA Y LEON</title>
+<link>http://cdn.s4.eu.nice264.com:1935/niceLiveServer/_definst_/cyl_cyltvlivem_MB_698/master.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/3urr6m0ob/cyl.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>	
+
+<item>
+<title>13TV</title>
+<link>http://streaming.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/mobile/playlist.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/83wh8uw8r/trece.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white]MEGA HD[/COLOR]</title>
-<link>http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/MEGA.svg/2000px-MEGA.svg.png</thumbnail>
-<fanart></fanart>
+<title>3/24</title>
+<link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:324_mobil/playlist.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/4x1xpa1iz/324.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white]A3 SERIES HD[/COLOR]</title>
-<link>http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/AtreseriesLogo.svg/1200px-AtreseriesLogo.svg.png</thumbnail>
-<fanart></fanart>
+<title>8 TV</title>
+<link>http://streaming.8tv.cat/8TV/8aldia-directe/chunklist_w1365534365.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s1.postimg.cc/104oaomna7/8tv.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>	
+
+<item>
+<title>CANAL EXTREMADURA</title>
+<link>http://hlstv.canalextremadura.es/livetv/smil:multistream.smil/chunklist_b1596000_DVR.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/4mz0jmeuj/extremadura.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>	
+
+<item>
+<title>CANAL SUR ANDALUCIA</title>
+<link>plugin://plugin.video.youtube/play/?video_id=$doregex[getLiveVideoId]</link>
+	<regex>
+		<name>getLiveVideoId</name>
+		<expres>watch\?v=(.*?)"</expres>
+		<page>https://www.youtube.com/embed/live_stream?channel=UCqwjtgaJflHga2aPWphG5PQ&rel=0&modestbranding</page>
+		<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0</agent>
+		<cookieJar></cookieJar>
+	</regex>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/3yq60c8bf/andalucia.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white]NOVA HD[/COLOR]</title>
-<link>http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Nova.svg/800px-Nova.svg.png</thumbnail>
-<fanart></fanart>
+<title>GALICIA TV</title>
+<link>http://europa-crtvg.flumotion.com/playlist.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/og6iyipyz/galicia.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white]LIFE TV[/COLOR]</title>
-<link>http://178.132.6.97/uzivo/lifetvesp/tracks-v1a1/index.m3u8</link>
-<thumbnail>https://static.wixstatic.com/media/27077f_21df71d53465489cbb32acc9f9dd83e0~mv2_d_2000_2000_s_2.png/v1/fill/w_201,h_146,al_c,usm_0.66_1.00_0.01/27077f_21df71d53465489cbb32acc9f9dd83e0~mv2_d_2000_2000_s_2.png</thumbnail>
-<fanart></fanart>
-</item>
-<item>
-<title>[COLOR red] *  [/COLOR][COLOR white]13 TV[/COLOR]</title>
-<link>http://streaming13tv.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/smil:live.smil/chunklist_w1664206825_b700000.m3u8</link>
-<thumbnail>http://trecetv.es//images/epg/logo-epg.png</thumbnail>
-<fanart></fanart>
+<title>ETB</title>
+<link>http://etbvnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@300391/master.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/evmwbuip7/eitb.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white]PARAMOUNT CHANNEL[/COLOR]</title>
-<link>http://paramount.live.flumotion.com/live/chunks.m3u8</link>
-<thumbnail>http://www.cineytele.com/wp-content/uploads/2016/06/paramount-channel.png</thumbnail>
-<fanart></fanart>
-</item>
+<title>TV3</title>
+<link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3cat_tv/playlist.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/sqps7kpi3/tv3.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>	
+	
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white]REAL MADRID[/COLOR]</title>
-<link>http://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hwebes_1@300661/index_3_av-p.m3u8?sd=10&rebase=on</link>
-<thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/b/b5/Real_Madrid_TV_HD.png/revision/latest?cb=20170103061913</thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
-<title>[COLOR red] *  [/COLOR][COLOR white]HIT TV[/COLOR]</title>
-<link>http://kissfm-cires21-video.secure.footprint.net/hittv/bitrate_4.m3u8</link>
-<thumbnail>http://www.hittv.es/images/logo.png</thumbnail>
-<fanart></fanart>
+<title>ARAGON TV</title>
+<link>http://aragontv.stream.flumotion.com/aragontv/live-hls/main.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/cfpobckqz/aragon.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white]DKISS[/COLOR]</title>
- <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed2.php?file=dkiss&amp;width=650&amp;height=397</page>
-<cookieJar></cookieJar>
-</regex>
-<referer>http://cinestrenostv.tv</referer>
-<thumbnail>http://www.formulatv.com/images/noticias/55900/55970/1_4bda286a54.jpg</thumbnail>
-<fanart></fanart>
-</item>
-
+<title>TPA</title>
+<link>http://195.10.10.206/rtpa/tv.webm?GKID=0a23b69cb1c611e7a9ec00163ea2c744</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s7.postimg.cc/6erzebnuz/tpa.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>	
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white]TEN[/COLOR]</title>
- <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed2.php?file=ten&amp;width=650&amp;height=397</page>
-<cookieJar></cookieJar>
-</regex>
-<referer>http://cinestrenostv.tv</referer>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Ten.svg/1200px-Ten.svg.png</thumbnail>
-<fanart></fanart>
+<title>TV CANARIA</title>
+<link>rtmp://streaming2.mad.idec.net/rtvcnet playpath=rtvcnet.drb.360plr.stream swfUrl=http://www.rtvc.es/swf/flowplayer.commercial-3.2.18.swf live=1 pageUrl=http://www.rtvc.es/television/directo.aspx?ref=tm</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>https://s1.postimg.cc/5tvzchw9kf/TVCANARIA.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR red] *  [/COLOR][COLOR white]DMAX[/COLOR]</title>
- <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed2.php?file=dmax&amp;width=650&amp;height=397</page>
-<cookieJar></cookieJar>
-</regex>
-<referer>http://cinestrenostv.tv</referer>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/2/25/DMAX_Logo_16_05_2011.jpg</thumbnail>
-<fanart></fanart>
+<title>MALAGA TV</title>
+<link>http://canalmalaga-tv-live.flumotion.com/chunks.m3u8</link>
+<referer>http://konectas.es/</referer>
+<thumbnail>http://www.ondaazulmalaga.es/img/logo-canal-malaga.jpg</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>
 </item>
-
-
-<item>
-<title>[COLOR red] *  [/COLOR][COLOR white]DW ESPAÑA[/COLOR]</title>
-<link>http://dwstream3-lh.akamaihd.net/i/dwstream3_live@124409/index_1_av-p.m3u8?sd=10&rebase=on</link>
-<thumbnail>http://www.afaqs.com/all/news/images/news_story_grfx/2015/09/45674/DWTV.jpg</thumbnail>
-<fanart></fanart>
-</item>
- 
  
  
